@@ -11,18 +11,14 @@ class Workbench : View() {
     override val root = BorderPane()
     private val loginController: LoginController by inject()
 
+    private val metroTileHomepages = listOf("file:/img/MetroTileHomepage.png", "file:/img/MetroTileHomepage2.png", "file:/img/MetroTileHomepage3.png",
+            "file:/img/MetroTileHomepage4.png", "file:/img/MetroTileHomepage5.png", "file:/img/MetroTileHomepage6.png", "file:/img/MetroTileHomepage7.png",
+            "file:/img/MetroTileHomepage8.png", "file:/img/MetroTileHomepage9.png", "file:/img/MetroTileHomepage10.png", "file:/img/MetroTileHomepage11.png",
+            "file:/img/MetroTileHomepage12.png", "file:/img/MetroTileHomepage13.png", "file:/img/MetroTileHomepage14.png", "file:/img/MetroTileHomepage15.png",
+            "file:/img/MetroTileHomepage16.png", "file:/img/MetroTileHomepage17.png", "file:/img/MetroTileHomepage18.png", "file:/img/MetroTileHomepage19.png",
+            "file:/img/MetroTileHomepage20.png")
 
 
-    private val kitties = listOf("https://www.colourbox.com/preview/2129303-cat-sleeping-by-sofa-kuzia-senior-cat-12-y-o.jpg",
-            "https://1.bp.blogspot.com/-Q8bzpaeF4MI/U1xRQzc6iTI/AAAAAAAAEt8/3kLRKFOXc08/s1600/Cat.jpg",
-            "https://i.pinimg.com/736x/5e/c9/7a/5ec97a6d548d57caafdd586b22390709--white-fluffy-kittens-fluffy-cat.jpg",
-            "https://static.boredpanda.com/blog/wp-content/uploads/2017/09/animals-with-unusual-fur-markings-22-59ae8ed6d2edd__605.jpg",
-            "https://i.ytimg.com/vi/tntOCGkgt98/maxresdefault.jpg",
-            "https://peopledotcom.files.wordpress.com/2017/08/cat-money.jpg?crop=0px%2C0px%2C2000px%2C1051px&resize=1200%2C630",
-            "https://d2wq73xazpk036.cloudfront.net/media/27FB7F0C-9885-42A6-9E0C19C35242B5AC/1510A438-083C-4E6B-804E297DCFC7427F/thul-6b0f599e-82d1-5051-a045-fc0648ae0996.jpg?response-content-disposition=inline",
-            "https://peopledotcom.files.wordpress.com/2017/09/cat-named-dog-1.jpg?crop=0px%2C0px%2C2000px%2C1335.1648351648px&resize=728%2C486",
-            "https://www.petfinder.com/wp-content/uploads/2012/11/99233806-bringing-home-new-cat-632x475.jpg",
-            "http://www.sciencemag.org/sites/default/files/styles/article_main_large/public/still-no-logo.jpg?itok=CHQ16GAg")
 
     init {
         title = "Secure Workbench"
@@ -39,7 +35,7 @@ class Workbench : View() {
 
             center {
 
-                datagrid(kitties) {
+                datagrid(metroTileHomepages) {
 
                     maxCellsInRow=3
 
