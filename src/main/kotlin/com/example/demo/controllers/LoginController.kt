@@ -46,7 +46,6 @@ class LoginController : Controller() {
         runAsync {
             username == "admin" && password == "secret"
         } ui { successfulLogin ->
-
             if (successfulLogin) {
                 loginScreen.clear()
 

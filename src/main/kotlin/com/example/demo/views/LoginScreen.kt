@@ -39,7 +39,7 @@ class LoginScreen : View() {
             }
 
             row {
-                button("styles") {
+                button("Login") {
                     isDefaultButton = true
 
                     setOnAction {
