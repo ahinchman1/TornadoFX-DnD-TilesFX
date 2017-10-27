@@ -1,9 +1,7 @@
 package com.example.demo.app
 
-import tornadofx.Stylesheet
-import tornadofx.box
-import tornadofx.cssclass
-import tornadofx.px
+import javafx.scene.paint.Color
+import tornadofx.*
 
 class Styles : Stylesheet() {
     // holds class-level properties that can easily be retrieved
@@ -14,6 +12,7 @@ class Styles : Stylesheet() {
 
     // apply styling to classes
     init {
+        reloadStylesheetsOnFocus()
         select(loginScreen) {
             padding = box(15.px)
             vgap = 7.px
@@ -21,7 +20,7 @@ class Styles : Stylesheet() {
         }
 
         select(workbenchScreen) {
-
+            backgroundColor += Color.DARKGREY
         }
     }
 }

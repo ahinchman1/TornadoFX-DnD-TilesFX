@@ -34,14 +34,6 @@ class LoginController : Controller() {
         }
     }
 
-    private fun showWorkbench() {
-        if (FX.primaryStage.scene.root != workbench.root) {
-            FX.primaryStage.scene.root = workbench.root
-            FX.primaryStage.sizeToScene()
-            FX.primaryStage.centerOnScreen()
-        }
-    }
-
     fun tryLogin(username: String, password: String, remember: Boolean) {
         runAsync {
             username == "admin" && password == "secret"
@@ -57,7 +49,8 @@ class LoginController : Controller() {
                     }
                 }
 
-                showWorkbench()
+                (loginScreen).replaceWith(workbench, null, sizeToScene = true)
+
             } else {
                 showLoginScreen("styles failed. Please try again.", true)
             }
