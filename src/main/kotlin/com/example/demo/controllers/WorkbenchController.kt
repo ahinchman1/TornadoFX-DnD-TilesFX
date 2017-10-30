@@ -5,6 +5,7 @@ import com.example.demo.views.Workbench
 import tornadofx.*
 
 class WorkbenchController : Controller() {
+    private val workbench: Workbench by inject()
     private val metroTileHomepage1: MetroTileHomepage1 by inject()
     private val metroTileHomepage2: MetroTileHomepage2 by inject()
     private val metroTileHomepage3: MetroTileHomepage3 by inject()
@@ -33,28 +34,26 @@ class WorkbenchController : Controller() {
 
         // open gui based on filename
         when(page[0]) {
-            "MetroTileHomepage1" -> (workspace).replaceWith(metroTileHomepage1, null, sizeToScene = true)
-            "MetroTileHomepage2" -> (workspace).replaceWith(metroTileHomepage2, null, sizeToScene = true)
-            "MetroTileHomepage3" -> (workspace).replaceWith(metroTileHomepage3, null, sizeToScene = true)
-            "MetroTileHomepage4" -> (workspace).replaceWith(metroTileHomepage4, null, sizeToScene = true)
-            "MetroTileHomepage5" -> (workspace).replaceWith(metroTileHomepage5, null, sizeToScene = true)
-            "MetroTileHomepage6" -> (workspace).replaceWith(metroTileHomepage6, null, sizeToScene = true)
-            "MetroTileHomepage7" -> (workspace).replaceWith(metroTileHomepage7, null, sizeToScene = true)
-            "MetroTileHomepage8" -> (workspace).replaceWith(metroTileHomepage8, null, sizeToScene = true)
-            "MetroTileHomepage9" -> (workspace).replaceWith(metroTileHomepage9, null, sizeToScene = true)
-            "MetroTileHomepage10" -> (workspace).replaceWith(metroTileHomepage10, null, sizeToScene = true)
-            "MetroTileHomepage11" -> (workspace).replaceWith(metroTileHomepage11, null, sizeToScene = true)
-            "MetroTileHomepage12" -> (workspace).replaceWith(metroTileHomepage12, null, sizeToScene = true)
-            "MetroTileHomepage13" -> (workspace).replaceWith(metroTileHomepage13, null, sizeToScene = true)
-            "MetroTileHomepage14" -> (workspace).replaceWith(metroTileHomepage14, null, sizeToScene = true)
-            "MetroTileHomepage15" -> (workspace).replaceWith(metroTileHomepage15, null, sizeToScene = true)
-            "MetroTileHomepage16" -> (workspace).replaceWith(metroTileHomepage16, null, sizeToScene = true)
-            "MetroTileHomepage17" -> (workspace).replaceWith(metroTileHomepage17, null, sizeToScene = true)
-            "MetroTileHomepage18" -> (workspace).replaceWith(metroTileHomepage18, null, sizeToScene = true)
-            "MetroTileHomepage19" -> (workspace).replaceWith(metroTileHomepage19, null, sizeToScene = true)
-            "MetroTileHomepage20" -> (workspace).replaceWith(metroTileHomepage20, null, sizeToScene = true)
-
-
+            "MetroTileHomepage1" -> (workbench).replaceWith(metroTileHomepage1, null, sizeToScene = true)
+            "MetroTileHomepage2" -> (workbench).replaceWith(metroTileHomepage2, null, sizeToScene = true)
+            "MetroTileHomepage3" -> (workbench).replaceWith(metroTileHomepage3, null, sizeToScene = true)
+            "MetroTileHomepage4" -> (workbench).replaceWith(metroTileHomepage4, null, sizeToScene = true)
+            "MetroTileHomepage5" -> (workbench).replaceWith(metroTileHomepage5, null, sizeToScene = true)
+            "MetroTileHomepage6" -> (workbench).replaceWith(metroTileHomepage6, null, sizeToScene = true)
+            "MetroTileHomepage7" -> (workbench).replaceWith(metroTileHomepage7, null, sizeToScene = true)
+            "MetroTileHomepage8" -> (workbench).replaceWith(metroTileHomepage8, null, sizeToScene = true)
+            "MetroTileHomepage9" -> (workbench).replaceWith(metroTileHomepage9, null, sizeToScene = true)
+            "MetroTileHomepage10" -> (workbench).replaceWith(metroTileHomepage10, null, sizeToScene = true)
+            "MetroTileHomepage11" -> (workbench).replaceWith(metroTileHomepage11, null, sizeToScene = true)
+            "MetroTileHomepage12" -> (workbench).replaceWith(metroTileHomepage12, null, sizeToScene = true)
+            "MetroTileHomepage13" -> (workbench).replaceWith(metroTileHomepage13, null, sizeToScene = true)
+            "MetroTileHomepage14" -> (workbench).replaceWith(metroTileHomepage14, null, sizeToScene = true)
+            "MetroTileHomepage15" -> (workbench).replaceWith(metroTileHomepage15, null, sizeToScene = true)
+            "MetroTileHomepage16" -> (workbench).replaceWith(metroTileHomepage16, null, sizeToScene = true)
+            "MetroTileHomepage17" -> (workbench).replaceWith(metroTileHomepage17, null, sizeToScene = true)
+            "MetroTileHomepage18" -> (workbench).replaceWith(metroTileHomepage18, null, sizeToScene = true)
+            "MetroTileHomepage19" -> (workbench).replaceWith(metroTileHomepage19, null, sizeToScene = true)
+            "MetroTileHomepage20" -> (workbench).replaceWith(metroTileHomepage20, null, sizeToScene = true)
         }
     }
 }

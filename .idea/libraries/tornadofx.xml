@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="tornadofx">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../tornadofx/tornadofx" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="file://$PROJECT_DIR$/../../tornadofx/tornadofx/target/apidocs" />
+      <root url="file://$PROJECT_DIR$/../../tornadofx/tornadofx/target/site/apidocs" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../../tornadofx/tornadofx" />
+      <root url="file://$PROJECT_DIR$/../../tornadofx/tornadofx/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../../tornadofx/tornadofx/src/test/kotlin" />
+    </SOURCES>
+  </library>
+</component>

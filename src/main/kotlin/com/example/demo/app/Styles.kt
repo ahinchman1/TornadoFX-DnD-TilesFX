@@ -8,6 +8,7 @@ class Styles : Stylesheet() {
     companion object {
         val loginScreen by cssclass()
         val workbenchScreen by cssclass()
+        val metroTileHomepageGUI by cssclass()
     }
 
     // apply styling to classes
@@ -20,7 +21,11 @@ class Styles : Stylesheet() {
         }
 
         select(workbenchScreen) {
-            backgroundColor += Color.DARKGREY
+            backgroundColor += Color.rgb(34,34,34)
+        }
+
+        select(metroTileHomepageGUI) {
+            backgroundColor += Color.rgb(34,34,34)
         }
     }
 }

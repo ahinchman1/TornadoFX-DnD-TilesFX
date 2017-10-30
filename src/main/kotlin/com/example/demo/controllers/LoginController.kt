@@ -20,7 +20,7 @@ class LoginController : Controller() {
     }
 
     private fun showLoginScreen(message: String, shake: Boolean = false) {
-        if (FX.primaryStage.scene.root != loginScreen.root) {
+        if (FX.primaryStage.scene.root!=loginScreen.root) {
             FX.primaryStage.scene.root = loginScreen.root
             FX.primaryStage.sizeToScene()
             FX.primaryStage.centerOnScreen()
@@ -49,7 +49,7 @@ class LoginController : Controller() {
                     }
                 }
 
-                (loginScreen).replaceWith(workbench, null, sizeToScene = true)
+                (loginScreen).replaceWith(workbench, null, sizeToScene = true, centerOnScreen = true)
 
             } else {
                 showLoginScreen("styles failed. Please try again.", true)
