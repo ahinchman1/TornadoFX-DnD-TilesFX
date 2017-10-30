@@ -56,16 +56,16 @@ class Workbench : View() {
                     paddingLeft=80.0
                     paddingTop=20.0
 
-                    cellFormat { value ->
-                        imageview(value) {
+                    cellFormat {
+                        imageview(it) {
                             fitWidth = 180.0
                             fitHeight = 180.0
                             isPreserveRatio = true
                             center
                         }
-                        onUserSelect(2) {
-                            workbenchController.goToGUIEditor(value)
-                        }
+                    }
+                    onUserSelect(2) {
+                        workbenchController.goToGUIEditor(it)
                     }
                 }
             }

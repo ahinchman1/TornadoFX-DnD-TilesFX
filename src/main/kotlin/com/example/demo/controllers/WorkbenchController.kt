@@ -29,31 +29,34 @@ class WorkbenchController : Controller() {
 
 
     fun goToGUIEditor(image: String) {
-        // parse filename
-        val page = image.split(".")
 
         // open gui based on filename
-        when(page[0]) {
-            "MetroTileHomepage1" -> (workbench).replaceWith(metroTileHomepage1, null, sizeToScene = true)
-            "MetroTileHomepage2" -> (workbench).replaceWith(metroTileHomepage2, null, sizeToScene = true)
-            "MetroTileHomepage3" -> (workbench).replaceWith(metroTileHomepage3, null, sizeToScene = true)
-            "MetroTileHomepage4" -> (workbench).replaceWith(metroTileHomepage4, null, sizeToScene = true)
-            "MetroTileHomepage5" -> (workbench).replaceWith(metroTileHomepage5, null, sizeToScene = true)
-            "MetroTileHomepage6" -> (workbench).replaceWith(metroTileHomepage6, null, sizeToScene = true)
-            "MetroTileHomepage7" -> (workbench).replaceWith(metroTileHomepage7, null, sizeToScene = true)
-            "MetroTileHomepage8" -> (workbench).replaceWith(metroTileHomepage8, null, sizeToScene = true)
-            "MetroTileHomepage9" -> (workbench).replaceWith(metroTileHomepage9, null, sizeToScene = true)
-            "MetroTileHomepage10" -> (workbench).replaceWith(metroTileHomepage10, null, sizeToScene = true)
-            "MetroTileHomepage11" -> (workbench).replaceWith(metroTileHomepage11, null, sizeToScene = true)
-            "MetroTileHomepage12" -> (workbench).replaceWith(metroTileHomepage12, null, sizeToScene = true)
-            "MetroTileHomepage13" -> (workbench).replaceWith(metroTileHomepage13, null, sizeToScene = true)
-            "MetroTileHomepage14" -> (workbench).replaceWith(metroTileHomepage14, null, sizeToScene = true)
-            "MetroTileHomepage15" -> (workbench).replaceWith(metroTileHomepage15, null, sizeToScene = true)
-            "MetroTileHomepage16" -> (workbench).replaceWith(metroTileHomepage16, null, sizeToScene = true)
-            "MetroTileHomepage17" -> (workbench).replaceWith(metroTileHomepage17, null, sizeToScene = true)
-            "MetroTileHomepage18" -> (workbench).replaceWith(metroTileHomepage18, null, sizeToScene = true)
-            "MetroTileHomepage19" -> (workbench).replaceWith(metroTileHomepage19, null, sizeToScene = true)
-            "MetroTileHomepage20" -> (workbench).replaceWith(metroTileHomepage20, null, sizeToScene = true)
+        when {
+            image === ("/img/MetroTileHomepage.png") -> (workbench).replaceWith(metroTileHomepage1, null, sizeToScene = true)
+            image === ("/img/MetroTileHomepage2.png") -> (workbench).replaceWith(metroTileHomepage2, null, sizeToScene = true)
+            image === ("/img/MetroTileHomepage3.png") -> (workbench).replaceWith(metroTileHomepage3, null, sizeToScene = true)
+            image === ("/img/MetroTileHomepage4.png") -> (workbench).replaceWith(metroTileHomepage4, null, sizeToScene = true)
+            image === ("/img/MetroTileHomepage5.png") -> (workbench).replaceWith(metroTileHomepage5, null, sizeToScene = true)
+            image === ("/img/MetroTileHomepage6.png") -> (workbench).replaceWith(metroTileHomepage6, null, sizeToScene = true)
+            image === ("/img/MetroTileHomepage7.png") -> (workbench).replaceWith(metroTileHomepage7, null, sizeToScene = true)
+            image === ("/img/MetroTileHomepage8.png") -> (workbench).replaceWith(metroTileHomepage8, null, sizeToScene = true)
+            image === ("/img/MetroTileHomepage9.png") -> (workbench).replaceWith(metroTileHomepage9, null, sizeToScene = true)
+            image === ("/img/MetroTileHomepage10.png") -> (workbench).replaceWith(metroTileHomepage10, null, sizeToScene = true)
+            image === ("/img/MetroTileHomepage11.png") -> (workbench).replaceWith(metroTileHomepage11, null, sizeToScene = true)
+            image === ("/img/MetroTileHomepage12.png") -> (workbench).replaceWith(metroTileHomepage12, null, sizeToScene = true)
+            image === ("/img/MetroTileHomepage13.png") -> (workbench).replaceWith(metroTileHomepage13, null, sizeToScene = true)
+            image === ("/img/MetroTileHomepage14.png") -> (workbench).replaceWith(metroTileHomepage14, null, sizeToScene = true)
+            image === ("/img/MetroTileHomepage15.png") -> (workbench).replaceWith(metroTileHomepage15, null, sizeToScene = true)
+            image === ("/img/MetroTileHomepage16.png") -> (workbench).replaceWith(metroTileHomepage16, null, sizeToScene = true)
+            image === ("/img/MetroTileHomepage17.png") -> (workbench).replaceWith(metroTileHomepage17, null, sizeToScene = true)
+            image === ("/img/MetroTileHomepage18.png") -> (workbench).replaceWith(metroTileHomepage18, null, sizeToScene = true)
+            image === ("/img/MetroTileHomepage19.png") -> (workbench).replaceWith(metroTileHomepage19, null, sizeToScene = true)
+            image === ("/img/MetroTileHomepage20.png") -> (workbench).replaceWith(metroTileHomepage20, null, sizeToScene = true)
         }
+
+    }
+
+    fun returnToWorkbench(className: UIComponent) {
+        (className).replaceWith(workbench, null, sizeToScene = true)
     }
 }
