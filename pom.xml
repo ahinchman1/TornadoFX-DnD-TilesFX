@@ -11,8 +11,7 @@
 
     <properties>
         <kotlin.version>1.1.51</kotlin.version>
-        <tornadofx.version>1.7.12-SNAPSHOT</tornadofx.version>
-        <controlsfx.version>8.40.14</controlsfx.version>
+        <tornadofx.version>1.7.12</tornadofx.version>
     </properties>
 
     <dependencies>
@@ -26,9 +25,16 @@
             <artifactId>controlsfx</artifactId>
             <version>${controlsfx.version}</version>
         </dependency>-->
+        <!-- https://mvnrepository.com/artifact/org.osgi/org.osgi.core -->
+        <dependency>
+            <groupId>org.osgi</groupId>
+            <artifactId>org.osgi.core</artifactId>
+            <version>6.0.0</version>
+            <scope>provided</scope>
+        </dependency>
         <dependency>
             <groupId>org.jetbrains.kotlin</groupId>
-            <artifactId>kotlin-stdlib</artifactId>
+            <artifactId>kotlin-osgi-bundle</artifactId>
             <version>${kotlin.version}</version>
         </dependency>
         <dependency>
@@ -65,6 +71,26 @@
                         </goals>
                     </execution>
                 </executions>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.felix</groupId>
+                <artifactId>maven-bundle-plugin</artifactId>
+                <version>5.6.4</version>
+                <executions>
+                    <execution>
+                        <id>bundle-manifest</id>
+                        <phase>process-classes</phase>
+                        <goals>
+                            <goal>manifest</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <extensions>true</extensions>
+                <configuration>
+                    <instructions>
+                        <Bundle-Activator>com.example.demo.app.Activator</Bundle-Activator>
+                    </instructions>
+                </configuration>
             </plugin>
         </plugins>
     </build>

@@ -9,6 +9,8 @@ class Styles : Stylesheet() {
         val loginScreen by cssclass()
         val workbenchScreen by cssclass()
         val metroTileHomepageGUI by cssclass()
+        val GUI by cssclass()
+        val metroRect by cssclass()
     }
 
     // apply styling to classes
@@ -26,6 +28,14 @@ class Styles : Stylesheet() {
 
         select(metroTileHomepageGUI) {
             backgroundColor += Color.rgb(34,34,34)
+        }
+
+        select(GUI) {
+            backgroundColor += Color.WHITE
+        }
+
+        select(metroRect) {
+            borderColor += box(Color.BLACK)
         }
     }
 }
