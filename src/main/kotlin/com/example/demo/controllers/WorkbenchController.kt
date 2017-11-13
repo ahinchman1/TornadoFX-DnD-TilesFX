@@ -1,6 +1,6 @@
 package com.example.demo.controllers
 
-import com.example.demo.views.MetroTileHomepages.*
+import com.example.demo.views.metroTileHomepages.*
 import com.example.demo.views.Workbench
 import tornadofx.*
 

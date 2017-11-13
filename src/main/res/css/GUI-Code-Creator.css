@@ -1,1 +1,10 @@
 /* App Base CSS*/
+
+/***** DragAndDropGUI *****/
+.module_tile, .banner_tile {
+    -fx-padding: 5 5 0 0;
+}
+
+.gridSquare {
+    -fx-background-color: white;
+}
