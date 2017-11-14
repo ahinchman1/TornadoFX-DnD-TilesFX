@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.Rectangle?>
+
+<?import javafx.scene.control.Label?>
+<BorderPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2">
+    <center>
+        <GridPane layoutX="116.0" layoutY="155.0" fx:id="gridSquare" alignment="center">
+            <children>
+                <Label fx:id="banner" text="Hi, Admin" textAlignment="LEFT" layoutX="200.0" styleClass="banner_tile" GridPane.rowIndex="0" GridPane.columnIndex="0" GridPane.columnSpan="3" style="-fx-font: NORMAL 40 Tahoma;"/>
+                <Rectangle fx:id="module1" fill="#87CB43" height="90.0" width="90.0" layoutX="200.0" stroke="#87CB43" strokeType="OUTSIDE" styleClass="module_tile" GridPane.rowIndex="1" GridPane.columnIndex="0" GridPane.columnSpan="1" />
+                <Rectangle fx:id="module2" fill="#1ec3ff" height="90.0" width="90.0" layoutX="200.0" stroke="#1ec3ff" strokeType="OUTSIDE" styleClass="module_tile" GridPane.rowIndex="2" GridPane.columnIndex="0" GridPane.columnSpan="1"/>
+                <Rectangle fx:id="module3" fill="#2f6ab7" height="190.0" width="190.0" layoutX="200.0" stroke="#2f6ab7" strokeType="OUTSIDE" styleClass="module_tile" GridPane.rowIndex="1" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.rowSpan="2"/>
+            </children>
+            <columnConstraints>
+                <ColumnConstraints hgrow="NEVER" halignment="CENTER" minWidth="100.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="NEVER" halignment="CENTER" minWidth="100.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="NEVER" halignment="CENTER" minWidth="100.0" prefWidth="100.0" />
+            </columnConstraints>
+            <rowConstraints>
+                <RowConstraints maxHeight="100.0" minHeight="100.0" prefHeight="100.0" vgrow="NEVER" valignment="CENTER"/>
+                <RowConstraints maxHeight="100.0" minHeight="100.0" prefHeight="100.0" vgrow="NEVER" valignment="CENTER" />
+                <RowConstraints maxHeight="100.0" minHeight="100.0" prefHeight="100.0" vgrow="NEVER" valignment="CENTER" />
+            </rowConstraints>
+        </GridPane>
+    </center>
+</BorderPane>

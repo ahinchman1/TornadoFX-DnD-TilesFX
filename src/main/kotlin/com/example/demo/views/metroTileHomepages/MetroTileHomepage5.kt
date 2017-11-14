@@ -7,6 +7,7 @@ import com.example.demo.controllers.LoginController
 import com.example.demo.controllers.WorkbenchController
 import javafx.application.Platform
 import javafx.geometry.Pos
+import javafx.scene.control.Label
 import javafx.scene.layout.BorderPane
 import javafx.scene.layout.GridPane
 import javafx.scene.paint.Color
@@ -23,7 +24,7 @@ class MetroTileHomepage5 : View() {
     private val gridSquarePane: GridPane by fxid("gridSquare")
 
     //import fxml modules
-    private val bannerRect: Rectangle by fxid("banner")
+    private val bannerRect: Label by fxid("banner")
     private val module1Rect: Rectangle by fxid("module1")
     private val module2Rect: Rectangle by fxid("module2")
     private val module3Rect: Rectangle by fxid("module3")
