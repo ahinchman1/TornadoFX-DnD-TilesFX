@@ -1,4 +1,5 @@
 package com.example.demo.views.metroTileHomepages
+import com.example.demo.app.Styles
 import com.example.demo.app.Styles.Companion.gridSquare
 import com.example.demo.app.Styles.Companion.banner_tile
 import com.example.demo.app.Styles.Companion.metroTileHomepageGUI
@@ -69,6 +70,11 @@ class MetroTileHomepage4 : View() {
                 module8Rect.addClass(module_tile)
                 module9Rect.addClass(module_tile)
 
+                bannerRect.gridpaneConstraints{
+                    marginTop=50.0
+                    marginRight=120.0
+                }
+
             }
 
             right {
@@ -107,10 +113,10 @@ class MetroTileHomepage4 : View() {
                             fieldset("Customize Module") {
                                 hbox(20) {
                                     vbox {
-                                        field("Color") { textfield() }
-                                        field("HoverColor") { textfield() }
-                                        field("Image Source") { textfield() }
-                                        field("Label") { textfield() }
+                                        field("Color") { textfield() }.addClass(Styles.metro_field)
+                                        field("HoverColor") { textfield() }.addClass(Styles.metro_field)
+                                        field("Image Source") { textfield() }.addClass(Styles.metro_field)
+                                        field("Label") { textfield() }.addClass(Styles.metro_field)
                                     }
                                 }
                             }

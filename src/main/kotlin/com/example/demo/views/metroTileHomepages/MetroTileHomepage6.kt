@@ -57,6 +57,11 @@ class MetroTileHomepage6 : View() {
                 module2Rect.addClass(module_tile)
                 module3Rect.addClass(module_tile)
 
+                bannerRect.gridpaneConstraints{
+                    marginTop=50.0
+                    marginRight=120.0
+                }
+
             }
 
             right {

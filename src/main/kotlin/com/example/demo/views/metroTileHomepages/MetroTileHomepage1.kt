@@ -36,6 +36,7 @@ class MetroTileHomepage1 : View() {
     private val module9Rect: Rectangle by fxid("module9")
     private val module10Rect: Rectangle by fxid("module10")
 
+
     init {
         with(root) {
             addClass(metroTileHomepageGUI)
@@ -70,6 +71,11 @@ class MetroTileHomepage1 : View() {
                 module8Rect.addClass(module_tile)
                 module9Rect.addClass(module_tile)
                 module10Rect.addClass(module_tile)
+
+                bannerRect.gridpaneConstraints{
+                    marginTop=50.0
+                    marginRight=120.0
+                }
 
             }
 
@@ -109,7 +115,7 @@ class MetroTileHomepage1 : View() {
                             fieldset("Customize Module") {
                                 hbox(20) {
                                     vbox {
-                                        field("Color") { textfield() }
+                                        field("Color") { textfield() }.
                                         field("HoverColor") { textfield() }
                                         field("Image Source") { textfield() }
                                         field("Label") { textfield() }
