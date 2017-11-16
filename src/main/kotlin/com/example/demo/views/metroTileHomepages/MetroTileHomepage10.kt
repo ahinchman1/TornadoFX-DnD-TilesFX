@@ -34,8 +34,8 @@ class MetroTileHomepage10 : View() {
     private val module7Rect: Rectangle by fxid("module7")
     private val module8Rect: Rectangle by fxid("module8")
     private val module9Rect: Rectangle by fxid("module9")
-    private val module10Rect: Rectangle by fxid("module8")
-    private val module11Rect: Rectangle by fxid("module9")
+    private val module10Rect: Rectangle by fxid("module10")
+    private val module11Rect: Rectangle by fxid("module11")
 
     init {
         with(root) {

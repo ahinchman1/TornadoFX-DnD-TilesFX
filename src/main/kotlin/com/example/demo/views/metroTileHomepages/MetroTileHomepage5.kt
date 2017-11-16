@@ -71,7 +71,7 @@ class MetroTileHomepage5 : View() {
 
                 bannerRect.gridpaneConstraints{
                     marginTop=50.0
-                    marginRight=120.0
+                    marginRight=220.0
                 }
 
             }

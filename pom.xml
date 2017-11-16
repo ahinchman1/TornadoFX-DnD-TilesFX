@@ -10,7 +10,7 @@
     <packaging>jar</packaging>
 
     <properties>
-        <kotlin.version>1.1.51</kotlin.version>
+        <kotlin.version>1.1.60</kotlin.version>
         <tornadofx.version>1.7.12</tornadofx.version>
     </properties>
 
@@ -71,26 +71,6 @@
                         </goals>
                     </execution>
                 </executions>
-            </plugin>
-            <plugin>
-                <groupId>org.apache.felix</groupId>
-                <artifactId>maven-bundle-plugin</artifactId>
-                <version>5.6.4</version>
-                <executions>
-                    <execution>
-                        <id>bundle-manifest</id>
-                        <phase>process-classes</phase>
-                        <goals>
-                            <goal>manifest</goal>
-                        </goals>
-                    </execution>
-                </executions>
-                <extensions>true</extensions>
-                <configuration>
-                    <instructions>
-                        <Bundle-Activator>com.example.demo.app.Activator</Bundle-Activator>
-                    </instructions>
-                </configuration>
             </plugin>
         </plugins>
     </build>
