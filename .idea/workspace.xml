@@ -2,40 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="adabb7c3-3ffc-4353-986b-167fcb8be6e0" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_osgi_bundle_1_1_51.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_1_1_51.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_test_1_1_51.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage11$1$1$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage11$1$1$2$1$2.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/app/Activator.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/app/Activator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/app/DemoCreatorApp.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/app/DemoCreatorApp.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/app/MyAppKt.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/app/MyAppKt.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/controllers/LoginController$Companion.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/controllers/LoginController$Companion.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/controllers/LoginController$showLoginScreen$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/controllers/LoginController$showLoginScreen$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/controllers/LoginController$tryLogin$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/controllers/LoginController$tryLogin$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/controllers/LoginController$tryLogin$2.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/controllers/LoginController$tryLogin$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/controllers/LoginController.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/controllers/LoginController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/controllers/WorkbenchController.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/controllers/WorkbenchController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/model/RectangleModel$fill$1$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/model/RectangleModel$fill$1$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/model/RectangleModel$fill$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/model/RectangleModel$fill$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/model/RectangleModel$height$1$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/model/RectangleModel$height$1$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/model/RectangleModel$height$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/model/RectangleModel$height$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/model/RectangleModel$width$1$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/model/RectangleModel$width$1$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/model/RectangleModel$width$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/model/RectangleModel$width$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/model/RectangleModel.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/model/RectangleModel.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/LoginScreen$$special$$inlined$with$lambda$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/LoginScreen$$special$$inlined$with$lambda$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/LoginScreen$$special$$inlined$with$lambda$2.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/LoginScreen$$special$$inlined$with$lambda$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/LoginScreen$$special$$inlined$with$lambda$3.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/LoginScreen$$special$$inlined$with$lambda$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/LoginScreen$$special$$inlined$with$lambda$4$1$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/LoginScreen$$special$$inlined$with$lambda$4$1$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/LoginScreen$$special$$inlined$with$lambda$4$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/LoginScreen$$special$$inlined$with$lambda$4$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/LoginScreen$$special$$inlined$with$lambda$4.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/LoginScreen$$special$$inlined$with$lambda$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/LoginScreen$shakeStage$timelineX$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/LoginScreen$shakeStage$timelineX$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/LoginScreen$shakeStage$timelineY$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/LoginScreen$shakeStage$timelineY$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/LoginScreen.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/LoginScreen.class" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage12$1$1$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage12$1$1$2$1$2.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage1$$special$$inlined$with$lambda$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage1$$special$$inlined$with$lambda$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage1$$special$$inlined$with$lambda$2$1$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage1$$special$$inlined$with$lambda$2$1$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage1$$special$$inlined$with$lambda$2$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage1$$special$$inlined$with$lambda$2$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage1$$special$$inlined$with$lambda$2.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage1$$special$$inlined$with$lambda$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage10$$special$$inlined$with$lambda$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage10$$special$$inlined$with$lambda$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage10$$special$$inlined$with$lambda$2$1$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage10$$special$$inlined$with$lambda$2$1$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage10$$special$$inlined$with$lambda$2$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage10$$special$$inlined$with$lambda$2$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage10$$special$$inlined$with$lambda$2.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage10$$special$$inlined$with$lambda$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage10.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage10.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage11$$special$$inlined$with$lambda$1$1$1$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage11$$special$$inlined$with$lambda$1$1$1$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage11$$special$$inlined$with$lambda$1$1$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage11$$special$$inlined$with$lambda$1$1$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage11$$special$$inlined$with$lambda$1$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage11$$special$$inlined$with$lambda$1$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage11$$special$$inlined$with$lambda$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage11$$special$$inlined$with$lambda$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage11$$special$$inlined$with$lambda$2$1$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage11$$special$$inlined$with$lambda$2$1$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage11$$special$$inlined$with$lambda$2$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage11$$special$$inlined$with$lambda$2$1.class" />
@@ -48,113 +26,213 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage12$$special$$inlined$with$lambda$2$1$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage12$$special$$inlined$with$lambda$2$1$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage12$$special$$inlined$with$lambda$2$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage12$$special$$inlined$with$lambda$2$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage12$$special$$inlined$with$lambda$2.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage12$$special$$inlined$with$lambda$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage12$1$1$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage12$1$1$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage12$1$1$2$1$2.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage12$1$1$2$1$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage12.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage12.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage13$$special$$inlined$with$lambda$1$1$1$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage13$$special$$inlined$with$lambda$1$1$1$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage13$$special$$inlined$with$lambda$1$1$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage13$$special$$inlined$with$lambda$1$1$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage13$$special$$inlined$with$lambda$1$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage13$$special$$inlined$with$lambda$1$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage13$$special$$inlined$with$lambda$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage13$$special$$inlined$with$lambda$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage13$$special$$inlined$with$lambda$2$1$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage13$$special$$inlined$with$lambda$2$1$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage13$$special$$inlined$with$lambda$2$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage13$$special$$inlined$with$lambda$2$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage13$$special$$inlined$with$lambda$2.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage13$$special$$inlined$with$lambda$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage13$1$1$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage13$1$1$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage13$1$1$2$1$2.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage13$1$1$2$1$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage13.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage13.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage14$$special$$inlined$with$lambda$1$1$1$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage14$$special$$inlined$with$lambda$1$1$1$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage14$$special$$inlined$with$lambda$1$1$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage14$$special$$inlined$with$lambda$1$1$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage14$$special$$inlined$with$lambda$1$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage14$$special$$inlined$with$lambda$1$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage14$$special$$inlined$with$lambda$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage14$$special$$inlined$with$lambda$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage14$$special$$inlined$with$lambda$2$1$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage14$$special$$inlined$with$lambda$2$1$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage14$$special$$inlined$with$lambda$2$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage14$$special$$inlined$with$lambda$2$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage14$$special$$inlined$with$lambda$2.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage14$$special$$inlined$with$lambda$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage14$1$1$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage14$1$1$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage14$1$1$2$1$2.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage14$1$1$2$1$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage14.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage14.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage15$$special$$inlined$with$lambda$1$1$1$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage15$$special$$inlined$with$lambda$1$1$1$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage15$$special$$inlined$with$lambda$1$1$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage15$$special$$inlined$with$lambda$1$1$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage15$$special$$inlined$with$lambda$1$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage15$$special$$inlined$with$lambda$1$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage15$$special$$inlined$with$lambda$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage15$$special$$inlined$with$lambda$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage15$$special$$inlined$with$lambda$2$1$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage15$$special$$inlined$with$lambda$2$1$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage15$$special$$inlined$with$lambda$2$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage15$$special$$inlined$with$lambda$2$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage15$$special$$inlined$with$lambda$2.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage15$$special$$inlined$with$lambda$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage15$1$1$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage15$1$1$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage15$1$1$2$1$2.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage15$1$1$2$1$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage15.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage15.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage16$$special$$inlined$with$lambda$1$1$1$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage16$$special$$inlined$with$lambda$1$1$1$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage16$$special$$inlined$with$lambda$1$1$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage16$$special$$inlined$with$lambda$1$1$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage16$$special$$inlined$with$lambda$1$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage16$$special$$inlined$with$lambda$1$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage16$$special$$inlined$with$lambda$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage16$$special$$inlined$with$lambda$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage16$$special$$inlined$with$lambda$2$1$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage16$$special$$inlined$with$lambda$2$1$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage16$$special$$inlined$with$lambda$2$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage16$$special$$inlined$with$lambda$2$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage16$$special$$inlined$with$lambda$2.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage16$$special$$inlined$with$lambda$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage16$1$1$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage16$1$1$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage16$1$1$2$1$2.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage16$1$1$2$1$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage16.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage16.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage17$$special$$inlined$with$lambda$1$1$1$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage17$$special$$inlined$with$lambda$1$1$1$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage17$$special$$inlined$with$lambda$1$1$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage17$$special$$inlined$with$lambda$1$1$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage17$$special$$inlined$with$lambda$1$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage17$$special$$inlined$with$lambda$1$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage17$$special$$inlined$with$lambda$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage17$$special$$inlined$with$lambda$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage17$$special$$inlined$with$lambda$2$1$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage17$$special$$inlined$with$lambda$2$1$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage17$$special$$inlined$with$lambda$2$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage17$$special$$inlined$with$lambda$2$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage17$$special$$inlined$with$lambda$2.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage17$$special$$inlined$with$lambda$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage17$1$1$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage17$1$1$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage17$1$1$2$1$2.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage17$1$1$2$1$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage17.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage17.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage18$$special$$inlined$with$lambda$1$1$1$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage18$$special$$inlined$with$lambda$1$1$1$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage18$$special$$inlined$with$lambda$1$1$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage18$$special$$inlined$with$lambda$1$1$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage18$$special$$inlined$with$lambda$1$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage18$$special$$inlined$with$lambda$1$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage18$$special$$inlined$with$lambda$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage18$$special$$inlined$with$lambda$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage18$$special$$inlined$with$lambda$2$1$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage18$$special$$inlined$with$lambda$2$1$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage18$$special$$inlined$with$lambda$2$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage18$$special$$inlined$with$lambda$2$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage18$$special$$inlined$with$lambda$2.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage18$$special$$inlined$with$lambda$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage18$1$1$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage18$1$1$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage18$1$1$2$1$2.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage18$1$1$2$1$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage18.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage18.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage19$$special$$inlined$with$lambda$1$1$1$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage19$$special$$inlined$with$lambda$1$1$1$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage19$$special$$inlined$with$lambda$1$1$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage19$$special$$inlined$with$lambda$1$1$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage19$$special$$inlined$with$lambda$1$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage19$$special$$inlined$with$lambda$1$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage19$$special$$inlined$with$lambda$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage19$$special$$inlined$with$lambda$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage19$$special$$inlined$with$lambda$2$1$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage19$$special$$inlined$with$lambda$2$1$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage19$$special$$inlined$with$lambda$2$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage19$$special$$inlined$with$lambda$2$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage19$$special$$inlined$with$lambda$2.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage19$$special$$inlined$with$lambda$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage19$1$1$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage19$1$1$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage19$1$1$2$1$2.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage19$1$1$2$1$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage19.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage19.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage20$$special$$inlined$with$lambda$1$1$1$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage20$$special$$inlined$with$lambda$1$1$1$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage20$$special$$inlined$with$lambda$1$1$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage20$$special$$inlined$with$lambda$1$1$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage20$$special$$inlined$with$lambda$1$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage20$$special$$inlined$with$lambda$1$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage20$$special$$inlined$with$lambda$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage20$$special$$inlined$with$lambda$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage20$$special$$inlined$with$lambda$2$1$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage20$$special$$inlined$with$lambda$2$1$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage20$$special$$inlined$with$lambda$2$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage20$$special$$inlined$with$lambda$2$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage20$$special$$inlined$with$lambda$2.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage20$$special$$inlined$with$lambda$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage20$1$1$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage20$1$1$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage20$1$1$2$1$2.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage20$1$1$2$1$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage20.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage20.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage2$$special$$inlined$with$lambda$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage2$$special$$inlined$with$lambda$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage2$$special$$inlined$with$lambda$2$1$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage2$$special$$inlined$with$lambda$2$1$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage2$$special$$inlined$with$lambda$2$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage2$$special$$inlined$with$lambda$2$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage2$$special$$inlined$with$lambda$2.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage2$$special$$inlined$with$lambda$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage2.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage3$$special$$inlined$with$lambda$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage3$$special$$inlined$with$lambda$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage3$$special$$inlined$with$lambda$2$1$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage3$$special$$inlined$with$lambda$2$1$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage3$$special$$inlined$with$lambda$2$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage3$$special$$inlined$with$lambda$2$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage3$$special$$inlined$with$lambda$2.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage3$$special$$inlined$with$lambda$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage3.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage3.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage4$$special$$inlined$with$lambda$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage4$$special$$inlined$with$lambda$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/Workbench$$special$$inlined$with$lambda$1$1$1$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/Workbench$$special$$inlined$with$lambda$1$1$1$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/Workbench$$special$$inlined$with$lambda$1$1$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/Workbench$$special$$inlined$with$lambda$1$1$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/Workbench$$special$$inlined$with$lambda$1$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/Workbench$$special$$inlined$with$lambda$1$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/Workbench$$special$$inlined$with$lambda$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/Workbench$$special$$inlined$with$lambda$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/Workbench$$special$$inlined$with$lambda$2$1$1$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/Workbench$$special$$inlined$with$lambda$2$1$1$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/Workbench$$special$$inlined$with$lambda$2$1$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/Workbench$$special$$inlined$with$lambda$2$1$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/Workbench$$special$$inlined$with$lambda$2$1$2.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/Workbench$$special$$inlined$with$lambda$2$1$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/Workbench$$special$$inlined$with$lambda$2$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/Workbench$$special$$inlined$with$lambda$2$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/Workbench$$special$$inlined$with$lambda$2.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/Workbench$$special$$inlined$with$lambda$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/Workbench$$special$$inlined$with$lambda$3$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/Workbench$$special$$inlined$with$lambda$3$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/Workbench$$special$$inlined$with$lambda$3.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/Workbench$$special$$inlined$with$lambda$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/Workbench$1$1$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/Workbench$1$1$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/Workbench$1$1$2$1$2.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/Workbench$1$1$2$1$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/Workbench.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/Workbench.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage4$$special$$inlined$with$lambda$2$1$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage4$$special$$inlined$with$lambda$2$1$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage4$$special$$inlined$with$lambda$2$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage4$$special$$inlined$with$lambda$2$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage4$$special$$inlined$with$lambda$2.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage4$$special$$inlined$with$lambda$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage4.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage5$$special$$inlined$with$lambda$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage5$$special$$inlined$with$lambda$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage5$$special$$inlined$with$lambda$2$1$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage5$$special$$inlined$with$lambda$2$1$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage5$$special$$inlined$with$lambda$2$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage5$$special$$inlined$with$lambda$2$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage5$$special$$inlined$with$lambda$2.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage5$$special$$inlined$with$lambda$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage5.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage6$$special$$inlined$with$lambda$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage6$$special$$inlined$with$lambda$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage6$$special$$inlined$with$lambda$2$1$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage6$$special$$inlined$with$lambda$2$1$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage6$$special$$inlined$with$lambda$2$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage6$$special$$inlined$with$lambda$2$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage6$$special$$inlined$with$lambda$2.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage6$$special$$inlined$with$lambda$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage6.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage7$$special$$inlined$with$lambda$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage7$$special$$inlined$with$lambda$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage7$$special$$inlined$with$lambda$2$1$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage7$$special$$inlined$with$lambda$2$1$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage7$$special$$inlined$with$lambda$2$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage7$$special$$inlined$with$lambda$2$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage7$$special$$inlined$with$lambda$2.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage7$$special$$inlined$with$lambda$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage7.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage7.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage8$$special$$inlined$with$lambda$2$1$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage8$$special$$inlined$with$lambda$2$1$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage8$$special$$inlined$with$lambda$2.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage8$$special$$inlined$with$lambda$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage8.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage8.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage9$$special$$inlined$with$lambda$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage9$$special$$inlined$with$lambda$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage9$$special$$inlined$with$lambda$2$1$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage9$$special$$inlined$with$lambda$2$1$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage9$$special$$inlined$with$lambda$2$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage9$$special$$inlined$with$lambda$2$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage9$$special$$inlined$with$lambda$2.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage9$$special$$inlined$with$lambda$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage9.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepages/MetroTileHomepage9.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage1$$special$$inlined$with$lambda$2$1$3$1$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage1$$special$$inlined$with$lambda$2$1$3$1$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage1$$special$$inlined$with$lambda$2$1$3$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage1$$special$$inlined$with$lambda$2$1$3$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage1$$special$$inlined$with$lambda$2$1$3.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage1$$special$$inlined$with$lambda$2$1$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage1$1$2$1$3$1$1$1$1$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage1$1$2$1$3$1$1$1$1$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage1$1$2$1$3$1$1$1$1$2.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage1$1$2$1$3$1$1$1$1$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage1$1$2$1$3$1$1$1$1$3.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage1$1$2$1$3$1$1$1$1$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage1$1$2$1$3$1$1$1$1$4.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage1$1$2$1$3$1$1$1$1$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage1$1$2$1$3$1$1$1$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage1$1$2$1$3$1$1$1$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage1$1$2$1$3$1$1$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage1$1$2$1$3$1$1$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage1$1$2$1$3$1$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage1$1$2$1$3$1$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage1$1$2$1$3$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage1$1$2$1$3$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage1$1$2$1$3.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage1$1$2$1$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage1$1$2$1$4$3$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage1$1$2$1$4$3$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage1$1$2$1$4$3.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage1$1$2$1$4$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage10$$special$$inlined$with$lambda$2$1$3$1$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage10$$special$$inlined$with$lambda$2$1$3$1$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage10$$special$$inlined$with$lambda$2$1$3$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage10$$special$$inlined$with$lambda$2$1$3$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage10$$special$$inlined$with$lambda$2$1$3.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage10$$special$$inlined$with$lambda$2$1$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage10$1$2$1$3$1$1$1$1$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage10$1$2$1$3$1$1$1$1$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage10$1$2$1$3$1$1$1$1$2.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage10$1$2$1$3$1$1$1$1$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage10$1$2$1$3$1$1$1$1$3.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage10$1$2$1$3$1$1$1$1$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage10$1$2$1$3$1$1$1$1$4.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage10$1$2$1$3$1$1$1$1$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage10$1$2$1$3$1$1$1$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage10$1$2$1$3$1$1$1$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage10$1$2$1$3$1$1$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage10$1$2$1$3$1$1$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage10$1$2$1$3$1$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage10$1$2$1$3$1$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage10$1$2$1$3$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage10$1$2$1$3$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage10$1$2$1$3.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage10$1$2$1$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage10$1$2$1$4$3$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage10$1$2$1$4$3$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage10$1$2$1$4$3.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage10$1$2$1$4$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage11$$special$$inlined$with$lambda$2$1$3$1$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage11$$special$$inlined$with$lambda$2$1$3$1$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage11$$special$$inlined$with$lambda$2$1$3$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage11$$special$$inlined$with$lambda$2$1$3$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage11$$special$$inlined$with$lambda$2$1$3.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage11$$special$$inlined$with$lambda$2$1$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage11$1$2$1$3$1$1$1$1$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage11$1$2$1$3$1$1$1$1$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage11$1$2$1$3$1$1$1$1$2.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage11$1$2$1$3$1$1$1$1$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage11$1$2$1$3$1$1$1$1$3.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage11$1$2$1$3$1$1$1$1$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage11$1$2$1$3$1$1$1$1$4.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage11$1$2$1$3$1$1$1$1$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage11$1$2$1$3$1$1$1$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage11$1$2$1$3$1$1$1$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage11$1$2$1$3$1$1$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage11$1$2$1$3$1$1$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage11$1$2$1$3$1$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage11$1$2$1$3$1$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage11$1$2$1$3$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage11$1$2$1$3$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage11$1$2$1$3.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage11$1$2$1$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage11$1$2$1$4$3$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage11$1$2$1$4$3$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage11$1$2$1$4$3.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage11$1$2$1$4$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage2$$special$$inlined$with$lambda$2$1$3$1$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage2$$special$$inlined$with$lambda$2$1$3$1$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage2$$special$$inlined$with$lambda$2$1$3$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage2$$special$$inlined$with$lambda$2$1$3$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage2$$special$$inlined$with$lambda$2$1$3.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage2$$special$$inlined$with$lambda$2$1$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage2$1$2$1$3$1$1$1$1$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage2$1$2$1$3$1$1$1$1$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage2$1$2$1$3$1$1$1$1$2.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage2$1$2$1$3$1$1$1$1$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage2$1$2$1$3$1$1$1$1$3.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage2$1$2$1$3$1$1$1$1$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage2$1$2$1$3$1$1$1$1$4.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage2$1$2$1$3$1$1$1$1$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage2$1$2$1$3$1$1$1$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage2$1$2$1$3$1$1$1$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage2$1$2$1$3$1$1$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage2$1$2$1$3$1$1$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage2$1$2$1$3$1$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage2$1$2$1$3$1$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage2$1$2$1$3$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage2$1$2$1$3$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage2$1$2$1$3.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage2$1$2$1$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage2$1$2$1$4$3$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage2$1$2$1$4$3$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage2$1$2$1$4$3.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage2$1$2$1$4$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage3$$special$$inlined$with$lambda$2$1$3$1$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage3$$special$$inlined$with$lambda$2$1$3$1$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage3$$special$$inlined$with$lambda$2$1$3$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage3$$special$$inlined$with$lambda$2$1$3$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage3$$special$$inlined$with$lambda$2$1$3.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage3$$special$$inlined$with$lambda$2$1$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage3$1$2$1$3$1$1$1$1$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage3$1$2$1$3$1$1$1$1$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage3$1$2$1$3$1$1$1$1$2.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage3$1$2$1$3$1$1$1$1$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage3$1$2$1$3$1$1$1$1$3.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage3$1$2$1$3$1$1$1$1$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage3$1$2$1$3$1$1$1$1$4.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage3$1$2$1$3$1$1$1$1$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage3$1$2$1$3$1$1$1$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage3$1$2$1$3$1$1$1$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage3$1$2$1$3$1$1$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage3$1$2$1$3$1$1$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage3$1$2$1$3$1$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage3$1$2$1$3$1$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage3$1$2$1$3$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage3$1$2$1$3$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage3$1$2$1$3.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage3$1$2$1$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage3$1$2$1$4$3$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage3$1$2$1$4$3$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage3$1$2$1$4$3.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage3$1$2$1$4$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage4$$special$$inlined$with$lambda$2$1$3$1$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage4$$special$$inlined$with$lambda$2$1$3$1$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage4$$special$$inlined$with$lambda$2$1$3$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage4$$special$$inlined$with$lambda$2$1$3$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage4$$special$$inlined$with$lambda$2$1$3.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage4$$special$$inlined$with$lambda$2$1$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage4$1$2$1$3$1$1$1$1$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage4$1$2$1$3$1$1$1$1$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage4$1$2$1$3$1$1$1$1$2.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage4$1$2$1$3$1$1$1$1$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage4$1$2$1$3$1$1$1$1$3.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage4$1$2$1$3$1$1$1$1$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage4$1$2$1$3$1$1$1$1$4.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage4$1$2$1$3$1$1$1$1$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage4$1$2$1$3$1$1$1$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage4$1$2$1$3$1$1$1$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage4$1$2$1$3$1$1$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage4$1$2$1$3$1$1$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage4$1$2$1$3$1$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage4$1$2$1$3$1$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage4$1$2$1$3$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage4$1$2$1$3$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage4$1$2$1$3.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage4$1$2$1$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage4$1$2$1$4$3$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage4$1$2$1$4$3$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage4$1$2$1$4$3.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage4$1$2$1$4$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage5$$special$$inlined$with$lambda$2$1$3$1$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage5$$special$$inlined$with$lambda$2$1$3$1$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage5$$special$$inlined$with$lambda$2$1$3$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage5$$special$$inlined$with$lambda$2$1$3$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage5$$special$$inlined$with$lambda$2$1$3.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage5$$special$$inlined$with$lambda$2$1$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage5$1$2$1$3$1$1$1$1$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage5$1$2$1$3$1$1$1$1$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage5$1$2$1$3$1$1$1$1$2.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage5$1$2$1$3$1$1$1$1$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage5$1$2$1$3$1$1$1$1$3.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage5$1$2$1$3$1$1$1$1$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage5$1$2$1$3$1$1$1$1$4.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage5$1$2$1$3$1$1$1$1$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage5$1$2$1$3$1$1$1$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage5$1$2$1$3$1$1$1$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage5$1$2$1$3$1$1$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage5$1$2$1$3$1$1$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage5$1$2$1$3$1$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage5$1$2$1$3$1$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage5$1$2$1$3$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage5$1$2$1$3$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage5$1$2$1$3.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage5$1$2$1$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage5$1$2$1$4$3$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage5$1$2$1$4$3$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage5$1$2$1$4$3.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage5$1$2$1$4$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage6$$special$$inlined$with$lambda$2$1$3$1$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage6$$special$$inlined$with$lambda$2$1$3$1$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage6$$special$$inlined$with$lambda$2$1$3$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage6$$special$$inlined$with$lambda$2$1$3$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage6$$special$$inlined$with$lambda$2$1$3.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage6$$special$$inlined$with$lambda$2$1$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage6$1$2$1$3$1$1$1$1$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage6$1$2$1$3$1$1$1$1$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage6$1$2$1$3$1$1$1$1$2.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage6$1$2$1$3$1$1$1$1$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage6$1$2$1$3$1$1$1$1$3.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage6$1$2$1$3$1$1$1$1$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage6$1$2$1$3$1$1$1$1$4.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage6$1$2$1$3$1$1$1$1$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage6$1$2$1$3$1$1$1$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage6$1$2$1$3$1$1$1$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage6$1$2$1$3$1$1$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage6$1$2$1$3$1$1$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage6$1$2$1$3$1$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage6$1$2$1$3$1$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage6$1$2$1$3$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage6$1$2$1$3$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage6$1$2$1$3.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage6$1$2$1$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage6$1$2$1$4$3$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage6$1$2$1$4$3$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage6$1$2$1$4$3.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage6$1$2$1$4$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage7$$special$$inlined$with$lambda$2$1$3$1$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage7$$special$$inlined$with$lambda$2$1$3$1$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage7$$special$$inlined$with$lambda$2$1$3$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage7$$special$$inlined$with$lambda$2$1$3$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage7$$special$$inlined$with$lambda$2$1$3.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage7$$special$$inlined$with$lambda$2$1$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage7$1$2$1$3$1$1$1$1$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage7$1$2$1$3$1$1$1$1$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage7$1$2$1$3$1$1$1$1$2.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage7$1$2$1$3$1$1$1$1$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage7$1$2$1$3$1$1$1$1$3.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage7$1$2$1$3$1$1$1$1$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage7$1$2$1$3$1$1$1$1$4.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage7$1$2$1$3$1$1$1$1$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage7$1$2$1$3$1$1$1$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage7$1$2$1$3$1$1$1$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage7$1$2$1$3$1$1$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage7$1$2$1$3$1$1$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage7$1$2$1$3$1$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage7$1$2$1$3$1$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage7$1$2$1$3$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage7$1$2$1$3$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage7$1$2$1$3.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage7$1$2$1$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage7$1$2$1$4$3$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage7$1$2$1$4$3$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage7$1$2$1$4$3.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage7$1$2$1$4$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage8$$special$$inlined$with$lambda$2$1$2.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage8$$special$$inlined$with$lambda$2$1$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage8$1$2$1$3.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage8$1$2$1$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage9$$special$$inlined$with$lambda$2$1$3$1$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage9$$special$$inlined$with$lambda$2$1$3$1$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage9$$special$$inlined$with$lambda$2$1$3$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage9$$special$$inlined$with$lambda$2$1$3$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage9$$special$$inlined$with$lambda$2$1$3.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage9$$special$$inlined$with$lambda$2$1$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage9$1$2$1$3$1$1$1$1$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage9$1$2$1$3$1$1$1$1$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage9$1$2$1$3$1$1$1$1$2.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage9$1$2$1$3$1$1$1$1$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage9$1$2$1$3$1$1$1$1$3.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage9$1$2$1$3$1$1$1$1$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage9$1$2$1$3$1$1$1$1$4.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage9$1$2$1$3$1$1$1$1$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage9$1$2$1$3$1$1$1$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage9$1$2$1$3$1$1$1$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage9$1$2$1$3$1$1$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage9$1$2$1$3$1$1$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage9$1$2$1$3$1$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage9$1$2$1$3$1$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage9$1$2$1$3$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage9$1$2$1$3$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage9$1$2$1$3.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage9$1$2$1$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage9$1$2$1$4$3$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage9$1$2$1$4$3$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage9$1$2$1$4$3.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/metroTileHomepages/MetroTileHomepage9$1$2$1$4$3.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DemoCreator-Accent.iml" afterPath="$PROJECT_DIR$/DemoCreator-Accent.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage1.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage1.kt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage10.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage10.kt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage11.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage11.kt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage12.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage12.kt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage13.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage13.kt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage14.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage14.kt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage15.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage15.kt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage16.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage16.kt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage17.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage17.kt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage18.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage18.kt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage19.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage19.kt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage2.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage2.kt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage20.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage20.kt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage3.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage3.kt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage4.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage4.kt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage5.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage5.kt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/res/fxml/MetroTileHomepage5.fxml" afterPath="$PROJECT_DIR$/src/main/res/fxml/MetroTileHomepage5.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage6.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage6.kt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage7.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage7.kt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage8.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage8.kt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage9.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage9.kt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/res/fxml/MetroTileHomepage10.fxml" afterPath="$PROJECT_DIR$/src/main/res/fxml/MetroTileHomepage10.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/res/fxml/MetroTileHomepage11.fxml" afterPath="$PROJECT_DIR$/src/main/res/fxml/MetroTileHomepage11.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/res/fxml/MetroTileHomepage12.fxml" afterPath="$PROJECT_DIR$/src/main/res/fxml/MetroTileHomepage12.fxml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/fxml/MetroTileHomepage10.fxml" afterPath="$PROJECT_DIR$/target/classes/fxml/MetroTileHomepage10.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/fxml/MetroTileHomepage5.fxml" afterPath="$PROJECT_DIR$/target/classes/fxml/MetroTileHomepage5.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/fxml/MetroTileHomepage11.fxml" afterPath="$PROJECT_DIR$/target/classes/fxml/MetroTileHomepage11.fxml" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -166,111 +244,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MetroTileHomepage10.fxml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/res/fxml/MetroTileHomepage10.fxml">
-          <provider editor-type-id="JavaFX-Scene-Builder">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="56" lean-forward="false" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="56" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MetroTileHomepage11.fxml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/res/fxml/MetroTileHomepage11.fxml">
-          <provider editor-type-id="JavaFX-Scene-Builder">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="50" lean-forward="false" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MetroTileHomepage4.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage4.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="671">
-              <caret line="74" column="33" lean-forward="false" selection-start-line="74" selection-start-column="33" selection-end-line="74" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MetroTileHomepage9.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage9.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="688">
-              <caret line="98" column="54" lean-forward="true" selection-start-line="98" selection-start-column="54" selection-end-line="98" selection-end-column="54" />
-              <folding>
-                <element signature="e#50#680#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MetroTileHomepage4.fxml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/res/fxml/MetroTileHomepage4.fxml">
-          <provider editor-type-id="JavaFX-Scene-Builder">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" column="28" lean-forward="false" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MetroTileHomepage5.fxml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/res/fxml/MetroTileHomepage5.fxml">
-          <provider editor-type-id="JavaFX-Scene-Builder">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="106" lean-forward="true" selection-start-line="23" selection-start-column="106" selection-end-line="23" selection-end-column="106" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MetroTileHomepage9.fxml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/res/fxml/MetroTileHomepage9.fxml">
-          <provider editor-type-id="JavaFX-Scene-Builder">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="56" lean-forward="false" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="56" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="MetroTileHomepage8.fxml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/res/fxml/MetroTileHomepage8.fxml">
           <provider editor-type-id="JavaFX-Scene-Builder">
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="106" lean-forward="false" selection-start-line="24" selection-start-column="106" selection-end-line="24" selection-end-column="106" />
+            <state relative-caret-position="195">
+              <caret line="13" column="56" lean-forward="false" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="56" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MetroTileHomepage5.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage5.kt">
+      <file leaf-file-name="MetroTileHomepage19.fxml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/res/fxml/MetroTileHomepage19.fxml">
+          <provider editor-type-id="JavaFX-Scene-Builder">
+            <state />
+          </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="69" column="49" lean-forward="true" selection-start-line="69" selection-start-column="49" selection-end-line="69" selection-end-column="49" />
+            <state relative-caret-position="285">
+              <caret line="19" column="184" lean-forward="false" selection-start-line="19" selection-start-column="184" selection-end-line="19" selection-end-column="184" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MetroTileHomepage18.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage18.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="305">
+              <caret line="80" column="17" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="163" selection-end-column="0" />
               <folding>
                 <element signature="e#50#680#0" expanded="true" />
               </folding>
@@ -278,14 +282,90 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MetroTileHomepage12.fxml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/res/fxml/MetroTileHomepage12.fxml">
+      <file leaf-file-name="MetroTileHomepage19.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage19.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="157" selection-end-column="0" />
+              <folding>
+                <element signature="e#50#680#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MetroTileHomepage20.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage20.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="36" column="57" lean-forward="false" selection-start-line="36" selection-start-column="57" selection-end-line="36" selection-end-column="57" />
+              <folding>
+                <element signature="e#50#680#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MetroTileHomepage20.fxml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/res/fxml/MetroTileHomepage20.fxml">
           <provider editor-type-id="JavaFX-Scene-Builder">
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="317">
+              <caret line="27" column="106" lean-forward="true" selection-start-line="27" selection-start-column="106" selection-end-line="27" selection-end-column="106" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MetroTileHomepage13.fxml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/res/fxml/MetroTileHomepage13.fxml">
+          <provider editor-type-id="JavaFX-Scene-Builder">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="314">
+              <caret line="21" column="106" lean-forward="true" selection-start-line="21" selection-start-column="106" selection-end-line="21" selection-end-column="106" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MetroTileHomepage18.fxml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/res/fxml/MetroTileHomepage18.fxml">
+          <provider editor-type-id="JavaFX-Scene-Builder">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="88" lean-forward="false" selection-start-line="21" selection-start-column="88" selection-end-line="21" selection-end-column="88" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MetroTileHomepage14.fxml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/res/fxml/MetroTileHomepage14.fxml">
+          <provider editor-type-id="JavaFX-Scene-Builder">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="18" column="116" lean-forward="false" selection-start-line="18" selection-start-column="110" selection-end-line="18" selection-end-column="116" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MetroTileHomepage10.fxml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/res/fxml/MetroTileHomepage10.fxml">
+          <provider editor-type-id="JavaFX-Scene-Builder">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="20" column="116" lean-forward="false" selection-start-line="20" selection-start-column="110" selection-end-line="20" selection-end-column="116" />
               <folding />
             </state>
           </provider>
@@ -313,6 +393,7 @@
       <find>metroRect</find>
       <find>alignment</find>
       <find>gridSquare</find>
+      <find>190</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -326,23 +407,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/MetroTileHomepages/MetroTileHomepage10.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/MetroTileHomepages/MetroTileHomepage11.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/MetroTileHomepages/MetroTileHomepage12.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/MetroTileHomepages/MetroTileHomepage13.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/MetroTileHomepages/MetroTileHomepage14.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/MetroTileHomepages/MetroTileHomepage15.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/MetroTileHomepages/MetroTileHomepage16.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/MetroTileHomepages/MetroTileHomepage17.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/MetroTileHomepages/MetroTileHomepage18.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/MetroTileHomepages/MetroTileHomepage19.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/MetroTileHomepages/MetroTileHomepage20.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/drag/and/drop/OSGIConsole.java" />
-        <option value="$USER_HOME$/tornadofx/tornadofx/src/main/java/tornadofx/osgi/impl/OSGISupport.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/app/Activator.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/model/RectangleModel.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/MetroTileHomepages/MetroTileHomepage1.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/MetroTileHomepages/MetroTileHomepage2.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/controllers/DragAndDropGUI.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/controllers/DragAndDropGUI.java" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/app/DragAndDrop.kt" />
@@ -354,29 +418,46 @@
         <option value="$PROJECT_DIR$/src/main/res/fxml/MetroTileHomepage1.fxml" />
         <option value="$PROJECT_DIR$/src/main/res/fxml/MetroTileHomepage6.fxml" />
         <option value="$PROJECT_DIR$/src/main/res/css/GUI-Code-Creator.css" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage2.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage1.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage3.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage6.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage7.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage8.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/app/Styles.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage9.kt" />
         <option value="$PROJECT_DIR$/src/main/res/fxml/MetroTileHomepage2.fxml" />
         <option value="$PROJECT_DIR$/src/main/res/fxml/MetroTileHomepage3.fxml" />
         <option value="$PROJECT_DIR$/src/main/res/fxml/MetroTileHomepage9.fxml" />
         <option value="$PROJECT_DIR$/src/main/res/fxml/MetroTileHomepage8.fxml" />
-        <option value="$PROJECT_DIR$/src/main/res/fxml/MetroTileHomepage10.fxml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/res/fxml/MetroTileHomepage7.fxml" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage11.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage10.kt" />
         <option value="$PROJECT_DIR$/src/main/res/fxml/MetroTileHomepage4.fxml" />
         <option value="$PROJECT_DIR$/src/main/res/fxml/MetroTileHomepage5.fxml" />
-        <option value="$PROJECT_DIR$/src/main/res/fxml/MetroTileHomepage12.fxml" />
+        <option value="$PROJECT_DIR$/src/main/res/fxml/MetroTileHomepage10.fxml" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage10.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage1.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage2.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage3.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage4.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage5.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage6.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage7.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage8.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage9.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage11.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage12.kt" />
         <option value="$PROJECT_DIR$/src/main/res/fxml/MetroTileHomepage11.fxml" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage13.kt" />
+        <option value="$PROJECT_DIR$/src/main/res/fxml/MetroTileHomepage12.fxml" />
+        <option value="$PROJECT_DIR$/src/main/res/fxml/MetroTileHomepage14.fxml" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage14.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage15.kt" />
+        <option value="$PROJECT_DIR$/src/main/res/fxml/MetroTileHomepage15.fxml" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage16.kt" />
+        <option value="$PROJECT_DIR$/src/main/res/fxml/MetroTileHomepage16.fxml" />
+        <option value="$PROJECT_DIR$/src/main/res/fxml/MetroTileHomepage17.fxml" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage17.kt" />
+        <option value="$PROJECT_DIR$/src/main/res/fxml/MetroTileHomepage18.fxml" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage18.kt" />
+        <option value="$PROJECT_DIR$/src/main/res/fxml/MetroTileHomepage19.fxml" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage19.kt" />
+        <option value="$PROJECT_DIR$/src/main/res/fxml/MetroTileHomepage13.fxml" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage20.kt" />
+        <option value="$PROJECT_DIR$/src/main/res/fxml/MetroTileHomepage20.fxml" />
       </list>
     </option>
   </component>
@@ -387,11 +468,11 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="33" />
-    <option name="y" value="190" />
-    <option name="width" value="1399" />
-    <option name="height" value="1127" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="338" />
+    <option name="y" value="30" />
+    <option name="width" value="905" />
+    <option name="height" value="758" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -411,8 +492,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="AndroidView" />
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -496,24 +578,38 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="res" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UI-Code-Creator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UI-Code-Creator" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
               <item name="fxml" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="UI-Code-Creator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="UI-Code-Creator" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UI-Code-Creator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UI-Code-Creator" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.1787176" />
     <property name="project.structure.side.proportion" value="0.56969696" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
@@ -527,8 +623,8 @@
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\AHINCHMAN\Documents\UI-Code-Creator\src\main\res\fxml" />
       <recent name="$PROJECT_DIR$/src/main/res/fxml" />
+      <recent name="C:\Users\AHINCHMAN\Documents\UI-Code-Creator\src\main\res\fxml" />
       <recent name="C:\Users\AHINCHMAN\Documents\UI-Code-Creator\src\main\kotlin\com\example\demo\img" />
       <recent name="$PROJECT_DIR$/src/main/kotlin/com/example/demo" />
     </key>
@@ -716,28 +812,28 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="33" y="190" width="1399" height="1127" extended-state="1" />
+    <frame x="338" y="30" width="905" height="758" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26342976" sideWeight="0.48294243" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26093295" sideWeight="0.48294243" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328" sideWeight="0.5170576" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.02892562" sideWeight="0.4637579" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.023323616" sideWeight="0.4637579" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298611" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998565" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29723674" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18342541" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24974093" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32253313" sideWeight="0.70372975" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32118055" sideWeight="0.70372975" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -783,114 +879,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage1.kt</url>
-          <line>117</line>
-          <properties />
-          <option name="timeStamp" value="71" />
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="82" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/DemoCreator-Accent.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/tornadofx-1.7.11/src/main/java/tornadofx/DataGrid.kt" />
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage12.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="601">
-          <caret line="39" column="86" lean-forward="false" selection-start-line="39" selection-start-column="86" selection-end-line="39" selection-end-column="86" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage13.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="601">
-          <caret line="39" column="86" lean-forward="false" selection-start-line="39" selection-start-column="86" selection-end-line="39" selection-end-column="86" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage14.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="44" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage15.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="601">
-          <caret line="39" column="62" lean-forward="false" selection-start-line="39" selection-start-column="62" selection-end-line="39" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage16.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="44" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage17.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="36" column="42" lean-forward="true" selection-start-line="36" selection-start-column="42" selection-end-line="36" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage18.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage19.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="30" column="20" lean-forward="false" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage20.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="482">
-          <caret line="32" column="17" lean-forward="true" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/drag/and/drop/OSGIConsole.java" />
-    <entry file="file://$USER_HOME$/tornadofx/tornadofx/src/main/java/tornadofx/osgi/impl/OSGISupport.kt" />
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/app/MyApp.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="25" column="1" lean-forward="false" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
-          <folding>
-            <marker date="1510760459272" expanded="true" signature="270:560" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/LoginScreen.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="28" column="29" lean-forward="false" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
-          <folding>
-            <element signature="e#32#439#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/controllers/DragAndDropGUI.kt" />
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/app/DragAndDrop.kt" />
     <entry file="file://$PROJECT_DIR$/src/main/java/controller/DragAndDropGUI.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/app/DragAndDrop.java" />
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/model/RectangleModel.kt">
@@ -904,7 +897,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
           <caret line="40" column="31" lean-forward="false" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -919,7 +911,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -927,18 +918,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="918">
           <caret line="60" column="38" lean-forward="false" selection-start-line="60" selection-start-column="38" selection-end-line="60" selection-end-column="38" />
-          <folding>
-            <marker date="1510760459289" expanded="false" signature="39:77" ph="..." />
-            <marker date="1510760459289" expanded="true" signature="2290:2493" ph="{...}" />
-            <marker date="1510760459289" expanded="true" signature="2290:2515" ph="{...}" />
-            <marker date="1510760459289" expanded="true" signature="2290:2655" ph="{...}" />
-            <marker date="1510760459289" expanded="true" signature="2290:2669" ph="{...}" />
-            <marker date="1510760459289" expanded="true" signature="2290:2835" ph="{...}" />
-            <marker date="1510760459289" expanded="true" signature="2290:2841" ph="{...}" />
-            <marker date="1510760459289" expanded="true" signature="2552:2637" ph="{...}" />
-            <marker date="1510760459289" expanded="true" signature="2690:2825" ph="{...}" />
-            <marker date="1510760459289" expanded="true" signature="2718:2811" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -957,116 +936,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage3.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1513">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding>
-            <element signature="e#50#680#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage1.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1394">
-          <caret line="84" column="1" lean-forward="false" selection-start-line="84" selection-start-column="1" selection-end-line="84" selection-end-column="1" />
-          <folding>
-            <marker date="1510760466594" expanded="false" signature="57:208" ph="..." />
-            <marker date="1510760466594" expanded="true" signature="4597:4860" ph="{...}" />
-            <marker date="1510760466594" expanded="true" signature="4597:4894" ph="{...}" />
-            <marker date="1510760466594" expanded="true" signature="4597:4924" ph="{...}" />
-            <marker date="1510760466594" expanded="true" signature="4597:4950" ph="{...}" />
-            <marker date="1510760466594" expanded="true" signature="4597:4972" ph="{...}" />
-            <marker date="1510760466594" expanded="true" signature="4597:6068" ph="{...}" />
-            <marker date="1510760466594" expanded="true" signature="4597:6082" ph="{...}" />
-            <marker date="1510760466594" expanded="true" signature="4597:6092" ph="{...}" />
-            <marker date="1510760466594" expanded="true" signature="4597:6100" ph="{...}" />
-            <marker date="1510760466594" expanded="true" signature="4998:6050" ph="{...}" />
-            <marker date="1510760466594" expanded="true" signature="5040:5126" ph="{...}" />
-            <marker date="1510760466594" expanded="true" signature="5181:5612" ph="{...}" />
-            <marker date="1510760466594" expanded="true" signature="5275:5401" ph="{...}" />
-            <marker date="1510760466594" expanded="true" signature="5447:5586" ph="{...}" />
-            <marker date="1510760466594" expanded="true" signature="5652:6028" ph="{...}" />
-            <marker date="1510760466594" expanded="true" signature="5746:5817" ph="{...}" />
-            <marker date="1510760466594" expanded="true" signature="5863:6002" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/app/Styles.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="32" column="29" lean-forward="false" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
-          <folding>
-            <marker date="1510760466425" expanded="true" signature="37:44" ph="..." />
-            <marker date="1510760466425" expanded="true" signature="1115:1132" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage8.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2074">
-          <caret line="130" column="93" lean-forward="false" selection-start-line="130" selection-start-column="93" selection-end-line="130" selection-end-column="93" />
-          <folding>
-            <marker date="1510760466913" expanded="true" signature="57:275" ph="..." />
-            <marker date="1510760466913" expanded="true" signature="2896:2911" ph="{...}" />
-            <marker date="1510760466913" expanded="true" signature="2896:5928" ph="{...}" />
-            <marker date="1510760466913" expanded="true" signature="2896:5934" ph="{...}" />
-            <marker date="1510760466913" expanded="true" signature="2896:5936" ph="{...}" />
-            <marker date="1510760466913" expanded="true" signature="2931:5918" ph="{...}" />
-            <marker date="1510760466913" expanded="true" signature="3243:5904" ph="{...}" />
-            <marker date="1510760466913" expanded="true" signature="3326:3932" ph="{...}" />
-            <marker date="1510760466913" expanded="true" signature="3574:3910" ph="{...}" />
-            <marker date="1510760466913" expanded="true" signature="3669:3846" ph="{...}" />
-            <marker date="1510760466913" expanded="true" signature="3963:4070" ph="{...}" />
-            <marker date="1510760466913" expanded="true" signature="4096:4808" ph="{...}" />
-            <marker date="1510760466913" expanded="true" signature="4216:4786" ph="{...}" />
-            <marker date="1510760466913" expanded="true" signature="4275:4760" ph="{...}" />
-            <marker date="1510760466913" expanded="true" signature="4318:4730" ph="{...}" />
-            <marker date="1510760466913" expanded="true" signature="4361:4696" ph="{...}" />
-            <marker date="1510760466913" expanded="true" signature="4834:5886" ph="{...}" />
-            <marker date="1510760466913" expanded="true" signature="4876:4962" ph="{...}" />
-            <marker date="1510760466913" expanded="true" signature="5017:5448" ph="{...}" />
-            <marker date="1510760466913" expanded="true" signature="5111:5237" ph="{...}" />
-            <marker date="1510760466913" expanded="true" signature="5283:5422" ph="{...}" />
-            <marker date="1510760466913" expanded="true" signature="5488:5864" ph="{...}" />
-            <marker date="1510760466913" expanded="true" signature="5582:5653" ph="{...}" />
-            <marker date="1510760466913" expanded="true" signature="5699:5838" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage2.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="58" column="29" lean-forward="false" selection-start-line="58" selection-start-column="29" selection-end-line="58" selection-end-column="29" />
-          <folding>
-            <marker date="1510760466646" expanded="true" signature="57:484" ph="..." />
-            <marker date="1510760466646" expanded="true" signature="3391:3406" ph="{...}" />
-            <marker date="1510760466646" expanded="true" signature="3391:6423" ph="{...}" />
-            <marker date="1510760466646" expanded="true" signature="3391:6431" ph="{...}" />
-            <marker date="1510760466646" expanded="true" signature="3426:6413" ph="{...}" />
-            <marker date="1510760466646" expanded="true" signature="3738:6399" ph="{...}" />
-            <marker date="1510760466646" expanded="true" signature="3821:4427" ph="{...}" />
-            <marker date="1510760466646" expanded="true" signature="4069:4405" ph="{...}" />
-            <marker date="1510760466646" expanded="true" signature="4164:4341" ph="{...}" />
-            <marker date="1510760466646" expanded="true" signature="4458:4565" ph="{...}" />
-            <marker date="1510760466646" expanded="true" signature="4591:5303" ph="{...}" />
-            <marker date="1510760466646" expanded="true" signature="4711:5281" ph="{...}" />
-            <marker date="1510760466646" expanded="true" signature="4770:5255" ph="{...}" />
-            <marker date="1510760466646" expanded="true" signature="4813:5225" ph="{...}" />
-            <marker date="1510760466646" expanded="true" signature="4856:5191" ph="{...}" />
-            <marker date="1510760466646" expanded="true" signature="5329:6381" ph="{...}" />
-            <marker date="1510760466646" expanded="true" signature="5371:5457" ph="{...}" />
-            <marker date="1510760466646" expanded="true" signature="5512:5943" ph="{...}" />
-            <marker date="1510760466646" expanded="true" signature="5606:5732" ph="{...}" />
-            <marker date="1510760466646" expanded="true" signature="5778:5917" ph="{...}" />
-            <marker date="1510760466646" expanded="true" signature="5983:6359" ph="{...}" />
-            <marker date="1510760466646" expanded="true" signature="6077:6148" ph="{...}" />
-            <marker date="1510760466646" expanded="true" signature="6194:6333" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1092,60 +966,103 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/fxml/MetroTileHomepage3.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="14" column="118" lean-forward="false" selection-start-line="14" selection-start-column="112" selection-end-line="14" selection-end-column="118" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        <state relative-caret-position="1140">
+          <caret line="76" column="0" lean-forward="false" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/fxml/MetroTileHomepage7.fxml">
+    <entry file="file://$PROJECT_DIR$/src/main/res/fxml/MetroTileHomepage5.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder">
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="13" lean-forward="false" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+        <state relative-caret-position="360">
+          <caret line="24" column="106" lean-forward="false" selection-start-line="24" selection-start-column="106" selection-end-line="24" selection-end-column="106" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage10.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage1.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="40" column="20" lean-forward="false" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
-          <folding>
-            <element signature="e#50#680#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="623">
+          <caret line="124" column="21" lean-forward="false" selection-start-line="124" selection-start-column="21" selection-end-line="124" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage11.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage2.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="35" column="57" lean-forward="false" selection-start-line="35" selection-start-column="57" selection-end-line="35" selection-end-column="57" />
-          <folding>
-            <element signature="e#50#680#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="923">
+          <caret line="129" column="21" lean-forward="false" selection-start-line="129" selection-start-column="21" selection-end-line="129" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage3.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="492">
+          <caret line="123" column="21" lean-forward="false" selection-start-line="123" selection-start-column="21" selection-end-line="123" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage4.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="41" column="34" lean-forward="false" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage5.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="40" column="34" lean-forward="false" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage6.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="17" column="6" lean-forward="false" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+        <state relative-caret-position="205">
+          <caret line="34" column="34" lean-forward="false" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage7.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="44" column="34" lean-forward="false" selection-start-line="44" selection-start-column="34" selection-end-line="44" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage8.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="40" column="34" lean-forward="false" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage9.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="40" column="34" lean-forward="false" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
+          <folding>
+            <element signature="e#50#680#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage10.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="38" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="161" selection-end-column="0" />
           <folding>
             <element signature="e#50#680#0" expanded="false" />
           </folding>
@@ -1157,29 +1074,20 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="116" lean-forward="false" selection-start-line="10" selection-start-column="110" selection-end-line="10" selection-end-column="116" />
+        <state relative-caret-position="180">
+          <caret line="12" column="174" lean-forward="false" selection-start-line="12" selection-start-column="174" selection-end-line="12" selection-end-column="174" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage7.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-136">
-          <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-          <folding>
-            <element signature="e#50#680#0" expanded="true" />
-          </folding>
-        </state>
+    <entry file="file://$PROJECT_DIR$/src/main/res/fxml/MetroTileHomepage7.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage9.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="688">
-          <caret line="98" column="54" lean-forward="true" selection-start-line="98" selection-start-column="54" selection-end-line="98" selection-end-column="54" />
-          <folding>
-            <element signature="e#50#680#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="195">
+          <caret line="13" column="114" lean-forward="false" selection-start-line="13" selection-start-column="114" selection-end-line="13" selection-end-column="114" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1188,48 +1096,120 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
+        <state relative-caret-position="420">
           <caret line="28" column="28" lean-forward="false" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage4.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage11.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="671">
-          <caret line="74" column="33" lean-forward="false" selection-start-line="74" selection-start-column="33" selection-end-line="74" selection-end-column="33" />
+        <state relative-caret-position="228">
+          <caret line="132" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="157" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/fxml/MetroTileHomepage5.fxml">
+    <entry file="file://$PROJECT_DIR$/src/main/res/fxml/MetroTileHomepage3.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder">
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="106" lean-forward="true" selection-start-line="23" selection-start-column="106" selection-end-line="23" selection-end-column="106" />
+        <state relative-caret-position="223">
+          <caret line="15" column="34" lean-forward="true" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage5.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage12.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="69" column="49" lean-forward="true" selection-start-line="69" selection-start-column="49" selection-end-line="69" selection-end-column="49" />
+        <state relative-caret-position="194">
+          <caret line="74" column="23" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="168" selection-end-column="0" />
+          <folding>
+            <element signature="e#50#680#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage13.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="51" />
+          <folding>
+            <element signature="e#50#680#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage14.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="26" column="21" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="167" selection-end-column="0" />
+          <folding>
+            <element signature="e#50#680#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage15.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="96" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="161" selection-end-column="0" />
           <folding>
             <element signature="e#50#680#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/fxml/MetroTileHomepage10.fxml">
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage16.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="33" column="36" lean-forward="false" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="36" />
+          <folding>
+            <element signature="e#50#680#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage17.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="39" column="57" lean-forward="false" selection-start-line="39" selection-start-column="57" selection-end-line="39" selection-end-column="57" />
+          <folding>
+            <element signature="e#50#680#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/fxml/MetroTileHomepage17.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder">
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="56" lean-forward="false" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="56" />
+        <state relative-caret-position="164">
+          <caret line="14" column="78" lean-forward="false" selection-start-line="14" selection-start-column="78" selection-end-line="14" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/fxml/MetroTileHomepage16.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="55" lean-forward="false" selection-start-line="20" selection-start-column="55" selection-end-line="20" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/fxml/MetroTileHomepage15.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="21" column="208" lean-forward="false" selection-start-line="21" selection-start-column="208" selection-end-line="21" selection-end-column="208" />
           <folding />
         </state>
       </provider>
@@ -1239,30 +1219,8 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/fxml/MetroTileHomepage8.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="106" lean-forward="false" selection-start-line="24" selection-start-column="106" selection-end-line="24" selection-end-column="106" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/fxml/MetroTileHomepage9.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="56" lean-forward="false" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="56" />
+        <state relative-caret-position="185">
+          <caret line="18" column="6" lean-forward="false" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
           <folding />
         </state>
       </provider>
@@ -1272,8 +1230,126 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="50" lean-forward="false" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
+        <state relative-caret-position="255">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/fxml/MetroTileHomepage9.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="56" lean-forward="false" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/fxml/MetroTileHomepage14.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="18" column="116" lean-forward="false" selection-start-line="18" selection-start-column="110" selection-end-line="18" selection-end-column="116" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/fxml/MetroTileHomepage10.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="20" column="116" lean-forward="false" selection-start-line="20" selection-start-column="110" selection-end-line="20" selection-end-column="116" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/fxml/MetroTileHomepage8.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="56" lean-forward="false" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/fxml/MetroTileHomepage18.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="88" lean-forward="false" selection-start-line="21" selection-start-column="88" selection-end-line="21" selection-end-column="88" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/fxml/MetroTileHomepage19.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="184" lean-forward="false" selection-start-line="19" selection-start-column="184" selection-end-line="19" selection-end-column="184" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage18.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="80" column="17" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="163" selection-end-column="0" />
+          <folding>
+            <element signature="e#50#680#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage19.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="157" selection-end-column="0" />
+          <folding>
+            <element signature="e#50#680#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/fxml/MetroTileHomepage13.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="21" column="106" lean-forward="true" selection-start-line="21" selection-start-column="106" selection-end-line="21" selection-end-column="106" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage20.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="36" column="57" lean-forward="false" selection-start-line="36" selection-start-column="57" selection-end-line="36" selection-end-column="57" />
+          <folding>
+            <element signature="e#50#680#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/fxml/MetroTileHomepage20.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="27" column="106" lean-forward="true" selection-start-line="27" selection-start-column="106" selection-end-line="27" selection-end-column="106" />
           <folding />
         </state>
       </provider>
@@ -1343,7 +1419,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>org.osgi:org.osgi.core:6.0.0</last-edited>
+          <last-edited>Maven: org.jetbrains.kotlin:kotlin-osgi-bundle:1.1.60</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

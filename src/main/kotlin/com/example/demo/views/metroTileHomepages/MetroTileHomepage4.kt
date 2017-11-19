@@ -39,7 +39,7 @@ class MetroTileHomepage4 : View() {
     init {
         with(root) {
             addClass(metroTileHomepageGUI)
-            setPrefSize(1000.0, 675.0)
+            setPrefSize(1000.0, 750.0)
 
             flowpane {
                 top {
@@ -80,7 +80,7 @@ class MetroTileHomepage4 : View() {
             right {
                 val modules = listOf("browse", "library", "featured content", "large library", "wizard",
                         "response", "messages", "build", "popular content", "announcements").observable()
-                val paginator = DataGridPaginator(modules, itemsPerPage = 6)
+                val paginator = DataGridPaginator(modules, itemsPerPage = 8)
 
                 vbox {
                     maxWidth=300.0
@@ -89,7 +89,7 @@ class MetroTileHomepage4 : View() {
 
                         cellWidth = 90.0
                         cellHeight = 90.0
-                        paddingTop = 20.0
+                        paddingTop = 10.0
                         paddingLeft = 40.0
 
                         cellCache {
@@ -103,20 +103,19 @@ class MetroTileHomepage4 : View() {
                         }
                     }
                     stackpane {
-                        paddingBottom = 20.0
+                        paddingBottom=20.0
                         add(paginator)
                     }
                     form {
-                        paddingTop = 20.0
                         paddingLeft = 20.0
                         hbox(20) {
                             fieldset("Customize Module") {
                                 hbox(20) {
                                     vbox {
-                                        field("Color") { textfield() }.addClass(Styles.metro_field)
-                                        field("HoverColor") { textfield() }.addClass(Styles.metro_field)
-                                        field("Image Source") { textfield() }.addClass(Styles.metro_field)
-                                        field("Label") { textfield() }.addClass(Styles.metro_field)
+                                        field("Color") { textfield() }
+                                        field("HoverColor") { textfield() }
+                                        field("Image Source") { textfield() }
+                                        field("Label") { textfield() }
                                     }
                                 }
                             }

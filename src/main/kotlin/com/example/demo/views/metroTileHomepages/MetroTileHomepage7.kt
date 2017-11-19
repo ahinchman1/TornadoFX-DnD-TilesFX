@@ -42,7 +42,7 @@ class MetroTileHomepage7 : View() {
     init {
         with(root) {
             addClass(metroTileHomepageGUI)
-            setPrefSize(1000.0, 675.0)
+            setPrefSize(1000.0, 750.0)
 
             flowpane {
                 top {
@@ -87,7 +87,7 @@ class MetroTileHomepage7 : View() {
             right {
                 val modules = listOf("browse", "library", "featured content", "large library", "wizard",
                         "response", "messages", "build", "popular content", "announcements").observable()
-                val paginator = DataGridPaginator(modules, itemsPerPage = 6)
+                val paginator = DataGridPaginator(modules, itemsPerPage = 8)
 
                 vbox {
                     maxWidth=300.0
@@ -96,7 +96,7 @@ class MetroTileHomepage7 : View() {
 
                         cellWidth = 90.0
                         cellHeight = 90.0
-                        paddingTop = 20.0
+                        paddingTop = 10.0
                         paddingLeft = 40.0
 
                         cellCache {
@@ -110,11 +110,10 @@ class MetroTileHomepage7 : View() {
                         }
                     }
                     stackpane {
-                        paddingBottom = 20.0
+                        paddingBottom=20.0
                         add(paginator)
                     }
                     form {
-                        paddingTop = 20.0
                         paddingLeft = 20.0
                         hbox(20) {
                             fieldset("Customize Module") {

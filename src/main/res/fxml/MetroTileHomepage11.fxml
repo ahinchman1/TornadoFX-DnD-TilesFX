@@ -3,7 +3,6 @@
 <?import javafx.scene.shape.Rectangle?>
 
 <?import javafx.scene.control.Label?>
-<?import javafx.scene.text.Font?>
 <BorderPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2">
     <center>
         <GridPane layoutX="116.0" layoutY="155.0" fx:id="gridSquare" alignment="center">
@@ -11,13 +10,13 @@
                 <Label fx:id="banner" text="Hi, Admin" textAlignment="LEFT" layoutX="200.0" styleClass="banner_tile" GridPane.rowIndex="0" GridPane.columnIndex="0" GridPane.columnSpan="5" style="-fx-font: NORMAL 40 Tahoma; -fx-text-fill: #7a838e;"/>
                 <Rectangle fx:id="module1" fill="#BDDEF5" height="90.0" width="90.0" layoutX="200.0" stroke="#BDDEF5" strokeType="OUTSIDE" styleClass="module_tile" GridPane.rowIndex="1" GridPane.columnIndex="0" GridPane.columnSpan="1"/>
                 <Rectangle fx:id="module2" fill="#87CB43" height="90.0" width="90.0" layoutX="200.0" stroke="#87CB43" strokeType="OUTSIDE" styleClass="module_tile" GridPane.rowIndex="1" GridPane.columnIndex="1" GridPane.columnSpan="1"/>
-                <Rectangle fx:id="module3" fill="#2793ce" height="90.0" width="90.0" layoutX="200.0" stroke="##2793ce" strokeType="OUTSIDE" styleClass="module_tile" GridPane.rowIndex="1" GridPane.columnIndex="2" GridPane.columnSpan="1"/>
+                <Rectangle fx:id="module3" fill="#2793ce" height="90.0" width="90.0" layoutX="200.0" stroke="#2793ce" strokeType="OUTSIDE" styleClass="module_tile" GridPane.rowIndex="1" GridPane.columnIndex="2" GridPane.columnSpan="1"/>
                 <Rectangle fx:id="module4" fill="#FF9F26" height="90.0" width="90.0" layoutX="200.0" stroke="#FF9F26" strokeType="OUTSIDE" styleClass="module_tile" GridPane.rowIndex="1" GridPane.columnIndex="3" GridPane.columnSpan="1"/>
-                <Rectangle fx:id="module5" fill="#07425F" height="90.0" width="90.0" layoutX="200.0" stroke="#07425F" strokeType="OUTSIDE" styleClass="module_tile" GridPane.rowIndex="1" GridPane.columnIndex="2" GridPane.columnSpan="1"/>
-                <Rectangle fx:id="module6" fill="##2793ce" height="190.0" width="190.0" layoutX="200.0" stroke="##2793ce" strokeType="OUTSIDE" styleClass="module_tile" GridPane.rowIndex="2" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.rowSpan="2"/>
-                <Rectangle fx:id="module7" fill="#07425F" height="90.0" width="90.0" layoutX="200.0" stroke="#07425F" strokeType="OUTSIDE" styleClass="module_tile" GridPane.rowIndex="1" GridPane.columnIndex="3" GridPane.columnSpan="1"/>
-                <Rectangle fx:id="module8" fill="#2793ce" height="90.0" width="90.0" layoutX="200.0" stroke="#2793ce" strokeType="OUTSIDE" styleClass="module_tile" GridPane.rowIndex="1" GridPane.columnIndex="4" GridPane.columnSpan="1"/>
-                <Rectangle fx:id="module9" fill="WHITE" height="190.0" width="190.0" layoutX="200.0" stroke="BLACK" strokeType="OUTSIDE" styleClass="module_tile" GridPane.rowIndex="2" GridPane.columnIndex="3" GridPane.columnSpan="2" GridPane.rowSpan="2"/>
+                <Rectangle fx:id="module5" fill="#07425F" height="190.0" width="190.0" layoutX="200.0" stroke="#07425F" strokeType="OUTSIDE" styleClass="module_tile" GridPane.rowIndex="2" GridPane.columnIndex="0" GridPane.columnSpan="2" GridPane.rowSpan="2"/>
+                <Rectangle fx:id="module6" fill="#2793ce" height="190.0" width="190.0" layoutX="200.0" stroke="#2793ce" strokeType="OUTSIDE" styleClass="module_tile" GridPane.rowIndex="2" GridPane.columnIndex="2" GridPane.columnSpan="2" GridPane.rowSpan="2"/>
+                <Rectangle fx:id="module7" fill="#07425F" height="90.0" width="90.0" layoutX="200.0" stroke="#07425F" strokeType="OUTSIDE" styleClass="module_tile" GridPane.rowIndex="2" GridPane.columnIndex="4" GridPane.columnSpan="1"/>
+                <Rectangle fx:id="module8" fill="#2793ce" height="90.0" width="90.0" layoutX="200.0" stroke="#2793ce" strokeType="OUTSIDE" styleClass="module_tile" GridPane.rowIndex="3" GridPane.columnIndex="4" GridPane.columnSpan="1"/>
+                <Rectangle fx:id="module9" fill="WHITE" height="90.0" width="90.0" layoutX="200.0" stroke="BLACK" strokeType="OUTSIDE" styleClass="module_tile" GridPane.rowIndex="1" GridPane.columnIndex="4" GridPane.columnSpan="1"/>
             </children>
             <columnConstraints>
                 <ColumnConstraints hgrow="NEVER" halignment="CENTER" minWidth="100.0" prefWidth="100.0" />
