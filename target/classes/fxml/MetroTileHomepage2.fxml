@@ -3,7 +3,7 @@
 <?import javafx.scene.shape.Rectangle?>
 
 <?import javafx.scene.control.Label?>
-<BorderPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2">
+<BorderPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="com.example.demo.controllers.MetroTileHomepageController">
     <center>
         <GridPane layoutX="116.0" layoutY="155.0" fx:id="gridSquare" alignment="center">
             <children>
@@ -38,4 +38,28 @@
             </rowConstraints>
         </GridPane>
     </center>
+    <right>
+        <VBox maxWidth="300.0">
+            <GridPane fx:id="smallModules">
+                <children>
+                    <Rectangle fx:id="browse" fill="#3ca6b2" height="80.0" width="80.0" stroke="#3ca6b2" strokeType="OUTSIDE" styleClass="module_tile" GridPane.rowIndex="0" GridPane.columnIndex="4" GridPane.columnSpan="1"/>
+                    <Rectangle fx:id="library" fill="#1ec3ff" height="80.0" width="80.0" stroke="#1ec3ff" strokeType="OUTSIDE" styleClass="module_tile" GridPane.rowIndex="1" GridPane.columnIndex="0" GridPane.columnSpan="1"/>
+                    <Rectangle fx:id="announcements" fill="#1ec3ff" height="80.0" width="80.0" stroke="#1ec3ff" strokeType="OUTSIDE" styleClass="module_tile" GridPane.rowIndex="2" GridPane.columnIndex="0" GridPane.columnSpan="1"/>
+                    <Rectangle fx:id="response" fill="#1ec3ff" height="80.0" width="80.0" stroke="#1ec3ff" strokeType="OUTSIDE" styleClass="module_tile" GridPane.rowIndex="2" GridPane.columnIndex="1" GridPane.columnSpan="1"/>
+                    <Rectangle fx:id="messages" fill="#ef8813" height="80.0" width="80.0" stroke="#ef8813" strokeType="OUTSIDE" styleClass="module_tile" GridPane.rowIndex="1" GridPane.columnIndex="1" GridPane.columnSpan="1"/>
+                    <Rectangle fx:id="build" fill="#1ec3ff" height="80.0" width="80.0" stroke="#1ec3ff" strokeType="OUTSIDE" styleClass="module_tile" GridPane.rowIndex="2" GridPane.columnIndex="0" GridPane.columnSpan="1"/>
+                </children>
+                <columnConstraints>
+                    <ColumnConstraints hgrow="NEVER" halignment="CENTER" minWidth="90.0" prefWidth="90.0" />
+                    <ColumnConstraints hgrow="NEVER" halignment="CENTER" minWidth="90.0" prefWidth="90.0" />
+                </columnConstraints>
+                <rowConstraints>
+                    <RowConstraints maxHeight="90.0" minHeight="90.0" prefHeight="90.0" vgrow="NEVER" valignment="CENTER"/>
+                    <RowConstraints maxHeight="90.0" minHeight="90.0" prefHeight="90.0" vgrow="NEVER" valignment="CENTER" />
+                    <RowConstraints maxHeight="90.0" minHeight="90.0" prefHeight="90.0" vgrow="NEVER" valignment="CENTER" />
+                    <RowConstraints maxHeight="90.0" minHeight="90.0" prefHeight="90.0" vgrow="NEVER" valignment="CENTER" />
+                </rowConstraints>
+            </GridPane>
+        </VBox>
+    </right>
 </BorderPane>

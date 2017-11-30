@@ -9,10 +9,10 @@ class Styles : Stylesheet() {
         val loginScreen by cssclass()
         val workbenchScreen by cssclass()
         val metroTileHomepageGUI by cssclass()
-        val metro_field by cssclass()
         val gridSquare by cssclass()
         val banner_tile by cssclass()
         val module_tile by cssclass()
+        val module by cssclass()
     }
 
     // apply styling to classes
@@ -36,6 +36,10 @@ class Styles : Stylesheet() {
 
         select(gridSquare) {
             backgroundColor += Color.WHITE
+        }
+
+        select(module) {
+            borderColor += box(Color.BLACK)
         }
 
         form {

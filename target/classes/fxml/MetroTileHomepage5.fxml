@@ -3,7 +3,7 @@
 <?import javafx.scene.shape.Rectangle?>
 
 <?import javafx.scene.control.Label?>
-<BorderPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2">
+<BorderPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="com.example.demo.controllers.MetroTileHomepageController">
     <center>
         <GridPane layoutX="116.0" layoutY="155.0" fx:id="gridSquare" alignment="center">
             <children>
