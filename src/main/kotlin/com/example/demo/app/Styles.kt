@@ -9,7 +9,7 @@ class Styles : Stylesheet() {
         val loginScreen by cssclass()
         val workbenchScreen by cssclass()
         val metroTileHomepageGUI by cssclass()
-        val gridSquare by cssclass()
+        val grid by cssclass()
         val banner_tile by cssclass()
         val module_tile by cssclass()
         val module by cssclass()
@@ -17,7 +17,6 @@ class Styles : Stylesheet() {
 
     // apply styling to classes
     init {
-        importStylesheet("/css/GUI-Code-Creator.css")
         reloadStylesheetsOnFocus()
 
         select(loginScreen) {
@@ -34,7 +33,7 @@ class Styles : Stylesheet() {
             backgroundColor += Color.rgb(34, 34, 34)
         }
 
-        select(gridSquare) {
+        select(grid) {
             backgroundColor += Color.WHITE
         }
 
@@ -43,7 +42,7 @@ class Styles : Stylesheet() {
         }
 
         form {
-            s(label) {
+            label {
                 textFill = Color.WHITE
             }
         }

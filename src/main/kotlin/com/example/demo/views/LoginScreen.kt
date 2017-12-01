@@ -4,61 +4,57 @@ import com.example.demo.app.Styles.Companion.loginScreen
 import com.example.demo.controllers.LoginController
 import javafx.animation.KeyFrame
 import javafx.animation.Timeline
+import javafx.beans.property.SimpleBooleanProperty
+import javafx.beans.property.SimpleStringProperty
 import javafx.event.EventHandler
-import javafx.scene.control.CheckBox
-import javafx.scene.control.PasswordField
-import javafx.scene.control.TextField
-import javafx.scene.layout.GridPane
 import javafx.util.Duration
 import tornadofx.*
 
-class LoginScreen : View() {
-    override val root = GridPane()
+class LoginScreen : View("Please log in") {
     private val loginController: LoginController by inject()
 
-    var username: TextField by singleAssign()
-    var password: PasswordField by singleAssign()
-    var remember: CheckBox by singleAssign()
+    private val username = SimpleStringProperty()
+    private val password = SimpleStringProperty()
+    private val remember = SimpleBooleanProperty()
 
-    init {
-        title = "Please log in"
+    override val root = form {
+        addClass(loginScreen)
 
-        with(root) {
-            addClass(loginScreen)
-
-            row("Username") {
-                username = textfield()
-            }
-
-            row("Password") {
-                password = passwordfield()
-            }
-
-            row("Remember me") {
-                remember = checkbox()
-            }
-
-            row {
-                button("Login") {
-                    isDefaultButton = true
-
-                    setOnAction {
-                        loginController.tryLogin(
-                                username.text,
-                                password.text,
-                                remember.isSelected
-                        )
+        fieldset {
+            field("Username") {
+                textfield(username) {
+                    whenDocked {
+                        requestFocus()
                     }
                 }
             }
 
+            field("Password") {
+                passwordfield(password)
+            }
+
+            field("Remember me") {
+                checkbox(property = remember)
+            }
+
+            button("Login") {
+                isDefaultButton = true
+
+                action {
+                    loginController.tryLogin(
+                            username.value,
+                            password.value,
+                            remember.value
+                    )
+                }
+            }
         }
     }
 
     fun clear() {
-        username.clear()
-        password.clear()
-        remember.isSelected = false
+        username.value = null
+        password.value = null
+        remember.value = false
     }
 
     fun shakeStage() {

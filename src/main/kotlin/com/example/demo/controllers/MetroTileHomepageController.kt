@@ -11,49 +11,49 @@ class MetroTileHomepageController: Controller() {
 
     /** Small Modules **/
     private val module1 = TileBuilder.create()
-            .skinType(eu.hansolo.tilesfx.Tile.SkinType.CUSTOM)
+            .skinType(Tile.SkinType.CUSTOM)
             .maxSize(100.0, 100.0)
             .title("module1")
             .build()
 
     private val module2 = TileBuilder.create()
-            .skinType(eu.hansolo.tilesfx.Tile.SkinType.CUSTOM)
+            .skinType(Tile.SkinType.CUSTOM)
             .maxSize(100.0, 100.0)
             .title("module1")
             .build()
 
     private val module3 = TileBuilder.create()
-            .skinType(eu.hansolo.tilesfx.Tile.SkinType.CUSTOM)
+            .skinType(Tile.SkinType.CUSTOM)
             .maxSize(100.0, 100.0)
             .title("module1")
             .build()
 
     private val module4 = TileBuilder.create()
-            .skinType(eu.hansolo.tilesfx.Tile.SkinType.CUSTOM)
+            .skinType(Tile.SkinType.CUSTOM)
             .maxSize(100.0, 100.0)
             .title("module1")
             .build()
 
     private val module5 = TileBuilder.create()
-            .skinType(eu.hansolo.tilesfx.Tile.SkinType.CUSTOM)
+            .skinType(Tile.SkinType.CUSTOM)
             .maxSize(100.0, 100.0)
             .title("module1")
             .build()
 
     private val module6 = TileBuilder.create()
-            .skinType(eu.hansolo.tilesfx.Tile.SkinType.CUSTOM)
+            .skinType(Tile.SkinType.CUSTOM)
             .maxSize(100.0, 100.0)
             .title("module1")
             .build()
 
     private val module7 = TileBuilder.create()
-            .skinType(eu.hansolo.tilesfx.Tile.SkinType.CUSTOM)
+            .skinType(Tile.SkinType.CUSTOM)
             .maxSize(100.0, 100.0)
             .title("module1")
             .build()
 
     private val module8 = TileBuilder.create()
-            .skinType(eu.hansolo.tilesfx.Tile.SkinType.CUSTOM)
+            .skinType(Tile.SkinType.CUSTOM)
             .maxSize(100.0, 100.0)
             .title("module1")
             .build()
@@ -102,9 +102,9 @@ class MetroTileHomepageController: Controller() {
             ModuleTilePlacement(gridTileBuilder("3"), 0 , 2, 1, 1),
             ModuleTilePlacement(gridTileBuilder("4"), 0, 3, 1, 1),
             ModuleTilePlacement(gridTileBuilder("5", 210.0, 210.0), 1, 1, 2, 2),
-            ModuleTilePlacement(gridTileBuilder("6"), 1, 3, 2 ,2),
+            ModuleTilePlacement(gridTileBuilder("6"), 1, 3, 1 ,1),
             ModuleTilePlacement(gridTileBuilder("7"), 2, 3, 1, 1),
-            ModuleTilePlacement(gridTileBuilder("8", 210.0, 210.0), 4, 1, 2, 2),
+            ModuleTilePlacement(gridTileBuilder("8", 210.0, 210.0), 3, 1, 2, 2),
             ModuleTilePlacement(gridTileBuilder("9"), 3, 3, 1, 1),
             ModuleTilePlacement(gridTileBuilder("10"), 4, 3, 1, 1),
             ModuleTilePlacement(gridTileBuilder("11"), 5, 1, 1, 1),
@@ -120,7 +120,7 @@ class MetroTileHomepageController: Controller() {
             ModuleTilePlacement(gridTileBuilder("3"), 0 , 3, 1, 1),
             ModuleTilePlacement(gridTileBuilder("4"), 1, 3, 1, 1),
             ModuleTilePlacement(gridTileBuilder("5", 210.0, 210.0), 2, 1, 2, 2),
-            ModuleTilePlacement(gridTileBuilder("6"), 2, 3, 2 ,2),
+            ModuleTilePlacement(gridTileBuilder("6"), 2, 3, 1 ,1),
             ModuleTilePlacement(gridTileBuilder("7"), 3, 3, 1, 1),
             ModuleTilePlacement(gridTileBuilder("8", 210.0, 210.0), 4, 1, 2, 2),
             ModuleTilePlacement(gridTileBuilder("9"), 4, 3, 1, 1),

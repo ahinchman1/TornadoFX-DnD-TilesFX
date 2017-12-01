@@ -6,13 +6,12 @@ import tornadofx.*
 class WorkbenchController : Controller() {
 
     private val workbench: Workbench by inject()
-    private val metroTileHomepage: MetroTileHomepage by inject()
     var metroTile = 0
 
     fun goToEditor(image: String) {
         // decide which metroTileHomepage grid to use
         metroTile = parseImage(image)
-        (workbench).replaceWith(metroTileHomepage, null, sizeToScene = true)
+        workbench.replaceWith(find<MetroTileHomepage>(), null, sizeToScene = true)
     }
 
     private fun parseImage(image: String): Int {

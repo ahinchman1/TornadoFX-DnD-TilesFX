@@ -13,6 +13,8 @@ class MyTiles : View() {
     private val gridInfo = model.item
 
     override val root = gridpane {
+        prefWidth = 700.0
+        prefHeight = 750.0
         val colConstraints = columnConstraints
         colConstraints.clear()
         val columns = gridInfo.columns
@@ -39,9 +41,12 @@ class MyTiles : View() {
 
         hgap = 5.0
         vgap = 5.0
+
         gridpaneConstraints {
-            marginLeft = 100.0
+            paddingLeft = 20.0
+            paddingTop = 100.0
         }
+
     }
 
     init {

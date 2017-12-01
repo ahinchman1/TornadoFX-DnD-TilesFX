@@ -5,7 +5,6 @@ import com.example.demo.controllers.LoginController
 import com.example.demo.controllers.WorkbenchController
 import tornadofx.*
 import javafx.application.Platform
-import javafx.scene.layout.BorderPane
 import javafx.scene.text.Font
 
 
@@ -13,7 +12,6 @@ class Workbench : View() {
 
     private val loginController: LoginController by inject()
     private val workbenchController: WorkbenchController by inject()
-    override val root = BorderPane()
 
     private val metroTileHomepages = listOf("/img/MetroTileHomepage1.png", "/img/MetroTileHomepage2.png", "/img/MetroTileHomepage3.png",
             "/img/MetroTileHomepage4.png", "/img/MetroTileHomepage5.png", "/img/MetroTileHomepage6.png", "/img/MetroTileHomepage7.png",
@@ -24,39 +22,39 @@ class Workbench : View() {
 
     private val paginator = DataGridPaginator(metroTileHomepages, itemsPerPage = 9)
 
-    init {
-        title = "Secure Workbench"
+    override val root = borderpane {
+    title = "Secure Workbench"
 
-        with (root) {
-            addClass(workbenchScreen)
-            setPrefSize(750.0, 700.0)
+        addClass(workbenchScreen)
+        setPrefSize(750.0, 700.0)
 
-            top {
-                label(title) {
-                    font = Font.font(22.0)
-                }
-                menubar {
-                    menu("File") {
-                        item("Logout").action {
-                            loginController.logout()
-                        }
-                        item("Quit").action {
-                            Platform.exit()
-                        }
+        top {
+            label(title) {
+                font = Font.font(22.0)
+            }
+            menubar {
+                menu("File") {
+                    item("Logout").action {
+                        loginController.logout()
+                    }
+                    item("Quit").action {
+                        Platform.exit()
                     }
                 }
             }
+        }
 
-            center {
-                datagrid(paginator.items) {
-                    maxCellsInRow=3
+        center {
+            datagrid(paginator.items) {
+                maxCellsInRow=3
 
-                    cellWidth=180.0
-                    cellHeight=180.0
-                    paddingLeft=80.0
-                    paddingTop=20.0
+                cellWidth=180.0
+                cellHeight=180.0
+                paddingLeft=80.0
+                paddingTop=20.0
 
-                    cellFormat {
+                cellFormat {
+                    graphic = cache {
                         imageview(it) {
                             fitWidth = 180.0
                             fitHeight = 180.0
@@ -64,18 +62,19 @@ class Workbench : View() {
                             center
                         }
                     }
-                    onUserSelect(2) {
-                        workbenchController.goToEditor(it)
-                    }
                 }
-            }
-
-            bottom {
-                stackpane {
-                    add(paginator)
-                    paddingBottom=25.0
+                onUserSelect(2) {
+                    workbenchController.goToEditor(it)
                 }
             }
         }
+
+        bottom {
+            stackpane {
+                add(paginator)
+                paddingBottom=25.0
+            }
+        }
     }
+
 }
