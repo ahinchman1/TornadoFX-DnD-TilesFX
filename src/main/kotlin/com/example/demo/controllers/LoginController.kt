@@ -29,7 +29,7 @@ class LoginController : Controller() {
         loginScreen.title = message
 
         Platform.runLater {
-            loginScreen.username.requestFocus()
+            //loginScreen.username.requestFocus()
             if (shake) loginScreen.shakeStage()
         }
     }

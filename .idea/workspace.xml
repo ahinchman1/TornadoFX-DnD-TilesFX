@@ -3,16 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="adabb7c3-3ffc-4353-986b-167fcb8be6e0" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/hs_err_pid47957.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/hs_err_pid49292.log" afterPath="" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/example/demo/app/Styles.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/demo/app/Styles.kt" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/example/demo/controllers/LoginController.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/demo/controllers/LoginController.kt" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/example/demo/controllers/MetroTileHomepageController.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/demo/controllers/MetroTileHomepageController.kt" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/example/demo/controllers/WorkbenchController.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/demo/controllers/WorkbenchController.kt" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/LoginScreen.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/LoginScreen.kt" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/example/demo/model/ModuleModel.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/demo/model/ModuleModel.kt" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/example/demo/model/ModuleTilePlacement.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/demo/model/ModuleTilePlacement.kt" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/MetroTileHomepage.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/MetroTileHomepage.kt" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/MyTiles.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/MyTiles.kt" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/Workbench.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/Workbench.kt" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/css/GUI-Code-Creator.css" afterPath="" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/app/Styles$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/app/Styles$1.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/app/Styles$2.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/app/Styles$2.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/app/Styles$3.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/app/Styles$3.class" />
@@ -20,55 +16,19 @@
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/app/Styles$5.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/app/Styles$5.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/app/Styles$6$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/app/Styles$6$1.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/app/Styles$6.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/app/Styles$6.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/app/Styles$Companion.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/app/Styles$Companion.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/app/Styles.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/app/Styles.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/controllers/MetroTileHomepageController.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/controllers/MetroTileHomepageController.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepage$$special$$inlined$with$lambda$1$1$1$1$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepage$$special$$inlined$with$lambda$1$1$1$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepage$$special$$inlined$with$lambda$1$1$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepage$$special$$inlined$with$lambda$1$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepage$$special$$inlined$with$lambda$1$2$1$1$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepage$$special$$inlined$with$lambda$1$2$1$1$2.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepage$$special$$inlined$with$lambda$1$2$1$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepage$$special$$inlined$with$lambda$1$2$1$2$1$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepage$$special$$inlined$with$lambda$1$2$1$2$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepage$$special$$inlined$with$lambda$1$2$1$2.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepage$$special$$inlined$with$lambda$1$2$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepage$$special$$inlined$with$lambda$1$2.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepage$$special$$inlined$with$lambda$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepage$1$1$1$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepage$1$1$1$2$1$2.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepage$1$1$2$1$1$2$1$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepage$1$1$2$1$1$2$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepage$1$1$2$1$2$1$1$1$1$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepage$1$1$2$1$2$1$1$1$1$2.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepage$1$1$2$1$2$1$1$1$1$3.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepage$1$1$2$1$2$1$1$1$1$4.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepage$1$1$2$1$2$1$1$1$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepage$1$1$2$1$2$1$1$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepage$1$1$2$1$2$1$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepage$1$1$2$1$2$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepage$1$1$2$1$2.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepage$1$1$2$1$3$3$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepage$1$1$2$1$3$3.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepage.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepage.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepageKt.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepageKt.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MyTiles$root$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MyTiles$root$1.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MyTiles.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MyTiles.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/Workbench$$special$$inlined$with$lambda$1$1$1$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/Workbench$$special$$inlined$with$lambda$1$1$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/Workbench$$special$$inlined$with$lambda$1$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/Workbench$$special$$inlined$with$lambda$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/Workbench$$special$$inlined$with$lambda$2$1$1$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/Workbench$$special$$inlined$with$lambda$2$1$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/Workbench$$special$$inlined$with$lambda$2$1$2.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/Workbench$$special$$inlined$with$lambda$2$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/Workbench$$special$$inlined$with$lambda$2.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/Workbench$$special$$inlined$with$lambda$3$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/Workbench$$special$$inlined$with$lambda$3.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/Workbench$1$1$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/Workbench$1$1$2$1$2.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/Workbench.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/Workbench.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/controllers/LoginController$showLoginScreen$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/controllers/LoginController$showLoginScreen$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/controllers/LoginController.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/controllers/LoginController.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/LoginScreen$$special$$inlined$with$lambda$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/LoginScreen$$special$$inlined$with$lambda$2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/LoginScreen$$special$$inlined$with$lambda$3.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/LoginScreen$$special$$inlined$with$lambda$4$1$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/LoginScreen$$special$$inlined$with$lambda$4$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/LoginScreen$$special$$inlined$with$lambda$4.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/LoginScreen$shakeStage$timelineX$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/LoginScreen$shakeStage$timelineX$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/LoginScreen$shakeStage$timelineY$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/LoginScreen$shakeStage$timelineY$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/LoginScreen.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/LoginScreen.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/css/GUI-Code-Creator.css" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -83,8 +43,8 @@
       <file leaf-file-name="MyTiles.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/MyTiles.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="30" lean-forward="false" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+            <state relative-caret-position="-77">
+              <caret line="19" column="38" lean-forward="false" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
               <folding>
                 <element signature="e#32#220#0" expanded="true" />
               </folding>
@@ -107,10 +67,81 @@
       <file leaf-file-name="MetroTileHomepageController.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/controllers/MetroTileHomepageController.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="50" column="34" lean-forward="false" selection-start-line="50" selection-start-column="34" selection-end-line="50" selection-end-column="34" />
+            <state relative-caret-position="2925">
+              <caret line="201" column="31" lean-forward="false" selection-start-line="201" selection-start-column="31" selection-end-line="201" selection-end-column="31" />
               <folding>
-                <element signature="e#38#234#0" expanded="true" />
+                <element signature="e#38#265#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MetroTileHomepage.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/MetroTileHomepage.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="471">
+              <caret line="85" column="36" lean-forward="true" selection-start-line="85" selection-start-column="36" selection-end-line="85" selection-end-column="36" />
+              <folding>
+                <element signature="e#31#711#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ModuleTilePlacement.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/model/ModuleTilePlacement.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="74" column="0" lean-forward="false" selection-start-line="74" selection-start-column="0" selection-end-line="76" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ModuleModel.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/model/ModuleModel.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="45" column="1" lean-forward="true" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DragAttempts.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/controllers/DragAttempts.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding>
+                <element signature="e#38#266#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginScreen.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/LoginScreen.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-333">
+              <caret line="12" column="6" lean-forward="false" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+              <folding>
+                <element signature="e#32#387#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ClipboardContent.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/javafx-src.zip!/javafx/scene/input/ClipboardContent.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="53" column="55" lean-forward="false" selection-start-line="53" selection-start-column="55" selection-end-line="53" selection-end-column="55" />
+              <folding>
+                <element signature="e#3276#3277#0" expanded="true" />
+                <element signature="e#3327#3328#0" expanded="true" />
+                <element signature="e#7802#7803#0" expanded="true" />
+                <element signature="e#7854#7855#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -119,77 +150,11 @@
       <file leaf-file-name="LoginController.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/controllers/LoginController.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="615">
-              <caret line="45" column="49" lean-forward="false" selection-start-line="45" selection-start-column="49" selection-end-line="45" selection-end-column="49" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoginScreen.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/LoginScreen.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="20" column="29" lean-forward="true" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
-              <folding>
-                <element signature="e#32#387#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ModuleModel.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/model/ModuleModel.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="915">
-              <caret line="69" column="22" lean-forward="false" selection-start-line="69" selection-start-column="22" selection-end-line="69" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ModuleTilePlacement.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/model/ModuleTilePlacement.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="24" column="16" lean-forward="false" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
-              <folding>
-                <element signature="e#32#119#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Workbench.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/Workbench.kt">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
-              <caret line="63" column="21" lean-forward="false" selection-start-line="63" selection-start-column="21" selection-end-line="63" selection-end-column="21" />
+              <caret line="12" column="12" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="12" />
               <folding>
-                <element signature="e#32#284#0" expanded="true" />
+                <element signature="e#38#202#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MetroTileHomepage.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/MetroTileHomepage.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="122" column="39" lean-forward="true" selection-start-line="122" selection-start-column="39" selection-end-line="122" selection-end-column="39" />
-              <folding>
-                <element signature="e#31#550#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Styles.kt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/app/Styles.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="18" column="10" lean-forward="false" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -208,16 +173,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>module18</find>
-      <find>bannerRect</find>
-      <find>config</find>
-      <find>acceptTransferModes</find>
-      <find>startDragAndDrop</find>
-      <find>drag</find>
-      <find>shape</find>
-      <find>dragboard</find>
-      <find>DataFormat</find>
-      <find>hasFiles</find>
       <find>import</find>
       <find>hasContent</find>
       <find>flowgridPane</find>
@@ -238,6 +193,16 @@
       <find>coordinatesProperty</find>
       <find>goToEditor</find>
       <find>passGridInfo</find>
+      <find>metroTileHomepageGUI</find>
+      <find>init</find>
+      <find>GridInfo</find>
+      <find>Tile</find>
+      <find>hasFiles</find>
+      <find>containsKey</find>
+      <find>DataFormat.FILES</find>
+      <find>DataForma</find>
+      <find>DataFormat</find>
+      <find>ModuleTilePlacement</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -251,9 +216,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage19.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage20.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage12.kt" />
         <option value="$PROJECT_DIR$/src/main/res/MetroTileHomepage2.properties" />
         <option value="$PROJECT_DIR$/src/main/res/fxml/MetroTileHomepage5.fxml" />
         <option value="$PROJECT_DIR$/src/main/res/fxml/MetroTileHomepage6.fxml" />
@@ -288,20 +250,23 @@
         <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/tools/TileBuilderAttempt.kt" />
         <option value="$PROJECT_DIR$/tilesfx/src/main/java/eu/hansolo/tilesfx/TileBuilder.java" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/tool/TileBuilder.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/model/ModuleModel.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/controllers/LoginController.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage1.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage2.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage4.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/model/ModuleTilePlacement.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/controllers/MetroTileHomepageController.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/Workbench.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/controllers/WorkbenchController.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/MyTiles.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/MetroTileHomepage.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/LoginScreen.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/app/UICodeCreatorGUITesting.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/controllers/LoginController.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/app/Styles.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/LoginScreen.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/controllers/MetroTileHomepageController.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/DragAndDrop/DraggableTile.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/controllers/DragAttempts.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/model/ModuleTilePlacement.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/model/ModuleModel.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/MetroTileHomepage.kt" />
       </list>
     </option>
   </component>
@@ -313,8 +278,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="443" />
-    <option name="y" value="26" />
+    <option name="x" value="409" />
+    <option name="y" value="22" />
     <option name="width" value="819" />
     <option name="height" value="755" />
   </component>
@@ -336,6 +301,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -430,9 +397,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -649,35 +614,36 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="443" y="26" width="819" height="755" extended-state="0" />
+    <frame x="409" y="22" width="819" height="755" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26060605" sideWeight="0.47830924" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2469697" sideWeight="0.5394883" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2469697" sideWeight="0.46051168" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298611" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2469697" sideWeight="0.46051168" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998565" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3088803" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3217503" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32944608" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24974093" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34545454" sideWeight="0.70372975" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34545454" sideWeight="0.70372975" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287879" sideWeight="0.5005562" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26060605" sideWeight="0.47830924" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32944608" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="UnknownFeatures">
@@ -690,12 +656,6 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/controllers/MetroTileHomepageController.kt</url>
-          <line>76</line>
-          <properties />
-          <option name="timeStamp" value="110" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/controllers/WorkbenchController.kt</url>
           <line>12</line>
           <properties />
@@ -707,82 +667,18 @@
           <properties />
           <option name="timeStamp" value="128" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/controllers/MetroTileHomepageController.kt</url>
+          <line>66</line>
+          <properties />
+          <option name="timeStamp" value="129" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="129" />
+      <option name="time" value="130" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/res/fxml/MetroTileHomepage9.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="210" lean-forward="false" selection-start-line="6" selection-start-column="210" selection-end-line="6" selection-end-column="210" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/fxml/MetroTileHomepage10.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="210" lean-forward="false" selection-start-line="6" selection-start-column="210" selection-end-line="6" selection-end-column="210" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/fxml/MetroTileHomepage11.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="210" lean-forward="false" selection-start-line="5" selection-start-column="210" selection-end-line="5" selection-end-column="210" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/fxml/MetroTileHomepage12.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
-          <caret line="6" column="210" lean-forward="false" selection-start-line="6" selection-start-column="210" selection-end-line="6" selection-end-column="210" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/fxml/MetroTileHomepage14.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="210" lean-forward="false" selection-start-line="6" selection-start-column="210" selection-end-line="6" selection-end-column="210" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/fxml/MetroTileHomepage15.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="6" column="210" lean-forward="false" selection-start-line="6" selection-start-column="210" selection-end-line="6" selection-end-column="210" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/fxml/MetroTileHomepage16.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="210" lean-forward="false" selection-start-line="6" selection-start-column="210" selection-end-line="6" selection-end-column="210" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/res/fxml/MetroTileHomepage17.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder">
         <state />
@@ -941,48 +837,79 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage1.kt" />
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/controllers/LoginController.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/Workbench.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="45" column="49" lean-forward="false" selection-start-line="45" selection-start-column="49" selection-end-line="45" selection-end-column="49" />
+        <state relative-caret-position="870">
+          <caret line="63" column="21" lean-forward="false" selection-start-line="63" selection-start-column="21" selection-end-line="63" selection-end-column="21" />
+          <folding>
+            <element signature="e#32#284#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/app/UICodeCreatorGUITesting.kt" />
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/app/Activator.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="23" column="1" lean-forward="false" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/model/ModuleModel.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/app/Styles.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="915">
-          <caret line="69" column="22" lean-forward="false" selection-start-line="69" selection-start-column="22" selection-end-line="69" selection-end-column="22" />
+        <state relative-caret-position="255">
+          <caret line="18" column="10" lean-forward="false" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/app/MyApp.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="19" column="24" lean-forward="false" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/controllers/LoginController.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="12" column="12" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="12" />
+          <folding>
+            <element signature="e#38#202#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/controllers/MetroTileHomepageController.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="50" column="34" lean-forward="false" selection-start-line="50" selection-start-column="34" selection-end-line="50" selection-end-column="34" />
+        <state relative-caret-position="2925">
+          <caret line="201" column="31" lean-forward="false" selection-start-line="201" selection-start-column="31" selection-end-line="201" selection-end-column="31" />
           <folding>
-            <element signature="e#38#234#0" expanded="true" />
+            <element signature="e#38#265#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/model/ModuleTilePlacement.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/DragAndDrop/DraggableTile.kt" />
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/src.zip!/java/util/Map.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="24" column="16" lean-forward="false" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
-          <folding>
-            <element signature="e#32#119#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="317">
+          <caret line="164" column="12" lean-forward="false" selection-start-line="164" selection-start-column="12" selection-end-line="164" selection-end-column="12" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/Workbench.kt">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/javafx-src.zip!/javafx/scene/input/ClipboardContent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="63" column="21" lean-forward="false" selection-start-line="63" selection-start-column="21" selection-end-line="63" selection-end-column="21" />
+        <state relative-caret-position="345">
+          <caret line="53" column="55" lean-forward="false" selection-start-line="53" selection-start-column="55" selection-end-line="53" selection-end-column="55" />
           <folding>
-            <element signature="e#32#284#0" expanded="true" />
+            <element signature="e#3276#3277#0" expanded="true" />
+            <element signature="e#3327#3328#0" expanded="true" />
+            <element signature="e#7802#7803#0" expanded="true" />
+            <element signature="e#7854#7855#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -997,41 +924,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/MyTiles.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="30" lean-forward="false" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
-          <folding>
-            <element signature="e#32#220#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/MetroTileHomepage.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="122" column="39" lean-forward="true" selection-start-line="122" selection-start-column="39" selection-end-line="122" selection-end-column="39" />
-          <folding>
-            <element signature="e#31#550#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/LoginScreen.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="20" column="29" lean-forward="true" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+        <state relative-caret-position="-333">
+          <caret line="12" column="6" lean-forward="false" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
           <folding>
             <element signature="e#32#387#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/app/Styles.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/MyTiles.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="18" column="10" lean-forward="false" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+        <state relative-caret-position="-77">
+          <caret line="19" column="38" lean-forward="false" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
+          <folding>
+            <element signature="e#32#220#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/controllers/DragAttempts.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="e#38#266#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/model/ModuleTilePlacement.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="74" column="0" lean-forward="false" selection-start-line="74" selection-start-column="0" selection-end-line="76" selection-end-column="1" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/model/ModuleModel.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="45" column="1" lean-forward="true" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/MetroTileHomepage.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="471">
+          <caret line="85" column="36" lean-forward="true" selection-start-line="85" selection-start-column="36" selection-end-line="85" selection-end-column="36" />
+          <folding>
+            <element signature="e#31#711#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

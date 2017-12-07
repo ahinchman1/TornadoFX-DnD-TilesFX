@@ -5,20 +5,14 @@ import javafx.beans.property.Property
 import tornadofx.*
 
 class GridInfo(info: Pair<Pair<Int, Int>, List<ModuleTilePlacement>>) {
-    var info by property(info)
-    fun infoProperty() = getProperty(GridInfo::info)
+    private var info by property(info)
 
-    var coordinates by property(info.first)
+    private var coordinates by property(info.first)
     fun coordinatesProperty() = getProperty(GridInfo::coordinates)
 
     var rows by property(info.first.first)
-    fun rowsProperty() = getProperty(GridInfo::rows)
-
     var columns by property(info.first.second)
-    fun columnsProperty() = getProperty(GridInfo::columns)
-
     var moduleTiles by property(info.second)
-    fun moduleTilesProperty() = getProperty(GridInfo::moduleTiles)
 }
 
 class GridInfoModel : ItemViewModel<GridInfo>() {
@@ -80,8 +74,4 @@ class ModuleTilePlacementModel : ItemViewModel<ModuleTilePlacement>() {
 
 class GridScope: Scope() {
     val model = GridInfoModel()
-}
-
-class ModuleTileScope: Scope() {
-    val model = ModuleTilePlacementModel()
 }

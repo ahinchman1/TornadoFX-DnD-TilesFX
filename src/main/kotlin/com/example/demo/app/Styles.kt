@@ -25,27 +25,28 @@ class Styles : Stylesheet() {
             hgap = 10.px
         }
 
-        select(workbenchScreen) {
+        workbenchScreen {
             backgroundColor += Color.rgb(34, 34, 34)
         }
 
-        select(metroTileHomepageGUI) {
+        metroTileHomepageGUI {
             backgroundColor += Color.rgb(34, 34, 34)
         }
 
-        select(grid) {
+        grid {
             backgroundColor += Color.WHITE
         }
 
-        select(module) {
+        module {
             borderColor += box(Color.BLACK)
         }
 
-        form {
-            label {
-                textFill = Color.WHITE
+        metroTileHomepageGUI {
+            form {
+                label {
+                    textFill = Color.WHITE
+                }
             }
         }
-
     }
 }

@@ -10,26 +10,42 @@ import javafx.scene.paint.Color
 import javafx.scene.text.TextAlignment
 import tornadofx.*
 
-data class SingleModule(val skin: Tile.SkinType, val background: Tile.TileColor, val backgroundColor: Tile.TileColor, val maxHeight: Double = 100.0,
-                        val maxWidth: Double = 100.0, val title: String, val titleColor: Color = Color.WHITE,
-                        val titleAlignment: TextAlignment, val moduleImage: Image)
-data class ContentModule(val skin: Tile.SkinType, val background: Tile.TileColor, val backgroundColor: Tile.TileColor, val maxHeight: Double = 200.0,
-                         val maxWidth: Double = 200.0, val title: String, val titleColor: Color = Color.WHITE, val titleAlignment: TextAlignment,
-                         val descriptor: String = "", val descriptorColor: Color = Color.TRANSPARENT, val descriptorAlignment: TextAlignment,
-                         val moduleImage: Image)
-data class MapModule(val skin: MapTileSkin, val background: Tile.TileColor, val backgroundColor: Tile.TileColor, val maxHeight: Double = 200.0,
-                     val maxWidth: Double = 200.0, val map: Tile.MapProvider)
-data class BarChartModule(val skin: BarChartTileSkin, val background: Tile.TileColor, val backgroundColor: Tile.TileColor, val maxHeight: Double = 200.0,
-                          val maxWidth: Double = 200.0, val title: String, val titleColor: Color = Color.WHITE, val titleAlignment: TextAlignment,
-                          val moduleBarChartItem: BarChartItem)
-data class ShowCaseModule(val skin: Tile.SkinType, val background: Tile.TileColor, val backgroundColor: Tile.TileColor, val maxHeight: Double = 200.0,
-                          val maxWidth: Double = 200.0, val title: String, val titleColor: Color = Color.WHITE,
-                          val titleAlignment: TextAlignment, val moduleImage: Image)
+class DragTile(tile: Tile, colSpan: Int, rowSpan: Int) {
+    var tile by property(tile)
+    fun tileProperty() = getProperty(ModuleTilePlacement::tile)
 
-data class Tile(val skin: Tile.SkinType, val background: Tile.TileColor, val backgroundColor: Tile.TileColor, val maxHeight: Double = 100.0,
-                val maxWidth: Double = 100.0, val title: String, val titleColor: Color = Color.WHITE,
-                val titleAlignment: TextAlignment, val moduleImage: Image)
+    var colSpan by property(colSpan)
+    fun colSpanProperty() = getProperty(ModuleTilePlacement::colSpan)
 
+    var rowSpan by property(rowSpan)
+    fun rowSpanProperty() = getProperty(ModuleTilePlacement::rowSpan)
+}
+
+class DragTileModel : ItemViewModel<DragTile>() {
+    private val tile = bind { item?.tileProperty()  }
+    private val colSpan = bind { item?.colSpanProperty() }
+    private val rowSpan = bind { item?.rowSpanProperty() }
+
+    override fun onCommit(commits: List<Commit>) {
+        super.onCommit(commits)
+
+        // The println will only be called if findChanged is not null
+        commits.findChanged(tile)?.let { println("Module Tile changed from ${it.first} to ${it.second}")}
+        commits.findChanged(colSpan)?.let { println("Column Span changed from ${it.first} to ${it.second}")}
+        commits.findChanged(rowSpan)?.let { println("Row Span changed from ${it.first} to ${it.second}")}
+    }
+
+    private fun <T> List<Commit>.findChanged(ref: Property<T>): Pair<T, T>? {
+        val commit = find { it.property == ref && it.changed}
+        return commit?.let { (it.newValue as T) to (it.oldValue as T) }
+    }
+}
+
+class DragTileScope: Scope() {
+    val model = DragTileModel()
+}
+
+// Not sure if I'm using this at all
 class ModuleModel: ItemViewModel<Tile>() {
     // Module Base
     var moduleSkin = bind(Tile::skinProperty)
