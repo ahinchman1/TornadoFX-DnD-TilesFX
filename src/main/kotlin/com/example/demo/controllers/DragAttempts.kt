@@ -8,7 +8,7 @@ import javafx.scene.input.DragEvent
 import javafx.scene.input.Dragboard
 import javafx.scene.input.MouseEvent
 
-lateinit var mDragTile: Tile
+/*lateinit var mDragTile: Tile
 lateinit var mModuleDragOverRoot: EventHandler<MouseEvent>
 lateinit var mModuleDragOverLeftPane: EventHandler<MouseEvent>
 lateinit var mModuleDragDropped: EventHandler<MouseEvent>
@@ -68,3 +68,4 @@ private fun addDragDetection(dragTile: Tile) {
         }
     }
     }
+*/

@@ -50,7 +50,7 @@ class MetroTileHomepage : Fragment() {
                 }
             }
 
-            center {
+            center  = grid
                 grid.addClass(Styles.grid)
                 grid.setOnDragOver { event ->
                     if (event.dragboard.hasContent(TILES)) event.acceptTransferModes(TransferMode.COPY)
@@ -60,16 +60,17 @@ class MetroTileHomepage : Fragment() {
                 grid.setOnDragDropped { event ->
                     if (event.dragboard.hasContent(TILES)) {
                         event.isDropCompleted = false
-                        var db: Dragboard = event.dragboard
-                        var node: Node = event.pickResult.intersectedNode
+                        val db: Dragboard = event.dragboard
+                        val node: Node = event.pickResult.intersectedNode
+                        var tile = db.getContent(TILES)
                         if (node != grid && db.hasContent(TILES)) {
                             // if there isn' a way to use this method, then I'll have to workaround
                             // with a more complicated getPosition
-                            var columnIndex = grid.getColumnIndex(node)
-                            var rowIndex = grid.getRowIndex(node)
+                            val columnIndex = GridPane.getColumnIndex(node)
+                            val rowIndex = GridPane.getRowIndex(node)
                             val x = if (columnIndex == null) 0 else columnIndex
                             val y = if (rowIndex == null) 0 else rowIndex
-                            dragTileScope.model.item = db.getContent(TILES) // cast to DragTile?
+                            //dragTileScope.model.item = db.getContent(TILES) // cast to DragTile?
                             // should there be a way to get dataformat to return dragTileScope model format?
                             grid.add(dragTileScope.model.item.tile, x, y,
                                     dragTileScope.model.item.colSpan,
@@ -79,7 +80,7 @@ class MetroTileHomepage : Fragment() {
                     event.isDropCompleted = true
                     event.consume()
                 }
-            }
+
 
             right {
                 vbox {
@@ -103,8 +104,8 @@ class MetroTileHomepage : Fragment() {
                                     graphic.setOnDragDetected { event ->
                                         var db: Dragboard = graphic.startDragAndDrop(TransferMode.COPY)
                                         var cbContent: ClipboardContent
-                                        cbContent.put(db.getContent(TILES))
-                                        db.setContent(cbContent)
+                                        //cbContent.put(db.getContent(TILES))
+                                        //db.setContent(cbContent)
                                         graphic.setVisible(false)
                                         event.consume()
                                     }

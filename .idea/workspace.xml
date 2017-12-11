@@ -2,33 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="adabb7c3-3ffc-4353-986b-167fcb8be6e0" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/example/demo/app/Styles.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/demo/app/Styles.kt" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/example/demo/controllers/LoginController.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/demo/controllers/LoginController.kt" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/example/demo/controllers/MetroTileHomepageController.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/demo/controllers/MetroTileHomepageController.kt" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/example/demo/model/ModuleModel.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/demo/model/ModuleModel.kt" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/example/demo/model/ModuleTilePlacement.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/demo/model/ModuleTilePlacement.kt" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/MetroTileHomepage.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/MetroTileHomepage.kt" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/app/Styles$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/app/Styles$1.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/app/Styles$2.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/app/Styles$2.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/app/Styles$3.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/app/Styles$3.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/app/Styles$4.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/app/Styles$4.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/app/Styles$5.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/app/Styles$5.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/app/Styles$6$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/app/Styles$6$1.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/app/Styles$6.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/app/Styles$6.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/app/Styles.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/app/Styles.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/controllers/LoginController$showLoginScreen$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/controllers/LoginController$showLoginScreen$1.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/controllers/LoginController.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/controllers/LoginController.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/LoginScreen$$special$$inlined$with$lambda$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/LoginScreen$$special$$inlined$with$lambda$2.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/LoginScreen$$special$$inlined$with$lambda$3.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/LoginScreen$$special$$inlined$with$lambda$4$1$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/LoginScreen$$special$$inlined$with$lambda$4$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/LoginScreen$$special$$inlined$with$lambda$4.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/LoginScreen$shakeStage$timelineX$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/LoginScreen$shakeStage$timelineX$1.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/LoginScreen$shakeStage$timelineY$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/LoginScreen$shakeStage$timelineY$1.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/LoginScreen.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/LoginScreen.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/css/GUI-Code-Creator.css" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/kotlin/com/example/demo/controllers/DragAttempts.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/demo/controllers/DragAttempts.kt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/MetroTileHomepage.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/MetroTileHomepage.kt" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,38 +16,44 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MyTiles.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/MyTiles.kt">
+      <file leaf-file-name="MetroTileHomepage10.fxml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/res/fxml/MetroTileHomepage10.fxml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-77">
-              <caret line="19" column="38" lean-forward="false" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
+            <state relative-caret-position="289">
+              <caret line="17" column="56" lean-forward="false" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="56" />
               <folding>
-                <element signature="e#32#220#0" expanded="true" />
+                <marker date="1512754831907" expanded="true" signature="1599:3444" ph="..." />
+                <marker date="1512754831907" expanded="true" signature="1599:4618" ph="..." />
+                <marker date="1512754831907" expanded="true" signature="1599:4632" ph="..." />
+                <marker date="1512754831907" expanded="true" signature="3476:4044" ph="..." />
+                <marker date="1512754831907" expanded="true" signature="4073:4598" ph="..." />
               </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WorkbenchController.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/controllers/WorkbenchController.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="5" lean-forward="false" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-              <folding>
-                <element signature="e#38#88#0" expanded="true" />
-              </folding>
-            </state>
+          <provider editor-type-id="JavaFX-Scene-Builder">
+            <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MetroTileHomepageController.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/controllers/MetroTileHomepageController.kt">
+      <file leaf-file-name="MetroTileHomepage11.fxml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/res/fxml/MetroTileHomepage11.fxml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2925">
-              <caret line="201" column="31" lean-forward="false" selection-start-line="201" selection-start-column="31" selection-end-line="201" selection-end-column="31" />
-              <folding>
-                <element signature="e#38#265#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="204">
+              <caret line="12" column="93" lean-forward="false" selection-start-line="12" selection-start-column="93" selection-end-line="12" selection-end-column="114" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="JavaFX-Scene-Builder">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ModuleModel.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/model/ModuleModel.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -79,30 +61,8 @@
       <file leaf-file-name="MetroTileHomepage.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/MetroTileHomepage.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="471">
-              <caret line="85" column="36" lean-forward="true" selection-start-line="85" selection-start-column="36" selection-end-line="85" selection-end-column="36" />
-              <folding>
-                <element signature="e#31#711#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ModuleTilePlacement.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/model/ModuleTilePlacement.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="74" column="0" lean-forward="false" selection-start-line="74" selection-start-column="0" selection-end-line="76" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ModuleModel.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/model/ModuleModel.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="45" column="1" lean-forward="true" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
+            <state relative-caret-position="387">
+              <caret line="80" column="35" lean-forward="true" selection-start-line="80" selection-start-column="35" selection-end-line="80" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -111,51 +71,97 @@
       <file leaf-file-name="DragAttempts.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/controllers/DragAttempts.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-              <folding>
-                <element signature="e#38#266#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="1088">
+              <caret line="70" column="2" lean-forward="false" selection-start-line="70" selection-start-column="2" selection-end-line="70" selection-end-column="2" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginScreen.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/LoginScreen.kt">
+      <file leaf-file-name="MetroTileHomepageController.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/controllers/MetroTileHomepageController.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-333">
-              <caret line="12" column="6" lean-forward="false" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-              <folding>
-                <element signature="e#32#387#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="68">
+              <caret line="10" column="6" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ClipboardContent.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/javafx-src.zip!/javafx/scene/input/ClipboardContent.java">
+      <file leaf-file-name="MetroTileHomepage5.fxml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/res/fxml/MetroTileHomepage5.fxml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="53" column="55" lean-forward="false" selection-start-line="53" selection-start-column="55" selection-end-line="53" selection-end-column="55" />
+            <state relative-caret-position="391">
+              <caret line="23" column="106" lean-forward="false" selection-start-line="23" selection-start-column="106" selection-end-line="23" selection-end-column="106" />
               <folding>
-                <element signature="e#3276#3277#0" expanded="true" />
-                <element signature="e#3327#3328#0" expanded="true" />
-                <element signature="e#7802#7803#0" expanded="true" />
-                <element signature="e#7854#7855#0" expanded="true" />
+                <marker date="1512754831959" expanded="true" signature="288:4475" ph="..." />
+                <marker date="1512754831959" expanded="true" signature="374:4461" ph="..." />
+                <marker date="1512754831959" expanded="true" signature="463:4447" ph="..." />
+                <marker date="1512754831959" expanded="true" signature="486:3166" ph="..." />
+                <marker date="1512754831959" expanded="true" signature="3198:3873" ph="..." />
+                <marker date="1512754831959" expanded="true" signature="3902:4427" ph="..." />
               </folding>
             </state>
           </provider>
+          <provider editor-type-id="JavaFX-Scene-Builder">
+            <state />
+          </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginController.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/controllers/LoginController.kt">
+      <file leaf-file-name="MetroTileHomepage9.fxml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/res/fxml/MetroTileHomepage9.fxml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="12" column="12" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="12" />
+            <state relative-caret-position="272">
+              <caret line="16" column="56" lean-forward="false" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="56" />
               <folding>
-                <element signature="e#38#202#0" expanded="true" />
+                <marker date="1512754831974" expanded="true" signature="322:4060" ph="..." />
+                <marker date="1512754831974" expanded="true" signature="408:4046" ph="..." />
+                <marker date="1512754831974" expanded="true" signature="497:4032" ph="..." />
+                <marker date="1512754831974" expanded="true" signature="520:2965" ph="..." />
+                <marker date="1512754831974" expanded="true" signature="2997:3458" ph="..." />
+                <marker date="1512754831974" expanded="true" signature="3487:4012" ph="..." />
               </folding>
             </state>
+          </provider>
+          <provider editor-type-id="JavaFX-Scene-Builder">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MetroTileHomepage8.fxml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/res/fxml/MetroTileHomepage8.fxml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" column="106" lean-forward="false" selection-start-line="24" selection-start-column="106" selection-end-line="24" selection-end-column="106" />
+              <folding>
+                <marker date="1512754831970" expanded="true" signature="322:3828" ph="..." />
+                <marker date="1512754831970" expanded="true" signature="408:3814" ph="..." />
+                <marker date="1512754831970" expanded="true" signature="497:3800" ph="..." />
+                <marker date="1512754831970" expanded="true" signature="520:2733" ph="..." />
+                <marker date="1512754831970" expanded="true" signature="2765:3226" ph="..." />
+                <marker date="1512754831970" expanded="true" signature="3255:3780" ph="..." />
+              </folding>
+            </state>
+          </provider>
+          <provider editor-type-id="JavaFX-Scene-Builder">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MetroTileHomepage12.fxml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/res/fxml/MetroTileHomepage12.fxml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1512754831920" expanded="true" signature="5898:6301" ph="..." />
+                <marker date="1512754831920" expanded="true" signature="5898:6321" ph="..." />
+                <marker date="1512754831920" expanded="true" signature="5898:6335" ph="..." />
+              </folding>
+            </state>
+          </provider>
+          <provider editor-type-id="JavaFX-Scene-Builder">
+            <state />
           </provider>
         </entry>
       </file>
@@ -164,8 +170,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="FxmlFile" />
         <option value="TornadoFX Code View" />
+        <option value="FxmlFile" />
         <option value="Class" />
         <option value="Kotlin File" />
       </list>
@@ -173,36 +179,14 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>import</find>
-      <find>hasContent</find>
-      <find>flowgridPane</find>
-      <find>CONTROL.setPr</find>
-      <find>max</find>
-      <find>maxhe</find>
-      <find>int</find>
-      <find>maxSize</find>
-      <find>Dimension2D</find>
-      <find>rowSpan</find>
-      <find>matrixSize</find>
-      <find>goTo</find>
-      <find>className</find>
-      <find>first</find>
-      <find>goToGUIEditor</find>
-      <find>coordinates</find>
-      <find>myTiles</find>
-      <find>coordinatesProperty</find>
-      <find>goToEditor</find>
-      <find>passGridInfo</find>
-      <find>metroTileHomepageGUI</find>
-      <find>init</find>
-      <find>GridInfo</find>
-      <find>Tile</find>
-      <find>hasFiles</find>
-      <find>containsKey</find>
-      <find>DataFormat.FILES</find>
-      <find>DataForma</find>
-      <find>DataFormat</find>
-      <find>ModuleTilePlacement</find>
+      <find>depend</find>
+      <find>tornado</find>
+      <find>addClass</find>
+      <find>cent</find>
+      <find>items</find>
+      <find>metroRect</find>
+      <find>alignment</find>
+      <find>gridSquare</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -216,56 +200,56 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/res/MetroTileHomepage2.properties" />
-        <option value="$PROJECT_DIR$/src/main/res/fxml/MetroTileHomepage5.fxml" />
-        <option value="$PROJECT_DIR$/src/main/res/fxml/MetroTileHomepage6.fxml" />
-        <option value="$PROJECT_DIR$/src/main/res/fxml/MetroTileHomepage7.fxml" />
-        <option value="$PROJECT_DIR$/src/main/res/fxml/MetroTileHomepage8.fxml" />
-        <option value="$PROJECT_DIR$/src/main/res/fxml/MetroTileHomepage9.fxml" />
-        <option value="$PROJECT_DIR$/src/main/res/fxml/MetroTileHomepage10.fxml" />
-        <option value="$PROJECT_DIR$/src/main/res/fxml/MetroTileHomepage11.fxml" />
-        <option value="$PROJECT_DIR$/src/main/res/fxml/MetroTileHomepage12.fxml" />
-        <option value="$PROJECT_DIR$/src/main/res/fxml/MetroTileHomepage13.fxml" />
-        <option value="$PROJECT_DIR$/src/main/res/fxml/MetroTileHomepage14.fxml" />
-        <option value="$PROJECT_DIR$/src/main/res/fxml/MetroTileHomepage15.fxml" />
-        <option value="$PROJECT_DIR$/src/main/res/fxml/MetroTileHomepage16.fxml" />
-        <option value="$PROJECT_DIR$/src/main/res/fxml/MetroTileHomepage17.fxml" />
-        <option value="$PROJECT_DIR$/src/main/res/fxml/MetroTileHomepage18.fxml" />
-        <option value="$PROJECT_DIR$/src/main/res/fxml/MetroTileHomepage19.fxml" />
-        <option value="$PROJECT_DIR$/src/main/res/fxml/MetroTileHomepage20.fxml" />
-        <option value="$PROJECT_DIR$/src/main/res/fxml/MetroTileHomepage2.fxml" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage3.kt" />
-        <option value="$PROJECT_DIR$/src/main/res/fxml/MetroTileHomepage1.fxml" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/controllers/MetroTileHomepageController.java" />
-        <option value="$PROJECT_DIR$/src/main/res/fxml/MetroTileHomepage3.fxml" />
-        <option value="$PROJECT_DIR$/src/main/res/fxml/MetroTileHomepage4.fxml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/controllers/events/TileEvent.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/controllers/TileBuilder.java" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/controllers/TileBuilderTest.java" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage8.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/tools/FlowGridPaneSpan.java" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/tools/TileBuilder.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/tools/TileBuilder.java" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/tools/TileBuilderAttempt.kt" />
-        <option value="$PROJECT_DIR$/tilesfx/src/main/java/eu/hansolo/tilesfx/TileBuilder.java" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/tool/TileBuilder.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage1.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage2.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage4.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/Workbench.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/MetroTileHomepages/MetroTileHomepage12.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/MetroTileHomepages/MetroTileHomepage13.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/MetroTileHomepages/MetroTileHomepage14.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/MetroTileHomepages/MetroTileHomepage15.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/MetroTileHomepages/MetroTileHomepage16.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/MetroTileHomepages/MetroTileHomepage17.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/MetroTileHomepages/MetroTileHomepage18.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/MetroTileHomepages/MetroTileHomepage19.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/MetroTileHomepages/MetroTileHomepage20.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/drag/and/drop/OSGIConsole.java" />
+        <option value="$USER_HOME$/tornadofx/tornadofx/src/main/java/tornadofx/osgi/impl/OSGISupport.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/app/Activator.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/model/RectangleModel.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/MetroTileHomepages/MetroTileHomepage1.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/MetroTileHomepages/MetroTileHomepage2.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/controllers/DragAndDropGUI.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/controllers/DragAndDropGUI.java" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/app/DragAndDrop.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/app/DragAndDrop.java" />
+        <option value="$PROJECT_DIR$/src/main/java/app/DragAndDrop.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/DragAndDropGUI.java" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/controllers/WorkbenchController.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/MyTiles.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/app/UICodeCreatorGUITesting.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/controllers/LoginController.kt" />
+        <option value="$PROJECT_DIR$/src/main/res/fxml/DragAndDropGUI.fxml" />
+        <option value="$PROJECT_DIR$/src/main/res/fxml/MetroTileHomepage1.fxml" />
+        <option value="$PROJECT_DIR$/src/main/res/fxml/MetroTileHomepage6.fxml" />
+        <option value="$PROJECT_DIR$/src/main/res/css/GUI-Code-Creator.css" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage2.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage1.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage3.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage6.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage7.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage8.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/app/Styles.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/LoginScreen.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/controllers/MetroTileHomepageController.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/DragAndDrop/DraggableTile.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage9.kt" />
+        <option value="$PROJECT_DIR$/src/main/res/fxml/MetroTileHomepage2.fxml" />
+        <option value="$PROJECT_DIR$/src/main/res/fxml/MetroTileHomepage3.fxml" />
+        <option value="$PROJECT_DIR$/src/main/res/fxml/MetroTileHomepage9.fxml" />
+        <option value="$PROJECT_DIR$/src/main/res/fxml/MetroTileHomepage8.fxml" />
+        <option value="$PROJECT_DIR$/src/main/res/fxml/MetroTileHomepage10.fxml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/res/fxml/MetroTileHomepage7.fxml" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage11.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage10.kt" />
+        <option value="$PROJECT_DIR$/src/main/res/fxml/MetroTileHomepage4.fxml" />
+        <option value="$PROJECT_DIR$/src/main/res/fxml/MetroTileHomepage5.fxml" />
+        <option value="$PROJECT_DIR$/src/main/res/fxml/MetroTileHomepage12.fxml" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage4.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage5.kt" />
+        <option value="$PROJECT_DIR$/src/main/res/fxml/MetroTileHomepage11.fxml" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/controllers/DragAttempts.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/model/ModuleTilePlacement.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/model/ModuleModel.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/MetroTileHomepage.kt" />
       </list>
     </option>
@@ -278,10 +262,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="409" />
-    <option name="y" value="22" />
-    <option name="width" value="819" />
-    <option name="height" value="755" />
+    <option name="x" value="664" />
+    <option name="y" value="270" />
+    <option name="width" value="1399" />
+    <option name="height" value="1127" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -301,8 +285,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -310,11 +293,6 @@
             <path>
               <item name="UI-Code-Creator" type="b2602c69:ProjectViewProjectNode" />
               <item name="UI-Code-Creator" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="UI-Code-Creator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UI-Code-Creator" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="UI-Code-Creator" type="b2602c69:ProjectViewProjectNode" />
@@ -387,53 +365,45 @@
             </path>
             <path>
               <item name="UI-Code-Creator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UI-Code-Creator" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="res" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.1787176" />
-    <property name="project.structure.side.proportion" value="0.4784217" />
+    <property name="project.structure.side.proportion" value="0.56969696" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="SearchEverywhereHistoryKey" value="clipboard&#9;PSI&#9;JAVA://javafx.scene.input.Clipboard&#10;dragboard&#9;PSI&#9;JAVA://javafx.scene.input.Dragboard" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/amandahinchman/Downloads/tornadofx-1.7.11/src/main/java/tornadofx/DataGrid.kt" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/lib" />
-      <recent name="C:\Users\AHINCHMAN\Documents\UI-Code-Creator\src\main\res\css" />
-      <recent name="C:\Users\AHINCHMAN\Documents\UI-Code-Creator\src\main" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
-    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
-      <recent name="com.example.demo.views.metroTileHomepages" />
-      <recent name="com.example.demo.app" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/lib" />
-      <recent name="$PROJECT_DIR$/src/main/res/fxml" />
       <recent name="C:\Users\AHINCHMAN\Documents\UI-Code-Creator\src\main\res\fxml" />
+      <recent name="$PROJECT_DIR$/src/main/res/fxml" />
       <recent name="C:\Users\AHINCHMAN\Documents\UI-Code-Creator\src\main\kotlin\com\example\demo\img" />
       <recent name="$PROJECT_DIR$/src/main/kotlin/com/example/demo" />
+    </key>
+    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="com.example.demo.app" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\AHINCHMAN\Documents\UI-Code-Creator\src\main\res\css" />
+      <recent name="C:\Users\AHINCHMAN\Documents\UI-Code-Creator\src\main" />
+      <recent name="C:\Users\AHINCHMAN\Documents\UI-Code-Creator\res\img" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -449,6 +419,44 @@
     </option>
   </component>
   <component name="RunManager" selected="TornadoFX.DemoCreatorApp">
+    <configuration name="DemoCreatorApp" type="TORNADOFX_RUNCONFIGURATION" factoryName="TornadoFX Configuration Factory" run-type="App" live-views="false" live-stylesheets="false" dump-stylesheets="false">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="RUN_TYPE" value="App" />
+      <option name="VIEW_CLASS_NAME" />
+      <option name="LIVE_STYLESHEETS" value="false" />
+      <option name="DUMP_STYLESHEETS" value="false" />
+      <option name="LIVE_VIEWS" value="false" />
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.app.DemoCreatorApp" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="DemoCreator-Accent" />
+      <envs />
+    </configuration>
+    <configuration name="Workbench" type="TORNADOFX_RUNCONFIGURATION" factoryName="TornadoFX Configuration Factory" temporary="true" run-type="View" view-class="com.example.demo.views.Workbench" live-views="false" live-stylesheets="false" dump-stylesheets="false">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="RUN_TYPE" value="View" />
+      <option name="VIEW_CLASS_NAME" value="com.example.demo.views.Workbench" />
+      <option name="LIVE_STYLESHEETS" value="false" />
+      <option name="DUMP_STYLESHEETS" value="false" />
+      <option name="LIVE_VIEWS" value="false" />
+      <option name="MAIN_CLASS_NAME" value="tornadofx.App" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="DemoCreator-Accent" />
+      <envs />
+    </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -490,69 +498,18 @@
       <envs />
       <patterns />
     </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
-    </configuration>
-    <configuration name="DemoCreatorApp" type="TORNADOFX_RUNCONFIGURATION" factoryName="TornadoFX Configuration Factory" run-type="App" live-views="false" live-stylesheets="false" dump-stylesheets="false">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="RUN_TYPE" value="App" />
-      <option name="VIEW_CLASS_NAME" />
-      <option name="LIVE_STYLESHEETS" value="false" />
-      <option name="DUMP_STYLESHEETS" value="false" />
-      <option name="LIVE_VIEWS" value="false" />
-      <option name="MAIN_CLASS_NAME" value="com.example.demo.app.DemoCreatorApp" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="DemoCreator-Accent" />
-      <envs />
-    </configuration>
-    <configuration name="Workbench" type="TORNADOFX_RUNCONFIGURATION" factoryName="TornadoFX Configuration Factory" temporary="true" run-type="View" view-class="com.example.demo.views.Workbench" live-views="false" live-stylesheets="false" dump-stylesheets="false">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="RUN_TYPE" value="View" />
-      <option name="VIEW_CLASS_NAME" value="com.example.demo.views.Workbench" />
-      <option name="LIVE_STYLESHEETS" value="false" />
-      <option name="DUMP_STYLESHEETS" value="false" />
-      <option name="LIVE_VIEWS" value="false" />
-      <option name="MAIN_CLASS_NAME" value="tornadofx.App" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="DemoCreator-Accent" />
-      <envs />
-    </configuration>
-    <configuration default="true" type="TORNADOFX_RUNCONFIGURATION" factoryName="TornadoFX Configuration Factory" run-type="App" live-views="false" live-stylesheets="false" dump-stylesheets="false">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="RUN_TYPE" value="App" />
-      <option name="VIEW_CLASS_NAME" />
-      <option name="LIVE_STYLESHEETS" value="false" />
-      <option name="DUMP_STYLESHEETS" value="false" />
-      <option name="LIVE_VIEWS" value="false" />
-      <option name="MAIN_CLASS_NAME" value="com.example.demo.app.DemoCreatorApp" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="DemoCreator-Accent" />
-      <envs />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -581,11 +538,24 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-      <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file id="idea.log" enabled="true" />
+    <configuration default="true" type="TORNADOFX_RUNCONFIGURATION" factoryName="TornadoFX Configuration Factory" run-type="App" live-views="false" live-stylesheets="false" dump-stylesheets="false">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="RUN_TYPE" value="App" />
+      <option name="VIEW_CLASS_NAME" />
+      <option name="LIVE_STYLESHEETS" value="false" />
+      <option name="DUMP_STYLESHEETS" value="false" />
+      <option name="LIVE_VIEWS" value="false" />
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.app.DemoCreatorApp" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="DemoCreator-Accent" />
+      <envs />
     </configuration>
     <list size="2">
       <item index="0" class="java.lang.String" itemvalue="TornadoFX.DemoCreatorApp" />
@@ -600,9 +570,6 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
-  <component name="SvnConfiguration">
-    <configuration>$USER_HOME$/.subversion</configuration>
-  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="adabb7c3-3ffc-4353-986b-167fcb8be6e0" name="Default" comment="" />
@@ -614,37 +581,64 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="409" y="22" width="819" height="755" extended-state="0" />
+    <frame x="664" y="270" width="1399" height="1127" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2469697" sideWeight="0.5394883" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298611" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2469697" sideWeight="0.46051168" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998565" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26342976" sideWeight="0.48294243" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328" sideWeight="0.5170576" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.02892562" sideWeight="0.4637579" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998565" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3217503" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32944608" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30619866" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24974093" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34545454" sideWeight="0.70372975" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32231405" sideWeight="0.70372975" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287879" sideWeight="0.5005562" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26060605" sideWeight="0.47830924" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328" sideWeight="0.5170576" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3232" sideWeight="0.70372975" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26398852" sideWeight="0.48294243" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.028694404" sideWeight="0.4637579" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998565" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2622768" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.css" />
@@ -656,327 +650,447 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/controllers/WorkbenchController.kt</url>
-          <line>12</line>
+          <url>file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage1.kt</url>
+          <line>117</line>
           <properties />
-          <option name="timeStamp" value="126" />
+          <option name="timeStamp" value="71" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/controllers/WorkbenchController.kt</url>
-          <line>18</line>
+          <url>file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/MetroTileHomepage.kt</url>
+          <line>65</line>
           <properties />
-          <option name="timeStamp" value="128" />
+          <option name="timeStamp" value="82" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/controllers/MetroTileHomepageController.kt</url>
-          <line>66</line>
+          <url>file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/MetroTileHomepage.kt</url>
+          <line>33</line>
           <properties />
-          <option name="timeStamp" value="129" />
+          <option name="timeStamp" value="85" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-field">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/MetroTileHomepage.kt</url>
+          <line>27</line>
+          <properties myFieldName="paginator" myClassName="com.example.demo.views.MetroTileHomepage" />
+          <option name="timeStamp" value="84" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="130" />
+      <option name="time" value="86" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/res/fxml/MetroTileHomepage17.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage13.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="210" lean-forward="false" selection-start-line="6" selection-start-column="210" selection-end-line="6" selection-end-column="210" />
+        <state relative-caret-position="601">
+          <caret line="39" column="86" lean-forward="false" selection-start-line="39" selection-start-column="86" selection-end-line="39" selection-end-column="86" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/fxml/MetroTileHomepage18.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage14.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="210" lean-forward="false" selection-start-line="6" selection-start-column="210" selection-end-line="6" selection-end-column="210" />
+        <state relative-caret-position="108">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="44" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/fxml/MetroTileHomepage19.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage15.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="210" lean-forward="false" selection-start-line="6" selection-start-column="210" selection-end-line="6" selection-end-column="210" />
+        <state relative-caret-position="601">
+          <caret line="39" column="62" lean-forward="false" selection-start-line="39" selection-start-column="62" selection-end-line="39" selection-end-column="62" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/controllers/MetroTileHomepageController.java" />
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/javafx-src.zip!/javafx/scene/input/TransferMode.java">
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage16.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="53" column="53" lean-forward="false" selection-start-line="53" selection-start-column="37" selection-end-line="53" selection-end-column="53" />
+        <state relative-caret-position="108">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="44" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/javafx-src.zip!/javafx/scene/Node.java">
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage17.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33915">
-          <caret line="2593" column="29" lean-forward="false" selection-start-line="2593" selection-start-column="29" selection-end-line="2593" selection-end-column="29" />
+        <state relative-caret-position="550">
+          <caret line="36" column="42" lean-forward="true" selection-start-line="36" selection-start-column="42" selection-end-line="36" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/javafx-src.zip!/javafx/embed/swing/FXDnD.java">
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage18.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="279" column="25" lean-forward="false" selection-start-line="279" selection-start-column="25" selection-end-line="279" selection-end-column="25" />
+        <state relative-caret-position="567">
+          <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/javafx-src.zip!/javafx/scene/input/DataFormat.java">
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage19.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="147" column="5" lean-forward="true" selection-start-line="147" selection-start-column="5" selection-end-line="147" selection-end-column="5" />
+        <state relative-caret-position="448">
+          <caret line="30" column="20" lean-forward="false" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/controllers/TileBuilderTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/controllers/events/TileEvent.kt" />
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage8.kt" />
-    <entry file="file://$PROJECT_DIR$/src/main/res/fxml/MetroTileHomepage1.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage20.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="39" column="43" lean-forward="false" selection-start-line="39" selection-start-column="43" selection-end-line="39" selection-end-column="43" />
+        <state relative-caret-position="482">
+          <caret line="32" column="17" lean-forward="true" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/fxml/MetroTileHomepage2.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="63" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/fxml/MetroTileHomepage13.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="106" lean-forward="false" selection-start-line="19" selection-start-column="106" selection-end-line="19" selection-end-column="106" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/fxml/MetroTileHomepage20.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="116" lean-forward="false" selection-start-line="14" selection-start-column="110" selection-end-line="14" selection-end-column="116" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/fxml/MetroTileHomepage3.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="34" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/fxml/MetroTileHomepage4.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="14" column="56" lean-forward="false" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage5.kt" />
-    <entry file="jar://$USER_HOME$/Downloads/tilesfx-1.5.2-sources.jar!/eu/hansolo/tilesfx/TileBuilder.java" />
-    <entry file="jar://$USER_HOME$/Downloads/tilesfx-1.5.2-sources.jar!/eu/hansolo/tilesfx/tools/FlowGridPane.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/tools/FlowGridPaneSpan.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/tools/TileBuilder.kt" />
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/tools/TileBuilder.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/tools/TileBuilderAttempt.kt" />
-    <entry file="file://$PROJECT_DIR$/tilesfx/src/main/java/eu/hansolo/tilesfx/Tile.java" />
-    <entry file="file://$PROJECT_DIR$/tilesfx/src/main/java/eu/hansolo/tilesfx/TileBuilder.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/tool/TileBuilder.kt" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="33" column="21" lean-forward="false" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage3.kt" />
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage2.kt" />
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage4.kt" />
-    <entry file="file://$PROJECT_DIR$/../../tornadofx/tornadofx/src/main/java/tornadofx/Component.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="151" column="0" lean-forward="false" selection-start-line="151" selection-start-column="0" selection-end-line="151" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../tornadofx/tornadofx/src/main/java/tornadofx/FX.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5385">
-          <caret line="394" column="0" lean-forward="false" selection-start-line="394" selection-start-column="0" selection-end-line="394" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage1.kt" />
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/Workbench.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="870">
-          <caret line="63" column="21" lean-forward="false" selection-start-line="63" selection-start-column="21" selection-end-line="63" selection-end-column="21" />
-          <folding>
-            <element signature="e#32#284#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/app/UICodeCreatorGUITesting.kt" />
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/app/Activator.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="23" column="1" lean-forward="false" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/app/Styles.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="18" column="10" lean-forward="false" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/drag/and/drop/OSGIConsole.java" />
+    <entry file="file://$USER_HOME$/tornadofx/tornadofx/src/main/java/tornadofx/osgi/impl/OSGISupport.kt" />
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/app/MyApp.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="19" column="24" lean-forward="false" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/controllers/LoginController.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="12" column="12" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="12" />
+        <state relative-caret-position="357">
+          <caret line="25" column="1" lean-forward="false" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
           <folding>
-            <element signature="e#38#202#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/controllers/MetroTileHomepageController.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2925">
-          <caret line="201" column="31" lean-forward="false" selection-start-line="201" selection-start-column="31" selection-end-line="201" selection-end-column="31" />
-          <folding>
-            <element signature="e#38#265#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/DragAndDrop/DraggableTile.kt" />
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/src.zip!/java/util/Map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="164" column="12" lean-forward="false" selection-start-line="164" selection-start-column="12" selection-end-line="164" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/javafx-src.zip!/javafx/scene/input/ClipboardContent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="53" column="55" lean-forward="false" selection-start-line="53" selection-start-column="55" selection-end-line="53" selection-end-column="55" />
-          <folding>
-            <element signature="e#3276#3277#0" expanded="true" />
-            <element signature="e#3327#3328#0" expanded="true" />
-            <element signature="e#7802#7803#0" expanded="true" />
-            <element signature="e#7854#7855#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/controllers/WorkbenchController.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="5" lean-forward="false" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-          <folding>
-            <element signature="e#38#88#0" expanded="true" />
+            <marker date="1510760459272" expanded="true" signature="270:560" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/LoginScreen.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-333">
-          <caret line="12" column="6" lean-forward="false" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+        <state relative-caret-position="270">
+          <caret line="28" column="29" lean-forward="false" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/controllers/DragAndDropGUI.kt" />
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/app/DragAndDrop.kt" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/DragAndDropGUI.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/DragAndDrop.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/model/RectangleModel.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/controllers/LoginController.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="40" column="31" lean-forward="false" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/app/Activator.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="17" column="55" lean-forward="false" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/Workbench.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="60" column="38" lean-forward="false" selection-start-line="60" selection-start-column="38" selection-end-line="60" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/controllers/WorkbenchController.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="34" column="47" lean-forward="false" selection-start-line="34" selection-start-column="47" selection-end-line="34" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/css/GUI-Code-Creator.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage3.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1513">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage1.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1394">
+          <caret line="84" column="1" lean-forward="false" selection-start-line="84" selection-start-column="1" selection-end-line="84" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/app/Styles.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="32" column="29" lean-forward="false" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
           <folding>
-            <element signature="e#32#387#0" expanded="true" />
+            <marker date="1512754831868" expanded="true" signature="37:44" ph="..." />
+            <marker date="1512754831868" expanded="true" signature="1160:1166" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/MyTiles.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage8.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-77">
-          <caret line="19" column="38" lean-forward="false" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
+        <state relative-caret-position="2074">
+          <caret line="130" column="93" lean-forward="false" selection-start-line="130" selection-start-column="93" selection-end-line="130" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage2.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="58" column="29" lean-forward="false" selection-start-line="58" selection-start-column="29" selection-end-line="58" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/fxml/MetroTileHomepage1.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="75" lean-forward="false" selection-start-line="30" selection-start-column="75" selection-end-line="30" selection-end-column="75" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/fxml/MetroTileHomepage2.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="56" lean-forward="false" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/fxml/MetroTileHomepage3.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="14" column="118" lean-forward="false" selection-start-line="14" selection-start-column="112" selection-end-line="14" selection-end-column="118" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/fxml/MetroTileHomepage7.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="13" lean-forward="false" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage10.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="40" column="20" lean-forward="false" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage11.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="35" column="57" lean-forward="false" selection-start-line="35" selection-start-column="57" selection-end-line="35" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage6.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="17" column="6" lean-forward="false" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/fxml/MetroTileHomepage6.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="116" lean-forward="false" selection-start-line="10" selection-start-column="110" selection-end-line="10" selection-end-column="116" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage7.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-136">
+          <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage9.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1428">
+          <caret line="98" column="54" lean-forward="false" selection-start-line="98" selection-start-column="54" selection-end-line="98" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/fxml/MetroTileHomepage4.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="28" lean-forward="false" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage4.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1003">
+          <caret line="74" column="33" lean-forward="false" selection-start-line="74" selection-start-column="33" selection-end-line="74" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/fxml/MetroTileHomepage5.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="106" lean-forward="false" selection-start-line="23" selection-start-column="106" selection-end-line="23" selection-end-column="106" />
           <folding>
-            <element signature="e#32#220#0" expanded="true" />
+            <marker date="1512754831959" expanded="true" signature="288:4475" ph="..." />
+            <marker date="1512754831959" expanded="true" signature="374:4461" ph="..." />
+            <marker date="1512754831959" expanded="true" signature="463:4447" ph="..." />
+            <marker date="1512754831959" expanded="true" signature="486:3166" ph="..." />
+            <marker date="1512754831959" expanded="true" signature="3198:3873" ph="..." />
+            <marker date="1512754831959" expanded="true" signature="3902:4427" ph="..." />
           </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage5.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="935">
+          <caret line="69" column="49" lean-forward="false" selection-start-line="69" selection-start-column="49" selection-end-line="69" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/fxml/MetroTileHomepage10.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="56" lean-forward="false" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="56" />
+          <folding>
+            <marker date="1512754831907" expanded="true" signature="1599:3444" ph="..." />
+            <marker date="1512754831907" expanded="true" signature="1599:4618" ph="..." />
+            <marker date="1512754831907" expanded="true" signature="1599:4632" ph="..." />
+            <marker date="1512754831907" expanded="true" signature="3476:4044" ph="..." />
+            <marker date="1512754831907" expanded="true" signature="4073:4598" ph="..." />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/fxml/MetroTileHomepage12.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1512754831920" expanded="true" signature="5898:6301" ph="..." />
+            <marker date="1512754831920" expanded="true" signature="5898:6321" ph="..." />
+            <marker date="1512754831920" expanded="true" signature="5898:6335" ph="..." />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/fxml/MetroTileHomepage8.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="106" lean-forward="false" selection-start-line="24" selection-start-column="106" selection-end-line="24" selection-end-column="106" />
+          <folding>
+            <marker date="1512754831970" expanded="true" signature="322:3828" ph="..." />
+            <marker date="1512754831970" expanded="true" signature="408:3814" ph="..." />
+            <marker date="1512754831970" expanded="true" signature="497:3800" ph="..." />
+            <marker date="1512754831970" expanded="true" signature="520:2733" ph="..." />
+            <marker date="1512754831970" expanded="true" signature="2765:3226" ph="..." />
+            <marker date="1512754831970" expanded="true" signature="3255:3780" ph="..." />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/fxml/MetroTileHomepage9.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="56" lean-forward="false" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="56" />
+          <folding>
+            <marker date="1512754831974" expanded="true" signature="322:4060" ph="..." />
+            <marker date="1512754831974" expanded="true" signature="408:4046" ph="..." />
+            <marker date="1512754831974" expanded="true" signature="497:4032" ph="..." />
+            <marker date="1512754831974" expanded="true" signature="520:2965" ph="..." />
+            <marker date="1512754831974" expanded="true" signature="2997:3458" ph="..." />
+            <marker date="1512754831974" expanded="true" signature="3487:4012" ph="..." />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/fxml/MetroTileHomepage11.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="93" lean-forward="false" selection-start-line="12" selection-start-column="93" selection-end-line="12" selection-end-column="114" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/model/ModuleModel.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/controllers/MetroTileHomepageController.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="10" column="6" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/controllers/DragAttempts.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <element signature="e#38#266#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/model/ModuleTilePlacement.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="74" column="0" lean-forward="false" selection-start-line="74" selection-start-column="0" selection-end-line="76" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/model/ModuleModel.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="45" column="1" lean-forward="true" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
+        <state relative-caret-position="1088">
+          <caret line="70" column="2" lean-forward="false" selection-start-line="70" selection-start-column="2" selection-end-line="70" selection-end-column="2" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/MetroTileHomepage.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="471">
-          <caret line="85" column="36" lean-forward="true" selection-start-line="85" selection-start-column="36" selection-end-line="85" selection-end-column="36" />
-          <folding>
-            <element signature="e#31#711#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="387">
+          <caret line="80" column="35" lean-forward="true" selection-start-line="80" selection-start-column="35" selection-end-line="80" selection-end-column="35" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -986,7 +1100,6 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>TilesFX:jar</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1010,7 +1123,7 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
-          <last-edited>TilesFx</last-edited>
+          <last-edited>Maven: org.osgi:org.osgi.core:6.0.0</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1034,12 +1147,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>DemoCreator-Accent</last-edited>
+          <last-edited>Kotlin|DemoCreator-Accent</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.4784217" />
-                <option value="0.6" />
+                <option value="0.56969696" />
               </list>
             </option>
           </splitter-proportions>
@@ -1047,11 +1159,11 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>tilesfx-1.5.2</last-edited>
+          <last-edited>org.osgi:org.osgi.core:6.0.0</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.4784217" />
+                <option value="0.56969696" />
               </list>
             </option>
           </splitter-proportions>
