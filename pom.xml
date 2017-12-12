@@ -10,8 +10,8 @@
     <packaging>jar</packaging>
 
     <properties>
-        <kotlin.version>1.1.60</kotlin.version>
-        <tornadofx.version>1.7.12</tornadofx.version>
+        <kotlin.version>1.2.0</kotlin.version>
+        <tornadofx.version>1.7.13</tornadofx.version>
     </properties>
 
     <dependencies>
@@ -36,7 +36,6 @@
             <groupId>eu.hansolo</groupId>
             <artifactId>tilesfx</artifactId>
             <version>1.5.2</version>
-            <type>pom</type>
         </dependency>
         <dependency>
             <groupId>org.jetbrains.kotlin</groupId>
@@ -66,7 +65,7 @@
                             <goal>compile</goal>
                         </goals>
                         <configuration>
-                        <jvmTarget>1.8</jvmTarget>
+                            <jvmTarget>1.8</jvmTarget>
                         </configuration>
                     </execution>
                     <execution>
