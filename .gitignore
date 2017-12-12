@@ -1,0 +1,13 @@
+# IntelliJ IDEA
+.idea/
+out/
+*.iml
+
+# Maven
+target/
+
+# MacOS
+.DS_Store
+
+# Project specific
+conf/com.example.demo.controllers.LoginController.properties 
