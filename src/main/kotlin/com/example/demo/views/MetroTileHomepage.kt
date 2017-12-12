@@ -4,6 +4,7 @@ import com.example.demo.app.Styles.Companion.metroTileHomepageGUI
 import com.example.demo.controllers.LoginController
 import com.example.demo.controllers.MetroTileHomepageController
 import com.example.demo.controllers.WorkbenchController
+import com.example.demo.model.DragTile
 import com.example.demo.model.DragTileScope
 import com.example.demo.model.GridInfo
 import com.example.demo.model.GridScope
@@ -22,10 +23,12 @@ class MetroTileHomepage : Fragment() {
     private val loginController: LoginController by inject()
     private val workbenchController: WorkbenchController by inject()
     private val controller: MetroTileHomepageController by inject()
-    private var TILES: DataFormat = DataFormat("eu.hansolo.tilesfx.Tile")
+    private val paginator = DataGridPaginator(controller.smallTiles, itemsPerPage = 8)
     val dragTileScope = DragTileScope()
 
-    private val paginator = DataGridPaginator(controller.smallTiles, itemsPerPage = 8)
+    companion object {
+        private var TILES: DataFormat = DataFormat("eu.hansolo.tilesfx.Tile")
+    }
 
     override val root = borderpane {
         val gridInfo = GridInfo(controller.useTileGrid(workbenchController.metroTile))
@@ -62,15 +65,14 @@ class MetroTileHomepage : Fragment() {
                         event.isDropCompleted = false
                         val db: Dragboard = event.dragboard
                         val node: Node = event.pickResult.intersectedNode
-                        var tile = db.getContent(TILES)
-                        if (node != grid && db.hasContent(TILES)) {
+                        if (node != grid && db.hasContent(TILES) && db.getContent(TILES) is DragTile) {
                             // if there isn' a way to use this method, then I'll have to workaround
                             // with a more complicated getPosition
                             val columnIndex = GridPane.getColumnIndex(node)
                             val rowIndex = GridPane.getRowIndex(node)
                             val x = if (columnIndex == null) 0 else columnIndex
                             val y = if (rowIndex == null) 0 else rowIndex
-                            //dragTileScope.model.item = db.getContent(TILES) // cast to DragTile?
+                            dragTileScope.model.item = (db.getContent(TILES) as? DragTile)  // cast to DragTile?
                             // should there be a way to get dataformat to return dragTileScope model format?
                             grid.add(dragTileScope.model.item.tile, x, y,
                                     dragTileScope.model.item.colSpan,
@@ -102,12 +104,10 @@ class MetroTileHomepage : Fragment() {
                                     }
 
                                     graphic.setOnDragDetected { event ->
-                                        var db: Dragboard = graphic.startDragAndDrop(TransferMode.COPY)
-                                        var cbContent: ClipboardContent
-                                        //cbContent.put(db.getContent(TILES))
-                                        //db.setContent(cbContent)
-                                        graphic.setVisible(false)
-                                        event.consume()
+                                        startDragAndDrop(TransferMode.MOVE).apply {
+                                            setContent { put(TILES, selectedItem!!.uuid) }
+                                            event.consume()
+                                        }
                                     }
                                 }
                             }

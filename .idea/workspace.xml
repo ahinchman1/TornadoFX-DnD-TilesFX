@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="adabb7c3-3ffc-4353-986b-167fcb8be6e0" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/kotlin/com/example/demo/controllers/DragAttempts.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/demo/controllers/DragAttempts.kt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/MetroTileHomepage.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/MetroTileHomepage.kt" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -61,8 +60,8 @@
       <file leaf-file-name="MetroTileHomepage.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/MetroTileHomepage.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="387">
-              <caret line="80" column="35" lean-forward="true" selection-start-line="80" selection-start-column="35" selection-end-line="80" selection-end-column="35" />
+            <state relative-caret-position="474">
+              <caret line="107" column="90" lean-forward="true" selection-start-line="107" selection-start-column="90" selection-end-line="107" selection-end-column="90" />
               <folding />
             </state>
           </provider>
@@ -262,8 +261,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="664" />
-    <option name="y" value="270" />
+    <option name="x" value="521" />
+    <option name="y" value="253" />
     <option name="width" value="1399" />
     <option name="height" value="1127" />
   </component>
@@ -581,7 +580,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="664" y="270" width="1399" height="1127" extended-state="0" />
+    <frame x="521" y="253" width="1399" height="1127" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -657,24 +656,18 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/MetroTileHomepage.kt</url>
-          <line>65</line>
+          <line>67</line>
           <properties />
           <option name="timeStamp" value="82" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/MetroTileHomepage.kt</url>
-          <line>33</line>
+          <line>71</line>
           <properties />
-          <option name="timeStamp" value="85" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-field">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/MetroTileHomepage.kt</url>
-          <line>27</line>
-          <properties myFieldName="paginator" myClassName="com.example.demo.views.MetroTileHomepage" />
-          <option name="timeStamp" value="84" />
+          <option name="timeStamp" value="87" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="86" />
+      <option name="time" value="88" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1088,8 +1081,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/MetroTileHomepage.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="80" column="35" lean-forward="true" selection-start-line="80" selection-start-column="35" selection-end-line="80" selection-end-column="35" />
+        <state relative-caret-position="474">
+          <caret line="107" column="90" lean-forward="true" selection-start-line="107" selection-start-column="90" selection-end-line="107" selection-end-column="90" />
           <folding />
         </state>
       </provider>
