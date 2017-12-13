@@ -1,9 +1,11 @@
 package com.example.demo.controllers
 
-import com.example.demo.model.ModuleTilePlacement
+import com.example.demo.model.*
+import com.example.demo.views.MyTiles
 import eu.hansolo.tilesfx.Tile
 import eu.hansolo.tilesfx.TileBuilder
 import javafx.geometry.Pos
+import javafx.scene.layout.GridPane
 import javafx.scene.paint.Color
 import tornadofx.*
 import java.beans.EventHandler
@@ -205,6 +207,20 @@ class MetroTileHomepageController: Controller() {
                 .maxSize(width, height)
                 .roundedCorners(false)
                 .build()
+    }
+
+    // attempted serializing
+    private fun moduleTileBuilder(title: String, size: Double = 100.0) {
+        val dragTileScope = DragTileScope()
+        val tile = TileBuilder.create()
+                    .skinType(Tile.SkinType.TEXT)
+                    .title(title)
+                    .maxSize(size, size)
+                    .roundedCorners(false)
+                    .build()
+
+        //dragTileScope.model.item = tile
+        //return find<MyTiles>(dragTileScope).root
     }
 
     private fun gridBannerBuilder(subtitle: String = "Hi, Admin", width: Double = 310.0,

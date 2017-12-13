@@ -105,7 +105,7 @@ class MetroTileHomepage : Fragment() {
 
                                     graphic.setOnDragDetected { event ->
                                         startDragAndDrop(TransferMode.MOVE).apply {
-                                            setContent { put(TILES, selectedItem!!.uuid) }
+                                            setContent { put(TILES, it) }
                                             event.consume()
                                         }
                                     }
@@ -180,12 +180,8 @@ class MetroTileHomepage : Fragment() {
     }
 }
 
-
-
 private fun passGridInfo(gridInfo: GridInfo): GridPane {
     val metroScope = GridScope()
     metroScope.model.item = gridInfo
     return find<MyTiles>(metroScope).root
 }
-
-
