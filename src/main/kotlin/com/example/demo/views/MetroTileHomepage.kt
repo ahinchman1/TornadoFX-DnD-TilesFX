@@ -9,8 +9,12 @@ import com.example.demo.model.DragTileScope
 import com.example.demo.model.GridInfo
 import com.example.demo.model.GridScope
 import eu.hansolo.tilesfx.Tile
+import javafx.animation.KeyFrame
+import javafx.animation.KeyValue
+import javafx.animation.Timeline
 import javafx.application.Platform
 import javafx.event.EventHandler
+import javafx.geometry.Point2D
 import javafx.geometry.Pos
 import javafx.geometry.Side
 import javafx.scene.Node
@@ -18,12 +22,23 @@ import javafx.scene.input.*
 import javafx.scene.layout.*
 import javafx.scene.text.Font
 import tornadofx.*
+import javafx.scene.shape.Circle
+import javafx.fxml.FXML
+
+
+
+
 
 class MetroTileHomepage : Fragment() {
     private val loginController: LoginController by inject()
     private val workbenchController: WorkbenchController by inject()
     private val controller: MetroTileHomepageController by inject()
     private val paginator = DataGridPaginator(controller.smallTiles, itemsPerPage = 8)
+    lateinit var tile: Tile
+    lateinit var leavingTile: Tile
+    lateinit var grid: GridPane
+    private var offset = Point2D(0.0, 0.0)
+    private var movingPiece = false
     val dragTileScope = DragTileScope()
 
     companion object {
@@ -32,7 +47,7 @@ class MetroTileHomepage : Fragment() {
 
     override val root = borderpane {
         val gridInfo = GridInfo(controller.useTileGrid(workbenchController.metroTile))
-        val grid = passGridInfo(gridInfo)
+        grid = passGridInfo(gridInfo)
         addClass(metroTileHomepageGUI)
         setPrefSize(1000.0, 750.0)
 
@@ -54,6 +69,9 @@ class MetroTileHomepage : Fragment() {
             }
 
             center  = grid
+
+                //grid.addEventFilter(MouseEvent.MOUSE_EXITED_TARGET, this::leaveGrid)
+                //grid.addEventFilter(MouseEvent.MOUSE_RELEASED, this::checkReleaseOutOfGrid)
                 grid.addClass(Styles.grid)
                 grid.setOnDragOver { event ->
                     if (event.dragboard.hasContent(TILES)) event.acceptTransferModes(TransferMode.COPY)
@@ -66,14 +84,11 @@ class MetroTileHomepage : Fragment() {
                         val db: Dragboard = event.dragboard
                         val node: Node = event.pickResult.intersectedNode
                         if (node != grid && db.hasContent(TILES) && db.getContent(TILES) is DragTile) {
-                            // if there isn' a way to use this method, then I'll have to workaround
-                            // with a more complicated getPosition
                             val columnIndex = GridPane.getColumnIndex(node)
                             val rowIndex = GridPane.getRowIndex(node)
                             val x = if (columnIndex == null) 0 else columnIndex
                             val y = if (rowIndex == null) 0 else rowIndex
-                            dragTileScope.model.item = (db.getContent(TILES) as? DragTile)  // cast to DragTile?
-                            // should there be a way to get dataformat to return dragTileScope model format?
+                            dragTileScope.model.item = (db.getContent(TILES) as? DragTile)
                             grid.add(dragTileScope.model.item.tile, x, y,
                                     dragTileScope.model.item.colSpan,
                                     dragTileScope.model.item.rowSpan)
@@ -105,7 +120,9 @@ class MetroTileHomepage : Fragment() {
 
                                     graphic.setOnDragDetected { event ->
                                         startDragAndDrop(TransferMode.MOVE).apply {
-                                            setContent { put(TILES, selectedItem!!.uuid) }
+                                            tile = it
+                                            startMovingPiece(event)
+                                            movePiece(event)
                                             event.consume()
                                         }
                                     }
@@ -178,14 +195,64 @@ class MetroTileHomepage : Fragment() {
             }
         }
     }
+
+    private fun startMovingPiece(evt: MouseEvent) {
+        tile.opacity = 0.4
+        offset = Point2D(evt.x, evt.y)
+
+        leavingTile.opacity = 1.0
+        leavingTile.layoutX = tile.layoutX
+        leavingTile.layoutY = tile.layoutY
+
+        movingPiece = true
+    }
+
+    private fun movePiece(evt: MouseEvent) {
+
+        val mousePoint = Point2D(evt.x, evt.y)
+        val mousePointS = Point2D(evt.sceneX, evt.sceneY)
+
+        if (!inGrid(mousePointS)) {
+            return   // don't relocate() b/c will resize Pane
+        }
+
+        val mousePointP = tile.localToParent(mousePoint)
+        tile.relocate(mousePointP.x - offset.x, mousePointP.y - offset.y)
+    }
+
+    private fun inGrid(pt: Point2D): Boolean {
+        val gridPt = grid.sceneToLocal(pt)
+        return (gridPt.x - offset.x >= 0.0
+                && gridPt.y - offset.y >= 0.0
+                && gridPt.x <= grid.width
+                && gridPt.y <= grid.height)
+    }
+
 }
-
-
 
 private fun passGridInfo(gridInfo: GridInfo): GridPane {
     val metroScope = GridScope()
     metroScope.model.item = gridInfo
     return find<MyTiles>(metroScope).root
 }
+
+/*private fun checkReleaseOutOfGrid(event: MouseEvent) {
+    val mousePoint_s: Point2D = Point2D(event.sceneX, event.sceneY)
+    if (!inGrid(event)) {
+        leaveGrid(event)
+        event.consume()
+    }
+}
+
+private fun leaveGrid(event: MouseEvent) {
+    if (movingTile) {
+        val timeline: Timeline = Timeline()
+
+        movingTile = false
+
+        timeline.keyFrames.add(KeyFrame(Duration(200.0)),
+                KeyValue(tile.))
+    }
+}*/
 
 

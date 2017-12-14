@@ -1,6 +1,8 @@
 package com.example.demo.controllers
 
 import com.example.demo.model.ModuleTilePlacement
+import com.example.demo.views.MetroTileHomepage
+import com.example.demo.views.MyTiles
 import eu.hansolo.tilesfx.Tile
 import eu.hansolo.tilesfx.TileBuilder
 import javafx.geometry.Pos
@@ -9,7 +11,6 @@ import tornadofx.*
 import java.beans.EventHandler
 
 class MetroTileHomepageController: Controller() {
-
     /** Small Modules **/
     private val module1 = TileBuilder.create()
             .skinType(Tile.SkinType.CUSTOM)
