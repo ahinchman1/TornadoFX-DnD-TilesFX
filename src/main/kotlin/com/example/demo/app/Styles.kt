@@ -13,6 +13,7 @@ class Styles : Stylesheet() {
         val banner_tile by cssclass()
         val module_tile by cssclass()
         val module by cssclass()
+        val highlightTile by cssclass()
     }
 
     // apply styling to classes
@@ -47,6 +48,10 @@ class Styles : Stylesheet() {
                     textFill = Color.WHITE
                 }
             }
+        }
+
+        highlightTile {
+            opacity = 0.4
         }
     }
 }

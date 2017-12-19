@@ -1,20 +1,21 @@
 package com.example.demo.model
 
 import eu.hansolo.tilesfx.Tile
-import eu.hansolo.tilesfx.skins.BarChartItem
-import eu.hansolo.tilesfx.skins.BarChartTileSkin
-import eu.hansolo.tilesfx.skins.MapTileSkin
 import javafx.beans.property.Property
-import javafx.scene.image.Image
-import javafx.scene.paint.Color
-import javafx.scene.text.TextAlignment
 import tornadofx.*
+import java.io.Serializable
 
-class DragTile(tile: Tile, colSpan: Int, rowSpan: Int) {
+class DragTile(tile: Tile, colIndex: Int, rowIndex: Int, colSpan: Int, rowSpan: Int): Serializable {
     var tile by property(tile)
     fun tileProperty() = getProperty(ModuleTilePlacement::tile)
 
-    var colSpan by property(colSpan)
+    var colIndex by property(colSpan)
+    fun colIndexProperty() = getProperty(ModuleTilePlacement::colIndex)
+
+    var rowIndex by property(rowIndex)
+    fun rowIndexProperty() = getProperty(ModuleTilePlacement::colIndex)
+
+    var colSpan by property(colIndex)
     fun colSpanProperty() = getProperty(ModuleTilePlacement::colSpan)
 
     var rowSpan by property(rowSpan)
