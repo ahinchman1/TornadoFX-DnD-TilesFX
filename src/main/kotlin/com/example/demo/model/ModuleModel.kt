@@ -10,11 +10,17 @@ import javafx.scene.paint.Color
 import javafx.scene.text.TextAlignment
 import tornadofx.*
 
-class DragTile(tile: Tile, colSpan: Int, rowSpan: Int) {
+class DragTile(tile: Tile, colIndex: Int, rowIndex: Int, colSpan: Int, rowSpan: Int) {
     var tile by property(tile)
     fun tileProperty() = getProperty(ModuleTilePlacement::tile)
 
-    var colSpan by property(colSpan)
+    var colIndex by property(colSpan)
+    fun colIndexProperty() = getProperty(ModuleTilePlacement::colIndex)
+
+    var rowIndex by property(rowIndex)
+    fun rowIndexProperty() = getProperty(ModuleTilePlacement::colIndex)
+
+    var colSpan by property(colIndex)
     fun colSpanProperty() = getProperty(ModuleTilePlacement::colSpan)
 
     var rowSpan by property(rowSpan)

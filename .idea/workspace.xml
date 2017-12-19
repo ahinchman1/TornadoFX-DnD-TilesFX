@@ -2,13 +2,54 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="adabb7c3-3ffc-4353-986b-167fcb8be6e0" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/hs_err_pid8487.log" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/app/Styles$7.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/model/DragTile$colIndexProperty$1.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/model/DragTile$rowIndexProperty$1.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepage$root$1$1$4$1$1$1$1$1$3.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepage$root$1$1$4$1$1$1$1$1$4.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepage$root$1$1$4$1$1$1$1$1$5.class" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/example/demo/controllers/DragAttempts.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/demo/controllers/DragAttempts.kt" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/example/demo/controllers/MetroTileHomepageController.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/demo/controllers/MetroTileHomepageController.kt" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/example/demo/app/Styles.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/demo/app/Styles.kt" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/example/demo/model/ModuleModel.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/demo/model/ModuleModel.kt" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/MetroTileHomepage.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/MetroTileHomepage.kt" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/DemoCreator-Accent.kotlin_module" afterPath="$PROJECT_DIR$/target/classes/META-INF/DemoCreator-Accent.kotlin_module" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/controllers/MetroTileHomepageController.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/controllers/MetroTileHomepageController.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepage$Companion.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepage$Companion.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/app/Styles$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/app/Styles$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/app/Styles$2.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/app/Styles$2.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/app/Styles$3.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/app/Styles$3.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/app/Styles$4.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/app/Styles$4.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/app/Styles$5.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/app/Styles$5.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/app/Styles$6$1$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/app/Styles$6$1$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/app/Styles$6$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/app/Styles$6$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/app/Styles$6.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/app/Styles$6.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/app/Styles$Companion.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/app/Styles$Companion.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/app/Styles.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/app/Styles.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/model/DragTile$colSpanProperty$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/model/DragTile$colSpanProperty$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/model/DragTile$rowSpanProperty$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/model/DragTile$rowSpanProperty$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/model/DragTile$tileProperty$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/model/DragTile$tileProperty$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/model/DragTile.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/model/DragTile.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/model/DragTileModel$colSpan$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/model/DragTileModel$colSpan$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/model/DragTileModel$rowSpan$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/model/DragTileModel$rowSpan$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/model/DragTileModel$tile$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/model/DragTileModel$tile$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/model/DragTileModel.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/model/DragTileModel.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/model/DragTileScope.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/model/DragTileScope.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/model/ModuleModel$moduleBackground$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/model/ModuleModel$moduleBackground$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/model/ModuleModel$moduleBackgroundBarColor$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/model/ModuleModel$moduleBackgroundBarColor$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/model/ModuleModel$moduleBarChartItem$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/model/ModuleModel$moduleBarChartItem$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/model/ModuleModel$moduleBarColor$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/model/ModuleModel$moduleBarColor$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/model/ModuleModel$moduleBorderColor$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/model/ModuleModel$moduleBorderColor$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/model/ModuleModel$moduleDescriptor$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/model/ModuleModel$moduleDescriptor$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/model/ModuleModel$moduleDescriptorAlignment$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/model/ModuleModel$moduleDescriptorAlignment$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/model/ModuleModel$moduleDescriptorColor$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/model/ModuleModel$moduleDescriptorColor$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/model/ModuleModel$moduleImage$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/model/ModuleModel$moduleImage$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/model/ModuleModel$moduleMap$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/model/ModuleModel$moduleMap$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/model/ModuleModel$moduleMaxHeight$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/model/ModuleModel$moduleMaxHeight$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/model/ModuleModel$moduleMaxWidth$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/model/ModuleModel$moduleMaxWidth$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/model/ModuleModel$moduleSkin$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/model/ModuleModel$moduleSkin$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/model/ModuleModel$moduleTitle$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/model/ModuleModel$moduleTitle$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/model/ModuleModel$moduleTitleAlignment$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/model/ModuleModel$moduleTitleAlignment$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/model/ModuleModel$moduleTitleColor$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/model/ModuleModel$moduleTitleColor$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/model/ModuleModel.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/model/ModuleModel.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepage$Companion.class" afterPath="" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepage$root$1$1$1$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepage$root$1$1$1$1.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepage$root$1$1$1$2$1$1.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepage$root$1$1$1$2$1$1.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepage$root$1$1$1$2$1$2.class" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/views/MetroTileHomepage$root$1$1$1$2$1$2.class" />
@@ -61,8 +102,8 @@
       <file leaf-file-name="MyTiles.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/MyTiles.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="6" lean-forward="false" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+            <state relative-caret-position="210">
+              <caret line="19" column="27" lean-forward="false" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
               <folding>
                 <element signature="e#32#220#0" expanded="true" />
               </folding>
@@ -73,7 +114,7 @@
       <file leaf-file-name="WorkbenchController.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/controllers/WorkbenchController.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
+            <state relative-caret-position="270">
               <caret line="19" column="5" lean-forward="false" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
               <folding>
                 <element signature="e#38#88#0" expanded="true" />
@@ -85,7 +126,7 @@
       <file leaf-file-name="MetroTileHomepageController.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/controllers/MetroTileHomepageController.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
+            <state relative-caret-position="60">
               <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="49" />
               <folding>
                 <element signature="e#38#351#0" expanded="true" />
@@ -97,11 +138,31 @@
       <file leaf-file-name="MetroTileHomepage.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/MetroTileHomepage.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
-              <caret line="216" column="9" lean-forward="true" selection-start-line="216" selection-start-column="9" selection-end-line="216" selection-end-column="9" />
+            <state relative-caret-position="237">
+              <caret line="148" column="91" lean-forward="false" selection-start-line="148" selection-start-column="91" selection-end-line="148" selection-end-column="91" />
               <folding>
-                <element signature="e#31#937#0" expanded="true" />
+                <element signature="e#31#922#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ModuleModel.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/model/ModuleModel.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Styles.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/app/Styles.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="780">
+              <caret line="53" column="25" lean-forward="false" selection-start-line="53" selection-start-column="25" selection-end-line="53" selection-end-column="25" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -109,7 +170,7 @@
       <file leaf-file-name="ModuleTilePlacement.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/model/ModuleTilePlacement.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="438">
+            <state relative-caret-position="1080">
               <caret line="74" column="0" lean-forward="false" selection-start-line="74" selection-start-column="0" selection-end-line="76" selection-end-column="1" />
               <folding />
             </state>
@@ -140,6 +201,7 @@
       <find>gridSquare</find>
       <find>scope</find>
       <find>controller</find>
+      <find>highlightTile</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -153,8 +215,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/MetroTileHomepages/MetroTileHomepage14.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/MetroTileHomepages/MetroTileHomepage15.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/MetroTileHomepages/MetroTileHomepage16.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/MetroTileHomepages/MetroTileHomepage17.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/MetroTileHomepages/MetroTileHomepage18.kt" />
@@ -183,7 +243,6 @@
         <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage6.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage7.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage8.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/app/Styles.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage9.kt" />
         <option value="$PROJECT_DIR$/src/main/res/fxml/MetroTileHomepage2.fxml" />
         <option value="$PROJECT_DIR$/src/main/res/fxml/MetroTileHomepage3.fxml" />
@@ -203,6 +262,9 @@
         <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/controllers/MetroTileHomepageController.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/controllers/DragController.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/controllers/DragAttempts.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/app/Styles.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/MyTiles.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/model/ModuleModel.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/MetroTileHomepage.kt" />
       </list>
     </option>
@@ -215,9 +277,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="584" />
-    <option name="y" value="22" />
-    <option name="width" value="720" />
+    <option name="x" value="400" />
+    <option name="y" value="24" />
+    <option name="width" value="879" />
     <option name="height" value="778" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -238,9 +300,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -334,7 +393,10 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -546,56 +608,36 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="584" y="22" width="720" height="778" extended-state="0" />
+    <frame x="400" y="24" width="879" height="778" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2532943" sideWeight="0.48294243" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2469697" sideWeight="0.5394883" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298611" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24597365" sideWeight="0.46051168" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998565" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38643068" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24974093" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34545454" sideWeight="0.70372975" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328" sideWeight="0.5170576" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287879" sideWeight="0.5005562" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24974093" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32231405" sideWeight="0.70372975" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26342976" sideWeight="0.48294243" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26207906" sideWeight="0.48294243" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.02892562" sideWeight="0.4637579" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328" sideWeight="0.5170576" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.027818449" sideWeight="0.4637579" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998565" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30619866" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.101553164" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24974093" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32210836" sideWeight="0.70372975" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287879" sideWeight="0.5005562" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -643,18 +685,36 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/MetroTileHomepage.kt</url>
-          <line>85</line>
+          <line>226</line>
           <properties />
-          <option name="timeStamp" value="82" />
+          <option name="timeStamp" value="94" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/MetroTileHomepage.kt</url>
-          <line>87</line>
+          <line>232</line>
           <properties />
-          <option name="timeStamp" value="87" />
+          <option name="timeStamp" value="95" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/MetroTileHomepage.kt</url>
+          <line>256</line>
+          <properties />
+          <option name="timeStamp" value="97" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/MetroTileHomepage.kt</url>
+          <line>237</line>
+          <properties />
+          <option name="timeStamp" value="98" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/MetroTileHomepage.kt</url>
+          <line>142</line>
+          <properties />
+          <option name="timeStamp" value="99" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="88" />
+      <option name="time" value="100" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -671,7 +731,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="25" column="1" lean-forward="false" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -679,9 +738,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="12" column="6" lean-forward="false" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-          <folding>
-            <element signature="e#32#387#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -701,21 +757,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="918">
           <caret line="60" column="38" lean-forward="false" selection-start-line="60" selection-start-column="38" selection-end-line="60" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/res/css/GUI-Code-Creator.css" />
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage3.kt" />
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage1.kt" />
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/app/Styles.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="32" column="29" lean-forward="false" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage8.kt" />
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/metroTileHomepages/MetroTileHomepage2.kt" />
     <entry file="file://$PROJECT_DIR$/src/main/res/fxml/MetroTileHomepage1.fxml">
@@ -855,20 +902,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/controllers/WorkbenchController.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
+        <state relative-caret-position="270">
           <caret line="19" column="5" lean-forward="false" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
           <folding>
             <element signature="e#38#88#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/controllers/MetroTileHomepageController.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="49" />
-          <folding>
-            <element signature="e#38#351#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -877,9 +914,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="98">
           <caret line="9" column="27" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="27" />
-          <folding>
-            <element signature="e#38#202#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -893,17 +927,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/model/ModuleModel.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/app/Styles.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="45" column="1" lean-forward="false" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
+        <state relative-caret-position="780">
+          <caret line="53" column="25" lean-forward="false" selection-start-line="53" selection-start-column="25" selection-end-line="53" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/model/ModuleTilePlacement.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
+        <state relative-caret-position="1080">
           <caret line="74" column="0" lean-forward="false" selection-start-line="74" selection-start-column="0" selection-end-line="76" selection-end-column="1" />
           <folding />
         </state>
@@ -911,20 +945,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/MyTiles.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="6" lean-forward="false" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        <state relative-caret-position="210">
+          <caret line="19" column="27" lean-forward="false" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
           <folding>
             <element signature="e#32#220#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/model/ModuleModel.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/controllers/MetroTileHomepageController.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="49" />
+          <folding>
+            <element signature="e#38#351#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/demo/views/MetroTileHomepage.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="216" column="9" lean-forward="true" selection-start-line="216" selection-start-column="9" selection-end-line="216" selection-end-column="9" />
+        <state relative-caret-position="237">
+          <caret line="148" column="91" lean-forward="false" selection-start-line="148" selection-start-column="91" selection-end-line="148" selection-end-column="91" />
           <folding>
-            <element signature="e#31#937#0" expanded="true" />
+            <element signature="e#31#922#0" expanded="true" />
           </folding>
         </state>
       </provider>
