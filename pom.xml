@@ -36,7 +36,6 @@
             <groupId>eu.hansolo</groupId>
             <artifactId>tilesfx</artifactId>
             <version>1.5.2</version>
-            <type>pom</type>
         </dependency>
         <dependency>
             <groupId>org.jetbrains.kotlin</groupId>
@@ -97,6 +96,10 @@
             <snapshots>
                 <enabled>true</enabled>
             </snapshots>
+        </repository>
+        <repository>
+            <id>jitpack.io</id>
+            <url>https://jitpack.io</url>
         </repository>
     </repositories>
 
