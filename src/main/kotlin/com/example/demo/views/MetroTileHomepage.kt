@@ -352,5 +352,3 @@ private fun passGridInfo(gridInfo: GridInfo): GridPane {
     metroScope.model.item = gridInfo
     return find<MyTiles>(metroScope).root
 }
-
-
