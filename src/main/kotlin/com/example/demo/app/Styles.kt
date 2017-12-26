@@ -1,5 +1,6 @@
 package com.example.demo.app
 
+import javafx.scene.effect.DropShadow
 import javafx.scene.paint.Color
 import tornadofx.*
 
@@ -14,6 +15,8 @@ class Styles : Stylesheet() {
         val module_tile by cssclass()
         val module by cssclass()
         val highlightTile by cssclass()
+        val workAreaSelected by cssclass()
+        val inflight by cssclass()
     }
 
     // apply styling to classes
@@ -52,6 +55,16 @@ class Styles : Stylesheet() {
 
         highlightTile {
             opacity = 0.4
+        }
+
+        inflight {
+            opacity = 0.7
+            effect = DropShadow()
+        }
+
+        workAreaSelected {
+            borderColor += box(Color.BLACK)
+            borderWidth += box(3.px)
         }
     }
 }

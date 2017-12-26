@@ -1,17 +1,18 @@
 package com.example.demo.views
 import com.example.demo.app.Styles
 import com.example.demo.app.Styles.Companion.highlightTile
+import com.example.demo.app.Styles.Companion.inflight
 import com.example.demo.app.Styles.Companion.metroTileHomepageGUI
+import com.example.demo.app.Styles.Companion.workAreaSelected
 import com.example.demo.controllers.LoginController
 import com.example.demo.controllers.MetroTileHomepageController
+import com.example.demo.controllers.PageBuilderController
 import com.example.demo.controllers.WorkbenchController
 import com.example.demo.model.DragTile
 import com.example.demo.model.GridInfo
 import com.example.demo.model.GridScope
 import eu.hansolo.tilesfx.Tile
-import javafx.animation.KeyFrame
-import javafx.animation.KeyValue
-import javafx.animation.Timeline
+import eu.hansolo.tilesfx.TileBuilder
 import javafx.application.Platform
 import javafx.geometry.Point2D
 import javafx.geometry.Pos
@@ -20,36 +21,29 @@ import javafx.scene.Node
 import javafx.scene.control.Alert
 import javafx.scene.input.*
 import javafx.scene.layout.*
+import javafx.scene.paint.Color
 import javafx.scene.text.Font
 import tornadofx.*
-import java.time.Duration
-
-
-
-
-
 
 class MetroTileHomepage : Fragment() {
     private val loginController: LoginController by inject()
+    private val pageBuilderController: PageBuilderController by inject()
     private val workbenchController: WorkbenchController by inject()
     private val controller: MetroTileHomepageController by inject()
-    private val paginator = DataGridPaginator(controller.smallTiles, itemsPerPage = 8)
-    lateinit var tile: Tile
-    lateinit var pickedTile: Tile
-    lateinit var leavingTile: Tile
-    private lateinit var gridInfo: GridInfo
-    private lateinit var grid: GridPane
-    private var offset = Point2D(0.0, 0.0)
-    private var draggingTile = false
 
-    /* save clipboard for images -- to be implemented later
-    companion object {
-        private var TILES: DataFormat = DataFormat("eu.hansolo.tilesfx.Tile")
-    } */
+    private val paginator = DataGridPaginator(pageBuilderController.smallTiles, itemsPerPage = 8)
+    private lateinit var gridInfo: GridInfo
+
+    // drag variables
+    private var draggingColor: Color? = null
+    private var moduleboxItems = mutableListOf<Node>()
+    var workArea: GridPane by singleAssign()
+    private var selectedTile: Tile by singleAssign()
+    private var inflightTile: Tile by singleAssign()
 
     override val root = borderpane {
-        val gridInfo = GridInfo(controller.useTileGrid(workbenchController.metroTile))
-        grid = passGridInfo(gridInfo)
+        gridInfo = GridInfo(controller.useTileGrid(workbenchController.metroTile))
+        workArea = passGridInfo(gridInfo)
         addClass(metroTileHomepageGUI)
         setPrefSize(1000.0, 750.0)
 
@@ -70,54 +64,24 @@ class MetroTileHomepage : Fragment() {
                 }
             }
 
-            center  = grid.addClass(Styles.grid)
+            center = workArea.addClass(Styles.grid)
 
-                grid.setOnMouseExited { e ->
-                    leaveGrid(e)
-                }
+            inflightTile = TileBuilder.create()
+                    .skinType(Tile.SkinType.CUSTOM)
+                    .maxSize(100.0, 100.0)
+                    .barBackgroundColor(Color.CHARTREUSE)
+                    .build().addClass(inflight)
 
-                grid.setOnMouseClicked { e ->
-                    checkReleaseOutOfGrid(e)
-                }
-
-                /* save clipboard for images -- to be implemented later
-                grid.setOnDragOver { event ->
-                    if (event.dragboard.hasContent(TILES)) event.acceptTransferModes(TransferMode.COPY)
-                    event.consume()
-                }
-
-                grid.setOnDragDropped { event ->
-                    if (event.dragboard.hasContent(TILES)) {
-                        event.isDropCompleted = false
-                        val db: Dragboard = event.dragboard
-                        val node: Node = event.pickResult.intersectedNode
-                        if (node != grid && db.hasContent(TILES) && db.getContent(TILES) is DragTile) {
-                            // if there isn' a way to use this method, then I'll have to workaround
-                            // with a more complicated getPosition
-                            val columnIndex = GridPane.getColumnIndex(node)
-                            val rowIndex = GridPane.getRowIndex(node)
-                            val x = if (columnIndex == null) 0 else columnIndex
-                            val y = if (rowIndex == null) 0 else rowIndex
-                            dragTileScope.model.item = (db.getContent(TILES) as? DragTile)  // cast to DragTile?
-                            // should there be a way to get dataformat to return dragTileScope model format?
-                            grid.add(dragTileScope.model.item.tile, x, y,
-                                    dragTileScope.model.item.colSpan,
-                                    dragTileScope.model.item.rowSpan)
-                        }
-                    }
-                    event.isDropCompleted = true
-                    event.consume()
-                } */
+            inflightTile.isVisible = false
+            add(inflightTile)
 
             right {
                 vbox {
                     maxWidth = 300.0
-
                     drawer(side = Side.RIGHT) {
                         item("Small Modules", expanded = true) {
                             datagrid(paginator.items) {
                                 maxCellsInRow = 2
-
                                 cellWidth = 100.0
                                 cellHeight = 100.0
                                 paddingLeft = 35.0
@@ -127,53 +91,37 @@ class MetroTileHomepage : Fragment() {
                                     graphic = cache {
                                         it
                                     }
-
                                     graphic.setOnMouseEntered {
                                         graphic.addClass(highlightTile)
                                     }
+
                                     graphic.setOnMouseExited {
                                         graphic.removeClass(highlightTile)
                                     }
-                                    graphic.setOnMousePressed { e ->
-                                        tile = e.source as Tile
-                                        tile.prefHeight = 100.0 // accessing tile properties are private in Tile
-                                        tile.prefWidth = 100.0 // accessing tile properties are private in Tile
-
-                                        //leavingTile = tile.graphic as Tile
-                                        startDraggingTile(e)
-                                    }
-                                    graphic.setOnMouseDragged { e ->
-                                        dragTile(e)
-                                    }
-
-                                    /* save clipboard for images -- to be implemented later
-                                    graphic.setOnDragDetected { event ->
-                                        startDragAndDrop(TransferMode.MOVE).apply {
-                                            setContent { put(TILES, it) }
-                                            event.consume()
-                                        }
-                                    }*/
                                 }
                             }
-                        }
-                        item("Large Modules") {
-                            datagrid(paginator.items) {
-                                maxCellsInRow = 2
+                            add(paginator)
+                         }
 
-                                cellWidth = 100.0
-                                cellHeight = 100.0
-                                paddingLeft = 35.0
-                                minWidth = 300.0
+                         item("Large Modules") {
+                             datagrid(paginator.items) {
+                                 maxCellsInRow = 2
+                                 cellWidth = 100.0
+                                 cellHeight = 100.0
+                                 paddingLeft = 35.0
+                                 minWidth = 300.0
 
-                                cellFormat {
-                                    graphic = cache {
-                                        it
-                                    }
-                                }
-                            }
-                        }
-
-                    }
+                                 cellFormat {
+                                     graphic = cache {
+                                         it
+                                     }
+                                 }
+                             }
+                             stackpane {
+                                 add(paginator)
+                             }
+                         }
+                     }
 
                     form {
                         paddingLeft = 20.0
@@ -221,48 +169,73 @@ class MetroTileHomepage : Fragment() {
                 }
             }
         }
+
+        addEventFilter(MouseEvent.MOUSE_PRESSED, ::startDrag)
+        addEventFilter(MouseEvent.MOUSE_DRAGGED, ::animateDrag)
+        //addEventFilter(MouseEvent.MOUSE_EXITED, ::stopDrag)
+        addEventFilter(MouseEvent.MOUSE_RELEASED, ::stopDrag)
+        addEventFilter(MouseEvent.MOUSE_RELEASED, ::drop)
     }
 
-    private fun startDraggingTile(e: MouseEvent) {
-        offset = Point2D(e.x, e.y)
-        root += tile
-        //leavingTile.opacity = 1.0
-        //leavingTile.layoutX = tile.layoutX
-        //leavingTile.layoutY = tile.layoutY
+    private fun startDrag(evt : MouseEvent) {
 
-        draggingTile = true
+        moduleboxItems
+                .filter {
+                    val mousePt : Point2D = it.sceneToLocal( evt.sceneX, evt.sceneY )
+                    it.contains(mousePt)
+                }
+                .firstOrNull()
+                .apply {
+                    if( this != null ) {
+                        draggingColor = Color.GRAY
+                    }
+                }
+
     }
 
-    private fun dragTile(e: MouseEvent) {
-        val mousePoint = Point2D(e.x, e.y)
-        val mousePointS = Point2D(e.sceneX, e.sceneY)
+    private fun animateDrag(evt : MouseEvent) {
 
-        if (!inGrid(mousePointS)) {
-            return   // don't relocate() b/c will resize Pane
+        val mousePt = workArea.sceneToLocal( evt.sceneX, evt.sceneY )
+        if( workArea.contains(mousePt) ) {
+
+            // highlight the drop target (hover doesn't work)
+            if( !workArea.hasClass(workAreaSelected)) {
+                workArea.addClass(workAreaSelected)
+            }
+
+            // animate a rectangle so that the user can follow
+            if( !inflightTile.isVisible ) {
+                inflightTile.isVisible = true
+            }
+
+            inflightTile.relocate( mousePt.x, mousePt.y )
         }
 
-        val mousePointP = tile.localToParent(mousePoint)
-        val x = mousePointP.x - offset.x
-        val y = mousePointP.y - offset.y
-        tile.relocate(x, y)
-        tile.layoutX = x + offset.x
-        tile.layoutY = y + offset.y
-
     }
 
-    private fun finishDraggingTile(e: MouseEvent) {
-        offset = Point2D(0.0, 0.0)
+    private fun stopDrag(evt: MouseEvent) {
+        if( workArea.hasClass(workAreaSelected ) ) {
+            workArea.removeClass(workAreaSelected)
+        }
+        if( inflightTile.isVisible ) {
+            inflightTile.isVisible = false
+        }
+    }
 
-        val mousePoint = Point2D(e.x, e.y)
-        val mousePointScene = tile.localToScene(mousePoint)
+    private fun drop(evt : MouseEvent) {
 
-        val timeline = Timeline()
-        timeline.cycleCount = 1
-        timeline.isAutoReverse = false
+        val mousePt = workArea.sceneToLocal( evt.sceneX, evt.sceneY )
+        if( workArea.contains(mousePt) ) {
+            if( draggingColor != null ) {
+                val newTile = controller.moduleTileBuilder("module1")
+                workArea.add( newTile )
+                newTile.relocate( mousePt.x, mousePt.y )
 
-        pickGridTile(tile, mousePointScene)
-        draggingTile = false
+                inflightTile.toFront() // don't want to move cursor tracking behind added objects
+            }
+        }
 
+        draggingColor = null
     }
 
     private fun pickGridTile(tile: Tile, point2D: Point2D) {
@@ -271,7 +244,7 @@ class MetroTileHomepage : Fragment() {
 
     private fun pickGridTile(tile: Tile, sceneX: Double, sceneY:Double) {
         val mousePoint= Point2D(sceneX, sceneY)
-        val mpLocal = grid.sceneToLocal(mousePoint)
+        val mpLocal = workArea.sceneToLocal(mousePoint)
 
         val pickedTile = getPickedGridTileInfo(mpLocal)
         val gridRow: Int = (mpLocal.x/gridInfo.rows) as Int
@@ -281,7 +254,7 @@ class MetroTileHomepage : Fragment() {
 
         if (gridRow <= gridInfo.rows && gridColumn <= gridInfo.columns
                 && tileSpanRow == pickedTile.rowSpan && tileSpanCol == pickedTile.colSpan) {
-            grid.add(tile, gridColumn, gridRow, tileSpanRow, tileSpanCol)
+            workArea.add(tile, gridColumn, gridRow, tileSpanRow, tileSpanCol)
         } else {
             // might just want to drop the tile somewhere in the grid instead
             alert(
@@ -290,7 +263,6 @@ class MetroTileHomepage : Fragment() {
                     content = "Can't drop tile here"
             )
         }
-
     }
 
     private fun getPickedGridTileInfo(point2D: Point2D): DragTile {
@@ -301,49 +273,23 @@ class MetroTileHomepage : Fragment() {
         var rowSpan = 0
         var colSpan = 0
 
-        val children = grid.children
+        val children = workArea.children
 
         for (tile in children) {
             if (GridPane.getRowIndex(tile) == gridRow && GridPane.getColumnIndex(tile) == gridColumn) {
                 colIndex = GridPane.getColumnIndex(tile)
                 rowIndex = GridPane.getRowIndex(tile)
-                pickedTile = tile as Tile
-                rowSpan = (pickedTile.width / 100.0) as Int
-                colSpan = (pickedTile.height / 100.0) as Int
+                selectedTile = tile as Tile
+                rowSpan = (selectedTile.width / 100.0) as Int
+                colSpan = (selectedTile.height / 100.0) as Int
                 break
             }
         }
-
-        return DragTile(pickedTile, colIndex, rowIndex, colSpan, rowSpan)
+        return DragTile(selectedTile, colIndex, rowIndex, colSpan, rowSpan)
     }
 
-    private fun inGrid(pt: Point2D): Boolean {
-        val gridPt = grid.sceneToLocal(pt)
-        return (gridPt.x - offset.x >= 0.0
-                && gridPt.y - offset.y >= 0.0
-                && gridPt.x <= grid.width
-                && gridPt.y <= grid.height)
-    }
-
-    private fun checkReleaseOutOfGrid(e: MouseEvent) {
-        val mousePointScene = Point2D(e.sceneX, e.sceneY)
-        if (!inGrid(mousePointScene)) {
-            leaveGrid(e)
-            e.consume()
-        } else {
-            finishDraggingTile(e)
-        }
-    }
-
-    private fun leaveGrid(event: MouseEvent) {
-        if (draggingTile) {
-            val timeline: Timeline = Timeline()
-
-            draggingTile = false
-
-            //timeline.keyFrames.add(KeyFrame(Duration(200.0)),
-              //      KeyValue(tile.layoutXProperty(), tile.get))
-        }
+    init {
+        moduleboxItems.addAll( pageBuilderController.smallTiles )
     }
 }
 

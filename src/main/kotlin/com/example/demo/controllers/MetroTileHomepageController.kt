@@ -10,58 +10,6 @@ import javafx.geometry.Pos
 import javafx.scene.paint.Color
 
 class MetroTileHomepageController: Controller() {
-    /** Small Modules **/
-    private val module1 = TileBuilder.create()
-            .skinType(Tile.SkinType.CUSTOM)
-            .maxSize(100.0, 100.0)
-            .title("module1")
-            .build()
-
-    private val module2 = TileBuilder.create()
-            .skinType(Tile.SkinType.CUSTOM)
-            .maxSize(100.0, 100.0)
-            .title("module1")
-            .build()
-
-    private val module3 = TileBuilder.create()
-            .skinType(Tile.SkinType.CUSTOM)
-            .maxSize(100.0, 100.0)
-            .title("module1")
-            .build()
-
-    private val module4 = TileBuilder.create()
-            .skinType(Tile.SkinType.CUSTOM)
-            .maxSize(100.0, 100.0)
-            .title("module1")
-            .build()
-
-    private val module5 = TileBuilder.create()
-            .skinType(Tile.SkinType.CUSTOM)
-            .maxSize(100.0, 100.0)
-            .title("module1")
-            .build()
-
-    private val module6 = TileBuilder.create()
-            .skinType(Tile.SkinType.CUSTOM)
-            .maxSize(100.0, 100.0)
-            .title("module1")
-            .build()
-
-    private val module7 = TileBuilder.create()
-            .skinType(Tile.SkinType.CUSTOM)
-            .maxSize(100.0, 100.0)
-            .title("module1")
-            .build()
-
-    private val module8 = TileBuilder.create()
-            .skinType(Tile.SkinType.CUSTOM)
-            .maxSize(100.0, 100.0)
-            .title("module1")
-            .build()
-
-    val smallTiles = listOf(module1, module2, module3, module4, module5,
-            module6, module7, module8).observable()
-
     // use metroTile info to render MyTiles
     fun useTileGrid(metroTile: Int): Pair< Pair<Int, Int>, List<ModuleTilePlacement>> {
         var gridInfo = Pair(Pair(1,1), tilePane1)
@@ -208,17 +156,14 @@ class MetroTileHomepageController: Controller() {
     }
 
     // attempted serializing
-    private fun moduleTileBuilder(title: String, size: Double = 100.0) {
+    fun moduleTileBuilder(title: String, size: Double = 100.0): Tile {
         val dragTileScope = DragTileScope()
-        val tile = TileBuilder.create()
+        return TileBuilder.create()
                     .skinType(Tile.SkinType.TEXT)
                     .title(title)
                     .maxSize(size, size)
                     .roundedCorners(false)
                     .build()
-
-        //dragTileScope.model.item = tile
-        //return find<MyTiles>(dragTileScope).root
     }
 
     private fun gridBannerBuilder(subtitle: String = "Hi, Admin", width: Double = 310.0,

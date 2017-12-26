@@ -101,4 +101,8 @@ class ModuleModel: ItemViewModel<Tile>() {
         val commit = find { it.property == ref && it.changed}
         return commit?.let { (it.newValue as T) to (it.oldValue as T) }
     }
+
+    class ModuleTileScope: Scope() {
+        val model = ModuleModel()
+    }
 }
