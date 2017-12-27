@@ -8,10 +8,7 @@ import com.example.demo.controllers.LoginController
 import com.example.demo.controllers.MetroTileHomepageController
 import com.example.demo.controllers.PageBuilderController
 import com.example.demo.controllers.WorkbenchController
-import com.example.demo.model.DragTile
-import com.example.demo.model.GridInfo
-import com.example.demo.model.GridScope
-import com.example.demo.model.PageBuilder
+import com.example.demo.model.*
 import eu.hansolo.tilesfx.Tile
 import eu.hansolo.tilesfx.TileBuilder
 import javafx.application.Platform
@@ -25,10 +22,8 @@ import javafx.scene.input.*
 import javafx.scene.layout.*
 import javafx.scene.paint.Color
 import javafx.scene.text.Font
-import jdk.nashorn.internal.objects.NativeFunction.function
 import tornadofx.*
 import kotlin.math.roundToInt
-import kotlin.reflect.KClass
 
 class MetroTileHomepage : Fragment() {
     private val loginController: LoginController by inject()
@@ -39,9 +34,11 @@ class MetroTileHomepage : Fragment() {
     private val paginator = DataGridPaginator(pageBuilderController.smallTiles, itemsPerPage = 8)
     private lateinit var gridInfo: GridInfo
 
+    val pageBuilderScope = PageBuilderScope()
+
     // drag variables
     private var draggingColor: Color? = null
-    private var moduleboxItems = mutableListOf<Node>()
+    private var moduleBoxItems = mutableListOf<Node>()
     var workArea: GridPane by singleAssign()
     private var selectedTile: Tile by singleAssign()
     private var inflightTile: Tile by singleAssign()
@@ -198,7 +195,7 @@ class MetroTileHomepage : Fragment() {
             evt.consume()
         }
 
-        moduleboxItems
+        moduleBoxItems
                 .filter {
                     val mousePt : Point2D = it.sceneToLocal( evt.sceneX, evt.sceneY )
                     it.contains(mousePt)
@@ -253,8 +250,10 @@ class MetroTileHomepage : Fragment() {
         if( workArea.contains(mousePt) ) {
             if( draggingColor != null ) {
                 val newModule = PageBuilder(100.0, 100.0, Color.DARKGRAY, "module1")
+                pageBuilderScope.model.item = newModule
+
                 val newTile = pageBuilderController.moduleTileBuilder(newModule)
-                workArea.add( newTile )
+                //workArea.add( newTile )
                 //newTile.relocate( mousePt.x, mousePt.y )
                 pickGridTile(newTile, mousePt.x, mousePt.y)
 
@@ -272,10 +271,12 @@ class MetroTileHomepage : Fragment() {
         val mpLocal = workArea.sceneToLocal(mousePoint)
 
         val pickedTile = getPickedGridTileInfo(mpLocal)
-        val gridRow: Int = (mpLocal.x/gridInfo.rows).roundToInt()
-        val gridColumn: Int = (mpLocal.y/gridInfo.columns).roundToInt()
-        val tileSpanRow: Int = (tile.width/100).roundToInt()
-        val tileSpanCol: Int = (tile.height/100).roundToInt()
+        val rowOffset: Int = ((mpLocal.x - 25)/100).roundToInt() * 10
+        val colOffset: Int = ((mpLocal.y - 75)/100).roundToInt() * 10
+        val gridColumn: Int = ((mpLocal.x - 25 - rowOffset)/100).roundToInt()
+        val gridRow: Int = ((mpLocal.y - 75 - colOffset)/100).roundToInt()
+        val tileSpanRow: Int = (pageBuilderScope.model.item.width/100).roundToInt()
+        val tileSpanCol: Int = (pageBuilderScope.model.item.height/100).roundToInt()
 
         if (gridRow <= gridInfo.rows && gridColumn <= gridInfo.columns
                 && tileSpanRow == pickedTile.rowSpan && tileSpanCol == pickedTile.colSpan) {
@@ -308,9 +309,9 @@ class MetroTileHomepage : Fragment() {
             if (workAreaRow == gridRow && workAreaCol == gridColumn) {
                 colIndex = workAreaCol
                 rowIndex = workAreaRow
+                colSpan = GridPane.getColumnSpan(tile)
+                rowSpan = GridPane.getRowSpan(tile)
                 selectedTile = tile as Tile
-                rowSpan = (selectedTile.maxWidth / 100.0).roundToInt()
-                colSpan = (selectedTile.maxHeight / 100.0).roundToInt()
                 workArea.children.remove(tile)
                 break
             }
@@ -319,7 +320,7 @@ class MetroTileHomepage : Fragment() {
     }
 
     init {
-        moduleboxItems.addAll( pageBuilderController.smallTiles )
+        moduleBoxItems.addAll( pageBuilderController.smallTiles )
     }
 }
 

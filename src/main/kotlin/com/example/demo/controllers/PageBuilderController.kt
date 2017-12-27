@@ -1,6 +1,5 @@
 package com.example.demo.controllers
 
-import com.example.demo.model.DragTileScope
 import com.example.demo.model.PageBuilder
 import com.example.demo.model.PageBuilderModel
 import com.example.demo.model.PageBuilderScope
