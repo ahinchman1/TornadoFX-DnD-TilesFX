@@ -11,6 +11,7 @@ import com.example.demo.controllers.WorkbenchController
 import com.example.demo.model.DragTile
 import com.example.demo.model.GridInfo
 import com.example.demo.model.GridScope
+import com.example.demo.model.PageBuilder
 import eu.hansolo.tilesfx.Tile
 import eu.hansolo.tilesfx.TileBuilder
 import javafx.application.Platform
@@ -19,11 +20,15 @@ import javafx.geometry.Pos
 import javafx.geometry.Side
 import javafx.scene.Node
 import javafx.scene.control.Alert
+import javafx.scene.control.Button
 import javafx.scene.input.*
 import javafx.scene.layout.*
 import javafx.scene.paint.Color
 import javafx.scene.text.Font
+import jdk.nashorn.internal.objects.NativeFunction.function
 import tornadofx.*
+import kotlin.math.roundToInt
+import kotlin.reflect.KClass
 
 class MetroTileHomepage : Fragment() {
     private val loginController: LoginController by inject()
@@ -140,19 +145,20 @@ class MetroTileHomepage : Fragment() {
                         }
                     }
                     hbox {
+
                         hboxConstraints {
                             alignment = Pos.BASELINE_RIGHT
                         }
+
                         button("Return to Workbench") {
-                            setOnAction {
-                                workbenchController.returnToWorkbench(this@MetroTileHomepage)
-                            }
+                            addEventFilter(MouseEvent.MOUSE_PRESSED, ::returnToWorkBench)
 
                             hboxConstraints {
                                 marginLeftRight(10.0)
                                 marginBottom = 20.0
                             }
                         }
+
                         button("Save") {
                             isDefaultButton = true
 
@@ -177,7 +183,20 @@ class MetroTileHomepage : Fragment() {
         addEventFilter(MouseEvent.MOUSE_RELEASED, ::drop)
     }
 
+    private fun returnToWorkBench(evt: MouseEvent) {
+        workbenchController.returnToWorkbench(this@MetroTileHomepage)
+        evt.consume()
+    }
+
     private fun startDrag(evt : MouseEvent) {
+
+        val targetNode = evt.target as Node
+        val buttonTarget = targetNode.findParentOfType(Button::class)
+        println( "topMostTarget=${buttonTarget}")
+
+        if (buttonTarget != null) {
+            evt.consume()
+        }
 
         moduleboxItems
                 .filter {
@@ -187,6 +206,12 @@ class MetroTileHomepage : Fragment() {
                 .firstOrNull()
                 .apply {
                     if( this != null ) {
+
+
+                        val targetNode = evt.target as Node
+                        val topMostTarget = targetNode.findParentOfType(Tile::class)
+                        println( "topMostTarget=${topMostTarget}")
+
                         draggingColor = Color.GRAY
                     }
                 }
@@ -227,19 +252,19 @@ class MetroTileHomepage : Fragment() {
         val mousePt = workArea.sceneToLocal( evt.sceneX, evt.sceneY )
         if( workArea.contains(mousePt) ) {
             if( draggingColor != null ) {
-                val newTile = controller.moduleTileBuilder("module1")
+                val newModule = PageBuilder(100.0, 100.0, Color.DARKGRAY, "module1")
+                val newTile = pageBuilderController.moduleTileBuilder(newModule)
                 workArea.add( newTile )
-                newTile.relocate( mousePt.x, mousePt.y )
+                //newTile.relocate( mousePt.x, mousePt.y )
+                pickGridTile(newTile, mousePt.x, mousePt.y)
 
                 inflightTile.toFront() // don't want to move cursor tracking behind added objects
             }
         }
 
         draggingColor = null
-    }
 
-    private fun pickGridTile(tile: Tile, point2D: Point2D) {
-        return pickGridTile(tile, point2D.x, point2D.y)
+        evt.consume()
     }
 
     private fun pickGridTile(tile: Tile, sceneX: Double, sceneY:Double) {
@@ -247,10 +272,10 @@ class MetroTileHomepage : Fragment() {
         val mpLocal = workArea.sceneToLocal(mousePoint)
 
         val pickedTile = getPickedGridTileInfo(mpLocal)
-        val gridRow: Int = (mpLocal.x/gridInfo.rows) as Int
-        val gridColumn: Int = (mpLocal.y/gridInfo.columns) as Int
-        val tileSpanRow: Int = (tile.width/100) as Int
-        val tileSpanCol: Int = (tile.height/100) as Int
+        val gridRow: Int = (mpLocal.x/gridInfo.rows).roundToInt()
+        val gridColumn: Int = (mpLocal.y/gridInfo.columns).roundToInt()
+        val tileSpanRow: Int = (tile.width/100).roundToInt()
+        val tileSpanCol: Int = (tile.height/100).roundToInt()
 
         if (gridRow <= gridInfo.rows && gridColumn <= gridInfo.columns
                 && tileSpanRow == pickedTile.rowSpan && tileSpanCol == pickedTile.colSpan) {
@@ -266,8 +291,10 @@ class MetroTileHomepage : Fragment() {
     }
 
     private fun getPickedGridTileInfo(point2D: Point2D): DragTile {
-        val gridRow: Int = (point2D.x/gridInfo.rows) as Int
-        val gridColumn: Int = (point2D.y/gridInfo.columns) as Int
+        val rowOffset: Int = ((point2D.x - 25)/100).roundToInt() * 10
+        val colOffset: Int = ((point2D.y - 75)/100).roundToInt() * 10
+        val gridColumn: Int = ((point2D.x - 25 - rowOffset)/100).roundToInt()
+        val gridRow: Int = ((point2D.y - 75 - colOffset)/100).roundToInt()
         var colIndex = 0
         var rowIndex = 0
         var rowSpan = 0
@@ -276,12 +303,15 @@ class MetroTileHomepage : Fragment() {
         val children = workArea.children
 
         for (tile in children) {
-            if (GridPane.getRowIndex(tile) == gridRow && GridPane.getColumnIndex(tile) == gridColumn) {
-                colIndex = GridPane.getColumnIndex(tile)
-                rowIndex = GridPane.getRowIndex(tile)
+            val workAreaRow = GridPane.getRowIndex(tile)
+            val workAreaCol = GridPane.getColumnIndex(tile)
+            if (workAreaRow == gridRow && workAreaCol == gridColumn) {
+                colIndex = workAreaCol
+                rowIndex = workAreaRow
                 selectedTile = tile as Tile
-                rowSpan = (selectedTile.width / 100.0) as Int
-                colSpan = (selectedTile.height / 100.0) as Int
+                rowSpan = (selectedTile.maxWidth / 100.0).roundToInt()
+                colSpan = (selectedTile.maxHeight / 100.0).roundToInt()
+                workArea.children.remove(tile)
                 break
             }
         }

@@ -155,17 +155,6 @@ class MetroTileHomepageController: Controller() {
                 .build()
     }
 
-    // attempted serializing
-    fun moduleTileBuilder(title: String, size: Double = 100.0): Tile {
-        val dragTileScope = DragTileScope()
-        return TileBuilder.create()
-                    .skinType(Tile.SkinType.TEXT)
-                    .title(title)
-                    .maxSize(size, size)
-                    .roundedCorners(false)
-                    .build()
-    }
-
     private fun gridBannerBuilder(subtitle: String = "Hi, Admin", width: Double = 310.0,
                                 height: Double = 100.0) : Tile {
         return TileBuilder.create()

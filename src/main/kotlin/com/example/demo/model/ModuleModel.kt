@@ -5,47 +5,6 @@ import javafx.beans.property.Property
 import tornadofx.*
 import java.io.Serializable
 
-class DragTile(tile: Tile, colIndex: Int, rowIndex: Int, colSpan: Int, rowSpan: Int): Serializable {
-    var tile by property(tile)
-    fun tileProperty() = getProperty(ModuleTilePlacement::tile)
-
-    var colIndex by property(colSpan)
-    fun colIndexProperty() = getProperty(ModuleTilePlacement::colIndex)
-
-    var rowIndex by property(rowIndex)
-    fun rowIndexProperty() = getProperty(ModuleTilePlacement::colIndex)
-
-    var colSpan by property(colIndex)
-    fun colSpanProperty() = getProperty(ModuleTilePlacement::colSpan)
-
-    var rowSpan by property(rowSpan)
-    fun rowSpanProperty() = getProperty(ModuleTilePlacement::rowSpan)
-}
-
-class DragTileModel : ItemViewModel<DragTile>() {
-    private val tile = bind { item?.tileProperty()  }
-    private val colSpan = bind { item?.colSpanProperty() }
-    private val rowSpan = bind { item?.rowSpanProperty() }
-
-    override fun onCommit(commits: List<Commit>) {
-        super.onCommit(commits)
-
-        // The println will only be called if findChanged is not null
-        commits.findChanged(tile)?.let { println("Module Tile changed from ${it.first} to ${it.second}")}
-        commits.findChanged(colSpan)?.let { println("Column Span changed from ${it.first} to ${it.second}")}
-        commits.findChanged(rowSpan)?.let { println("Row Span changed from ${it.first} to ${it.second}")}
-    }
-
-    private fun <T> List<Commit>.findChanged(ref: Property<T>): Pair<T, T>? {
-        val commit = find { it.property == ref && it.changed}
-        return commit?.let { (it.newValue as T) to (it.oldValue as T) }
-    }
-}
-
-class DragTileScope: Scope() {
-    val model = DragTileModel()
-}
-
 // Not sure if I'm using this at all
 class ModuleModel: ItemViewModel<Tile>() {
     // Module Base
