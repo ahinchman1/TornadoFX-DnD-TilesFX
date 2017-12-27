@@ -9,11 +9,6 @@ import tornadofx.*
 class DemoCreatorApp : App(LoginScreen::class, Styles::class) {
     private val loginController: LoginController by inject()
 
-    init {
-        reloadStylesheetsOnFocus()
-        reloadViewsOnFocus()
-    }
-
     override fun start(stage: Stage) {
         importStylesheet(Styles::class)
         super.start(stage)

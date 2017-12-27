@@ -35,9 +35,10 @@ class MetroTileHomepage : Fragment() {
     private lateinit var gridInfo: GridInfo
 
     val pageBuilderScope = PageBuilderScope()
+    val dragTileScope = DragTileScope()
 
     // drag variables
-    private var draggingColor: Color? = null
+    private var draggingTarget: Tile? = null
     private var moduleBoxItems = mutableListOf<Node>()
     var workArea: GridPane by singleAssign()
     private var selectedTile: Tile by singleAssign()
@@ -188,12 +189,7 @@ class MetroTileHomepage : Fragment() {
     private fun startDrag(evt : MouseEvent) {
 
         val targetNode = evt.target as Node
-        val buttonTarget = targetNode.findParentOfType(Button::class)
-        println( "topMostTarget=${buttonTarget}")
-
-        if (buttonTarget != null) {
-            evt.consume()
-        }
+        val topMostTarget = targetNode.findParentOfType(Tile::class)
 
         moduleBoxItems
                 .filter {
@@ -202,14 +198,9 @@ class MetroTileHomepage : Fragment() {
                 }
                 .firstOrNull()
                 .apply {
-                    if( this != null ) {
-
-
-                        val targetNode = evt.target as Node
-                        val topMostTarget = targetNode.findParentOfType(Tile::class)
+                    if( topMostTarget != null ) {
                         println( "topMostTarget=${topMostTarget}")
-
-                        draggingColor = Color.GRAY
+                        draggingTarget = topMostTarget
                     }
                 }
 
@@ -248,20 +239,18 @@ class MetroTileHomepage : Fragment() {
 
         val mousePt = workArea.sceneToLocal( evt.sceneX, evt.sceneY )
         if( workArea.contains(mousePt) ) {
-            if( draggingColor != null ) {
+            if( draggingTarget != null ) {
                 val newModule = PageBuilder(100.0, 100.0, Color.DARKGRAY, "module1")
                 pageBuilderScope.model.item = newModule
 
                 val newTile = pageBuilderController.moduleTileBuilder(newModule)
-                //workArea.add( newTile )
-                //newTile.relocate( mousePt.x, mousePt.y )
                 pickGridTile(newTile, mousePt.x, mousePt.y)
 
                 inflightTile.toFront() // don't want to move cursor tracking behind added objects
             }
         }
 
-        draggingColor = null
+        draggingTarget = null
 
         evt.consume()
     }
@@ -270,7 +259,7 @@ class MetroTileHomepage : Fragment() {
         val mousePoint= Point2D(sceneX, sceneY)
         val mpLocal = workArea.sceneToLocal(mousePoint)
 
-        val pickedTile = getPickedGridTileInfo(mpLocal)
+        getPickedGridTileInfo(mpLocal)
         val rowOffset: Int = ((mpLocal.x - 25)/100).roundToInt() * 10
         val colOffset: Int = ((mpLocal.y - 75)/100).roundToInt() * 10
         val gridColumn: Int = ((mpLocal.x - 25 - rowOffset)/100).roundToInt()
@@ -279,19 +268,30 @@ class MetroTileHomepage : Fragment() {
         val tileSpanCol: Int = (pageBuilderScope.model.item.height/100).roundToInt()
 
         if (gridRow <= gridInfo.rows && gridColumn <= gridInfo.columns
-                && tileSpanRow == pickedTile.rowSpan && tileSpanCol == pickedTile.colSpan) {
+                && tileSpanRow == dragTileScope.model.item.rowSpan &&
+                tileSpanCol == dragTileScope.model.item.colSpan &&
+                draggingTarget != null) {
             workArea.add(tile, gridColumn, gridRow, tileSpanRow, tileSpanCol)
         } else {
             // might just want to drop the tile somewhere in the grid instead
             alert(
                     type = Alert.AlertType.ERROR,
-                    header = "Tile Error",
-                    content = "Can't drop tile here"
+                    header = "Can't drop tile here!",
+                    content = "Attempted to drop Tile: \n" +
+                            "    Row: " + dragTileScope.model.item.rowIndex + "\n" +
+                            "    Column:" + dragTileScope.model.item.colIndex + "\n" +
+                            "    Tile RowSpan: " + dragTileScope.model.item.rowSpan + "\n" +
+                            "    Tile ColSpan: " + dragTileScope.model.item.colSpan + "\n" +
+                            "Over Tile: \n" +
+                            "    Row: " + gridRow + "\n" +
+                            "    Column:" + gridColumn + "\n" +
+                            "     Tile RowSpan: " +  tileSpanRow + "\n" +
+                            "     Tile ColSpan: " +  tileSpanCol + "\n"
             )
         }
     }
 
-    private fun getPickedGridTileInfo(point2D: Point2D): DragTile {
+    private fun getPickedGridTileInfo(point2D: Point2D) {
         val rowOffset: Int = ((point2D.x - 25)/100).roundToInt() * 10
         val colOffset: Int = ((point2D.y - 75)/100).roundToInt() * 10
         val gridColumn: Int = ((point2D.x - 25 - rowOffset)/100).roundToInt()
@@ -316,7 +316,17 @@ class MetroTileHomepage : Fragment() {
                 break
             }
         }
-        return DragTile(selectedTile, colIndex, rowIndex, colSpan, rowSpan)
+        if (colSpan != 0 || rowSpan != 0) {
+            dragTileScope.model.item = DragTile(selectedTile, colIndex, rowIndex, colSpan, rowSpan)
+        }  else {
+            // might just want to drop the tile somewhere in the grid instead
+            alert(
+                    type = Alert.AlertType.ERROR,
+                    header = "TILE ERROR",
+                    content = "Can't drop a tile here."
+            )
+        }
+
     }
 
     init {

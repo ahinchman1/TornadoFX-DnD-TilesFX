@@ -13,8 +13,8 @@ class GridInfo(info: Pair<Pair<Int, Int>, List<ModuleTilePlacement>>) {
     private var coordinates by property(info.first)
     fun coordinatesProperty() = getProperty(GridInfo::coordinates)
 
-    var rows by property(info.first.first)
-    var columns by property(info.first.second)
+    var rows: Int by property(info.first.first)
+    var columns: Int by property(info.first.second)
     var moduleTiles by property(info.second)
 }
 
@@ -35,19 +35,19 @@ class GridInfoModel : ItemViewModel<GridInfo>() {
 }
 
 class ModuleTilePlacement(tile: Tile, colIndex: Int, rowIndex: Int, colSpan: Int, rowSpan: Int) {
-    var tile by property(tile)
+    var tile: Tile by property(tile)
     fun tileProperty() = getProperty(ModuleTilePlacement::tile)
 
-    var colIndex by property(colIndex)
+    var colIndex: Int by property(colIndex)
     fun colIndexProperty() = getProperty(ModuleTilePlacement::colIndex)
 
-    var rowIndex by property(rowIndex)
+    var rowIndex: Int by property(rowIndex)
     fun rowIndexProperty() = getProperty(ModuleTilePlacement::rowIndex)
 
-    var colSpan by property(colSpan)
+    var colSpan: Int by property(colSpan)
     fun colSpanProperty() = getProperty(ModuleTilePlacement::colSpan)
 
-    var rowSpan by property(rowSpan)
+    var rowSpan: Int by property(rowSpan)
     fun rowSpanProperty() = getProperty(ModuleTilePlacement::rowSpan)
 }
 
@@ -89,7 +89,7 @@ class DragTile(tile: Tile, colIndex: Int, rowIndex: Int, colSpan: Int, rowSpan: 
     var rowIndex by property(rowIndex)
     fun rowIndexProperty() = getProperty(ModuleTilePlacement::colIndex)
 
-    var colSpan by property(colIndex)
+    var colSpan by property(colSpan)
     fun colSpanProperty() = getProperty(ModuleTilePlacement::colSpan)
 
     var rowSpan by property(rowSpan)
