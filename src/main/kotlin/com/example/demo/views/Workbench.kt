@@ -13,6 +13,7 @@ class Workbench : View() {
     private val loginController: LoginController by inject()
     private val workbenchController: WorkbenchController by inject()
 
+    /***** Global Variables *****/
     private val metroTileHomepages = listOf("/img/MetroTileHomepage1.png", "/img/MetroTileHomepage2.png", "/img/MetroTileHomepage3.png",
             "/img/MetroTileHomepage4.png", "/img/MetroTileHomepage5.png", "/img/MetroTileHomepage6.png", "/img/MetroTileHomepage7.png",
             "/img/MetroTileHomepage8.png", "/img/MetroTileHomepage9.png", "/img/MetroTileHomepage10.png", "/img/MetroTileHomepage11.png",
@@ -22,6 +23,7 @@ class Workbench : View() {
 
     private val paginator = DataGridPaginator(metroTileHomepages, itemsPerPage = 9)
 
+    /***** View *****/
     override val root = borderpane {
     title = "Secure Workbench"
 

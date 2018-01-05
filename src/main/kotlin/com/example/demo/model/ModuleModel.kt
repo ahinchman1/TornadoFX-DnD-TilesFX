@@ -5,7 +5,9 @@ import javafx.beans.property.Property
 import tornadofx.*
 import java.io.Serializable
 
-// Not sure if I'm using this at all
+/***** Models and DataClasses(to be written)
+ *        Intended for module building *****/
+
 class ModuleModel: ItemViewModel<Tile>() {
     // Module Base
     var moduleSkin = bind(Tile::skinProperty)

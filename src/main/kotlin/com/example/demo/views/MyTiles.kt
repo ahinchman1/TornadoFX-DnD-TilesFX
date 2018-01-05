@@ -8,10 +8,12 @@ import tornadofx.*
 import javafx.scene.layout.ColumnConstraints
 
 class MyTiles : View() {
+    /***** Global Variables *****/
     override val scope = super.scope as GridScope
     private val model = scope.model
     private val gridInfo = model.item
 
+    /***** View *****/
     override val root = gridpane {
         prefWidth = 700.0
         prefHeight = 750.0

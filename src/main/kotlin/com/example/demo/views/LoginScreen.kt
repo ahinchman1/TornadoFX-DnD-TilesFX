@@ -13,10 +13,12 @@ import tornadofx.*
 class LoginScreen : View("Please log in") {
     private val loginController: LoginController by inject()
 
+    /***** Global Variables *****/
     private val username = SimpleStringProperty()
     private val password = SimpleStringProperty()
     private val remember = SimpleBooleanProperty()
 
+    /***** View *****/
     override val root = form {
         addClass(loginScreen)
 
@@ -51,12 +53,20 @@ class LoginScreen : View("Please log in") {
         }
     }
 
+    /**
+     * Permanently removes contents of text fields.
+     *
+     */
     fun clear() {
         username.value = null
         password.value = null
         remember.value = false
     }
 
+    /**
+     * Shakes the stage upon incorrect login
+     *
+     */
     fun shakeStage() {
         var x = 0
         var y = 0

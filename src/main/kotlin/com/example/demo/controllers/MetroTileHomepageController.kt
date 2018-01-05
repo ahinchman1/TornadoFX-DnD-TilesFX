@@ -10,23 +10,6 @@ import javafx.geometry.Pos
 import javafx.scene.paint.Color
 
 class MetroTileHomepageController: Controller() {
-    // use metroTile info to render MyTiles
-    fun useTileGrid(metroTile: Int): Pair< Pair<Int, Int>, List<ModuleTilePlacement>> {
-        var gridInfo = Pair(Pair(1,1), tilePane1)
-
-        when (metroTile) {
-            1 -> gridInfo = Pair(tilePane1Grid, tilePane1)
-            2 -> gridInfo = Pair(tilePane2Grid, tilePane2)
-            3 -> gridInfo = Pair(tilePane3Grid, tilePane3)
-            4 -> gridInfo = Pair(tilePane4Grid, tilePane4)
-            5 -> gridInfo = Pair(tilePane5Grid, tilePane5)
-            6 -> gridInfo = Pair(tilePane6Grid, tilePane6)
-            7 -> gridInfo = Pair(tilePane7Grid, tilePane7)
-            8 -> gridInfo = Pair(tilePane8Grid, tilePane8)
-        }
-
-        return gridInfo
-    }
 
     private val tilePane1Grid = Pair(4, 6)
     private val tilePane1 = listOf(
@@ -144,7 +127,34 @@ class MetroTileHomepageController: Controller() {
             ModuleTilePlacement(gridTileBuilder("8"), 4, 3, 1, 1)
     ).observable()
 
+    /**
+     * User metroTile info to render MyTiles
+     *
+     * @param [String] image
+     */
+    fun useTileGrid(metroTile: Int): Pair< Pair<Int, Int>, List<ModuleTilePlacement>> {
+        var gridInfo = Pair(Pair(1,1), tilePane1)
+
+        when (metroTile) {
+            1 -> gridInfo = Pair(tilePane1Grid, tilePane1)
+            2 -> gridInfo = Pair(tilePane2Grid, tilePane2)
+            3 -> gridInfo = Pair(tilePane3Grid, tilePane3)
+            4 -> gridInfo = Pair(tilePane4Grid, tilePane4)
+            5 -> gridInfo = Pair(tilePane5Grid, tilePane5)
+            6 -> gridInfo = Pair(tilePane6Grid, tilePane6)
+            7 -> gridInfo = Pair(tilePane7Grid, tilePane7)
+            8 -> gridInfo = Pair(tilePane8Grid, tilePane8)
+        }
+
+        return gridInfo
+    }
+
     /* Grid tile builders*/
+    /**
+     * Grid Tile Builder, simplified tile
+     *
+     * @param [String] image
+     */
     private fun gridTileBuilder(title: String, width: Double = 100.0,
                     height: Double = 100.0) : Tile {
         return TileBuilder.create()
@@ -155,6 +165,11 @@ class MetroTileHomepageController: Controller() {
                 .build()
     }
 
+    /**
+     * Grid Banner Builder, simplified tile - refactor to gridBannerBuilder
+     *
+     * @param [String] image
+     */
     private fun gridBannerBuilder(subtitle: String = "Hi, Admin", width: Double = 310.0,
                                 height: Double = 100.0) : Tile {
         return TileBuilder.create()

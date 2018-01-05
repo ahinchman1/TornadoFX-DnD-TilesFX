@@ -5,6 +5,9 @@ import javafx.scene.image.Image
 import javafx.scene.paint.Color
 import tornadofx.*
 
+/***** Data classes and model intended for saving
+ *     tile objects needed for module rendering,
+ *     dragging, and copying in a view *****/
 
 class PageBuilder(width: Double, height: Double, tileColor: Color, title: String) {
     var width by property(width)
@@ -51,3 +54,4 @@ class PageBuilderModel : ItemViewModel<PageBuilder>() {
 class PageBuilderScope: Scope() {
     val model = PageBuilderModel()
 }
+

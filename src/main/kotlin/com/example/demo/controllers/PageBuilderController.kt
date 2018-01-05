@@ -3,6 +3,7 @@ package com.example.demo.controllers
 import com.example.demo.model.PageBuilder
 import com.example.demo.model.PageBuilderModel
 import com.example.demo.model.PageBuilderScope
+import com.example.demo.views.MetroTileHomepage
 import eu.hansolo.tilesfx.Tile
 import eu.hansolo.tilesfx.TileBuilder
 import javafx.scene.paint.Color
@@ -10,6 +11,7 @@ import tornadofx.*
 
 class PageBuilderController : Controller() {
 
+    /***** Global Variables *****/
     /** Small Modules **/
     private val search = PageBuilder(100.0, 100.0, Color.SIENNA, "Search")
     private val track = PageBuilder(100.0, 100.0, Color.CORAL, "Track")
@@ -24,6 +26,9 @@ class PageBuilderController : Controller() {
     private val favorites = PageBuilder(100.0, 100.0, Color.BLUEVIOLET, "My Favorites")
     private val fileDest = PageBuilder(100.0, 100.0, Color.CHARTREUSE, "FileDestination")
 
+    val smallTilesPageBuilderCollection = listOf(search, track, browse, openCat, build,
+            upload, image, contacts, popCont, library, favorites, fileDest)
+
     val smallTiles = listOf(
             moduleTileBuilder(search), moduleTileBuilder(track),
             moduleTileBuilder(browse), moduleTileBuilder(openCat),
@@ -33,10 +38,12 @@ class PageBuilderController : Controller() {
             moduleTileBuilder(favorites), moduleTileBuilder(fileDest)
             ).observable()
 
+    /**
+     * Create a tile using pagebuilder data
+     *
+     * @param [PageBuilder] module
+     */
     fun moduleTileBuilder(module: PageBuilder): Tile {
-        val PageBuilderScope = PageBuilderScope()
-        val model = PageBuilderModel()
-        model.item = module
         return TileBuilder.create()
                 .skinType(Tile.SkinType.TEXT)
                 .title(module.title)
@@ -45,4 +52,5 @@ class PageBuilderController : Controller() {
                 .roundedCorners(false)
                 .build()
     }
+
 }
