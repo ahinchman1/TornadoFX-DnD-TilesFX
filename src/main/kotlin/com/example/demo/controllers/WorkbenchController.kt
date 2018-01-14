@@ -17,7 +17,7 @@ class WorkbenchController : Controller() {
     fun goToEditor(image: String) {
         // decide which metroTileHomepage grid to use
         metroTile = parseImage(image)
-        workbench.replaceWith(find<MetroTileHomepage>(), null, sizeToScene = true)
+        workbench.replaceWith(find<MetroTileHomepage>(), centerOnScreen = true, sizeToScene = true)
     }
 
     /**
@@ -27,7 +27,8 @@ class WorkbenchController : Controller() {
      */
     private fun parseImage(image: String): Int {
         val separate = image.split("/",".")
-        return separate[2].substring(17).toInt()
+        val size = separate[2].length - 1
+        return separate[2].substring(size).toInt()
     }
 
     /**
@@ -36,7 +37,7 @@ class WorkbenchController : Controller() {
      * @param [UIComponent] className
      */
     fun returnToWorkbench(className: UIComponent) {
-        (className).replaceWith(workbench, null, sizeToScene = true)
+        (className).replaceWith(workbench, centerOnScreen = true, sizeToScene = true)
     }
 
 }

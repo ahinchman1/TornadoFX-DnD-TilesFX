@@ -138,7 +138,3 @@ class DragTileModel : ItemViewModel<DragTile>() {
         return commit?.let { (it.newValue as T) to (it.oldValue as T) }
     }
 }
-
-class DragTileScope: Scope() {
-    val model = DragTileModel()
-}

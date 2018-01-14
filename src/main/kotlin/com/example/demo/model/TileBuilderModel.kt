@@ -1,7 +1,6 @@
 package com.example.demo.model
 
 import javafx.beans.property.Property
-import javafx.scene.image.Image
 import javafx.scene.paint.Color
 import tornadofx.*
 
@@ -21,9 +20,6 @@ class PageBuilder(width: Double, height: Double, tileColor: Color, title: String
 
     var title by property(title)
     fun titleProperty() = getProperty(PageBuilder::title)
-
-    //var image by property(image)
-    //fun imageProperty() = getProperty(PageBuilder::image)
 }
 
 class PageBuilderModel : ItemViewModel<PageBuilder>() {
@@ -31,7 +27,6 @@ class PageBuilderModel : ItemViewModel<PageBuilder>() {
     private val height = bind { item?.heightProperty() }
     private val tileColor = bind { item?.tileColorProperty() }
     private val title = bind { item?.titleProperty() }
-    //private val image = bind { item?.imageProperty() }
 
     override fun onCommit(commits: List<Commit>) {
         super.onCommit(commits)
@@ -41,7 +36,6 @@ class PageBuilderModel : ItemViewModel<PageBuilder>() {
         commits.findChanged(height)?.let { println("Height changed from ${it.first} to ${it.second}")}
         commits.findChanged(tileColor)?.let { println("Tile Color changed from ${it.first} to ${it.second}")}
         commits.findChanged(title)?.let { println("Title changed from ${it.first} to ${it.second}")}
-        //commits.findChanged(image)?.let { println("Image changed from ${it.first} to ${it.second}")}
 
     }
 
@@ -50,8 +44,3 @@ class PageBuilderModel : ItemViewModel<PageBuilder>() {
         return commit?.let { (it.newValue as T) to (it.oldValue as T) }
     }
 }
-
-class PageBuilderScope: Scope() {
-    val model = PageBuilderModel()
-}
-

@@ -11,12 +11,11 @@ class Styles : Stylesheet() {
         val workbenchScreen by cssclass()
         val metroTileHomepageGUI by cssclass()
         val grid by cssclass()
-        val banner_tile by cssclass()
-        val module_tile by cssclass()
         val module by cssclass()
         val highlightTile by cssclass()
         val workAreaSelected by cssclass()
         val inflight by cssclass()
+        val transparentOverlay by cssclass()
     }
 
     // apply styling to classes
@@ -58,13 +57,16 @@ class Styles : Stylesheet() {
         }
 
         inflight {
-            opacity = 0.7
+            opacity = 1.0
             effect = DropShadow()
         }
 
         workAreaSelected {
-            borderColor += box(Color.BLACK)
-            borderWidth += box(3.px)
+            opacity = 0.9
+        }
+
+        transparentOverlay {
+            backgroundColor += c(0, 100, 100, 0.05)
         }
     }
 }

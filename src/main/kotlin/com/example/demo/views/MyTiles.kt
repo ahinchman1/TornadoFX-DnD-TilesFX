@@ -2,6 +2,7 @@ package com.example.demo.views
 
 import com.example.demo.model.GridScope
 import javafx.geometry.HPos
+import javafx.geometry.Pos
 import javafx.geometry.VPos
 import javafx.scene.layout.*
 import tornadofx.*
@@ -15,8 +16,8 @@ class MyTiles : View() {
 
     /***** View *****/
     override val root = gridpane {
-        prefWidth = 700.0
-        prefHeight = 750.0
+
+        alignment = Pos.CENTER
         val colConstraints = columnConstraints
         colConstraints.clear()
         val columns = gridInfo.columns
@@ -44,11 +45,6 @@ class MyTiles : View() {
         hgap = 5.0
         vgap = 5.0
 
-        gridpaneConstraints {
-            paddingLeft = 20.0
-            paddingTop = 100.0
-        }
-
     }
 
     init {
@@ -56,6 +52,5 @@ class MyTiles : View() {
             root.add(i.tile, i.colIndex, i.rowIndex, i.colSpan, i.rowSpan)
         }
     }
-
 }
 
