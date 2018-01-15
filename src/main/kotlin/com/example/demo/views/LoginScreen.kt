@@ -44,8 +44,8 @@ class LoginScreen : View("Please log in") {
 
                 action {
                     loginController.tryLogin(
-                            username.value,
-                            password.value,
+                            username.valueSafe,
+                            password.valueSafe,
                             remember.value
                     )
                 }
