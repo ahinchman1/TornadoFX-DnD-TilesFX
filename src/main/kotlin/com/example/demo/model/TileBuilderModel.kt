@@ -8,21 +8,21 @@ import tornadofx.*
  *     tile objects needed for module rendering,
  *     dragging, and copying in a view *****/
 
-class PageBuilder(width: Double, height: Double, tileColor: Color, title: String) {
+class TileBuilder(width: Double, height: Double, tileColor: Color, title: String) {
     var width by property(width)
-    fun widthProperty() = getProperty(PageBuilder::width)
+    fun widthProperty() = getProperty(TileBuilder::width)
 
     var height by property(height)
-    fun heightProperty() = getProperty(PageBuilder::height)
+    fun heightProperty() = getProperty(TileBuilder::height)
 
     var tileColor by property(tileColor)
-    fun tileColorProperty() = getProperty(PageBuilder::tileColor)
+    fun tileColorProperty() = getProperty(TileBuilder::tileColor)
 
     var title by property(title)
-    fun titleProperty() = getProperty(PageBuilder::title)
+    fun titleProperty() = getProperty(TileBuilder::title)
 }
 
-class PageBuilderModel : ItemViewModel<PageBuilder>() {
+class TileBuilderModel : ItemViewModel<TileBuilder>() {
     private val width = bind { item?.widthProperty() }
     private val height = bind { item?.heightProperty() }
     private val tileColor = bind { item?.tileColorProperty() }

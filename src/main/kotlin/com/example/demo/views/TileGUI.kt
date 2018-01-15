@@ -1,12 +1,12 @@
 package com.example.demo.views
 import com.example.demo.app.Styles
 import com.example.demo.app.Styles.Companion.highlightTile
-import com.example.demo.app.Styles.Companion.metroTileHomepageGUI
+import com.example.demo.app.Styles.Companion.tileGUI
 import com.example.demo.app.Styles.Companion.transparentOverlay
 import com.example.demo.app.Styles.Companion.workAreaSelected
 import com.example.demo.controllers.LoginController
 import com.example.demo.controllers.TileGUIController
-import com.example.demo.controllers.PageBuilderController
+import com.example.demo.controllers.TileBuilderController
 import com.example.demo.controllers.WorkbenchController
 import com.example.demo.model.*
 import eu.hansolo.tilesfx.Tile
@@ -22,11 +22,11 @@ import javafx.scene.text.Font
 import tornadofx.*
 import kotlin.math.roundToInt
 
-class MetroTileHomepage : Fragment() {
+class TileGUI : Fragment() {
 
     /***** Global Variables *****/
     private val loginController: LoginController by inject()
-    private val pageBuilderController: PageBuilderController by inject()
+    private val tileBuilderController: TileBuilderController by inject()
     private val workbenchController: WorkbenchController by inject()
     private val controller: TileGUIController by inject()
 
@@ -37,16 +37,16 @@ class MetroTileHomepage : Fragment() {
     private var moduleBoxItems = mutableListOf<Node>()
     var workArea: GridPane by singleAssign()
     private lateinit var inflightTile: Tile
-    private lateinit var inflightTileProperties: PageBuilder
+    private lateinit var inflightTileProperties: TileBuilder
 
     /***** View *****/
     override val root = stackpane {
-        gridInfo = GridInfo(controller.useTileGrid(workbenchController.metroTile))
+        gridInfo = GridInfo(controller.useTileGrid(workbenchController.tile))
         workArea = passGridInfo(gridInfo)
         setPrefSize(1000.0, 650.0)
 
         borderpane {
-            addClass(metroTileHomepageGUI)
+            addClass(tileGUI)
             flowpane {
                 top {
                     label(title) {
@@ -71,7 +71,7 @@ class MetroTileHomepage : Fragment() {
                         maxWidth = 300.0
                         drawer(side = Side.RIGHT) {
                             item("Small Modules", expanded = true) {
-                                datagrid(pageBuilderController.smallTiles) {
+                                datagrid(tileBuilderController.smallTiles) {
                                     maxCellsInRow = 2
                                     cellWidth = 100.0
                                     cellHeight = 100.0
@@ -136,7 +136,7 @@ class MetroTileHomepage : Fragment() {
      * @param [MouseEvent] evt
      */
     private fun returnToWorkBench(evt: MouseEvent) {
-        workbenchController.returnToWorkbench(this@MetroTileHomepage)
+        workbenchController.returnToWorkbench(this@TileGUI)
         evt.consume()
     }
 
@@ -163,8 +163,8 @@ class MetroTileHomepage : Fragment() {
                         var tileColor = tileTarget!!.backgroundColorProperty().value
                         var title = tileTarget!!.titleProperty().value
 
-                        inflightTileProperties = PageBuilder(width, height, tileColor, title)
-                        inflightTile = pageBuilderController.moduleTileBuilder(inflightTileProperties)
+                        inflightTileProperties = TileBuilder(width, height, tileColor, title)
+                        inflightTile = tileBuilderController.moduleTileBuilder(inflightTileProperties)
                         inflightTile.isVisible = false
                         root.children[1].add(inflightTile)
                     }
@@ -237,7 +237,7 @@ class MetroTileHomepage : Fragment() {
         if (tileTarget is Tile && workArea.contains(mousePt) &&
                 inflightTileProperties.title.toIntOrNull() == null) {
             if (inflightTileProperties.tileColor != null ) {
-                var dropPickedTile: Tile = pageBuilderController.moduleTileBuilder(inflightTileProperties)
+                var dropPickedTile: Tile = tileBuilderController.moduleTileBuilder(inflightTileProperties)
                 pickGridTile(evt, dropPickedTile, mousePt.x, mousePt.y)
                 root.children[1].getChildList()!!.remove(inflightTile)
             }
@@ -341,7 +341,7 @@ class MetroTileHomepage : Fragment() {
 
     // init
     init {
-        moduleBoxItems.addAll( pageBuilderController.smallTiles )
+        moduleBoxItems.addAll( tileBuilderController.smallTiles )
     }
 }
 
@@ -351,7 +351,7 @@ class MetroTileHomepage : Fragment() {
  * @param [Point2D] point2D
  */
 private fun passGridInfo(gridInfo: GridInfo): GridPane {
-    val metroScope = GridScope()
-    metroScope.model.item = gridInfo
-    return find<MyTiles>(metroScope).root
+    val gridScope = GridScope()
+    gridScope.model.item = gridInfo
+    return find<MyTiles>(gridScope).root
 }

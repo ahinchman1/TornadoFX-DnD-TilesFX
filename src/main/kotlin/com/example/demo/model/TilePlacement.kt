@@ -2,14 +2,13 @@ package com.example.demo.model
 
 import eu.hansolo.tilesfx.Tile
 import javafx.beans.property.Property
-import javafx.scene.image.Image
 import javafx.scene.paint.Color
 import tornadofx.*
 import java.io.Serializable
 
 /***** Data classes and models intended for grid rendering *****/
 
-class GridInfo(info: Pair<Pair<Int, Int>, List<ModuleTilePlacement>>) {
+class GridInfo(info: Pair<Pair<Int, Int>, List<TilePlacement>>) {
     private var info by property(info)
 
     private var coordinates by property(info.first)
@@ -38,24 +37,24 @@ class GridInfoModel : ItemViewModel<GridInfo>() {
 
 /***** Data classes and models intended for tile and grid location and properties
  *     NOTE: revisit models for refactoring *****/
-class ModuleTilePlacement(tile: Tile, colIndex: Int, rowIndex: Int, colSpan: Int, rowSpan: Int) {
+class TilePlacement(tile: Tile, colIndex: Int, rowIndex: Int, colSpan: Int, rowSpan: Int) {
     var tile: Tile by property(tile)
-    fun tileProperty() = getProperty(ModuleTilePlacement::tile)
+    fun tileProperty() = getProperty(TilePlacement::tile)
 
     var colIndex: Int by property(colIndex)
-    fun colIndexProperty() = getProperty(ModuleTilePlacement::colIndex)
+    fun colIndexProperty() = getProperty(TilePlacement::colIndex)
 
     var rowIndex: Int by property(rowIndex)
-    fun rowIndexProperty() = getProperty(ModuleTilePlacement::rowIndex)
+    fun rowIndexProperty() = getProperty(TilePlacement::rowIndex)
 
     var colSpan: Int by property(colSpan)
-    fun colSpanProperty() = getProperty(ModuleTilePlacement::colSpan)
+    fun colSpanProperty() = getProperty(TilePlacement::colSpan)
 
     var rowSpan: Int by property(rowSpan)
-    fun rowSpanProperty() = getProperty(ModuleTilePlacement::rowSpan)
+    fun rowSpanProperty() = getProperty(TilePlacement::rowSpan)
 }
 
-class ModuleTilePlacementModel : ItemViewModel<ModuleTilePlacement>() {
+class TilePlacementModel : ItemViewModel<TilePlacement>() {
     private val tile = bind { item?.tileProperty()  }
     private val colIndex = bind { item?.colIndexProperty() }
     private val rowIndex = bind { item?.rowIndexProperty() }

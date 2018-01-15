@@ -14,11 +14,11 @@ class Workbench : View() {
     private val workbenchController: WorkbenchController by inject()
 
     /***** Global Variables *****/
-    private val metroTileHomepages = listOf("/img/Tile1.png", "/img/Tile2.png",
+    private val tiles = listOf("/img/Tile1.png", "/img/Tile2.png",
             "/img/Tile3.png", "/img/Tile4.png", "/img/Tile5.png",
             "/img/Tile6.png").observable()
 
-    private val paginator = DataGridPaginator(metroTileHomepages, itemsPerPage = 4)
+    private val paginator = DataGridPaginator(tiles, itemsPerPage = 4)
 
     /***** View *****/
     override val root = borderpane {

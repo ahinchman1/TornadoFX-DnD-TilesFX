@@ -9,7 +9,7 @@ class Styles : Stylesheet() {
     companion object {
         val loginScreen by cssclass()
         val workbenchScreen by cssclass()
-        val metroTileHomepageGUI by cssclass()
+        val tileGUI by cssclass()
         val grid by cssclass()
         val module by cssclass()
         val highlightTile by cssclass()
@@ -32,7 +32,7 @@ class Styles : Stylesheet() {
             backgroundColor += Color.rgb(34, 34, 34)
         }
 
-        metroTileHomepageGUI {
+        tileGUI {
             backgroundColor += Color.rgb(34, 34, 34)
         }
 
@@ -44,7 +44,7 @@ class Styles : Stylesheet() {
             borderColor += box(Color.BLACK)
         }
 
-        metroTileHomepageGUI {
+        tileGUI {
             form {
                 label {
                     textFill = Color.WHITE

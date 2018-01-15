@@ -7,7 +7,7 @@ class WorkbenchController : Controller() {
 
     /***** Global Variables *****/
     private val workbench: Workbench by inject()
-    var metroTile = 0
+    var tile = 0
 
     /**
      * Switch views from workbench to demo gui
@@ -15,9 +15,9 @@ class WorkbenchController : Controller() {
      * @param [String] image
      */
     fun goToEditor(image: String) {
-        // decide which metroTileHomepage grid to use
-        metroTile = parseImage(image)
-        workbench.replaceWith(find<MetroTileHomepage>(), centerOnScreen = true, sizeToScene = true)
+        // decide which grid to use
+        tile = parseImage(image)
+        workbench.replaceWith(find<TileGUI>(), centerOnScreen = true, sizeToScene = true)
     }
 
     /**
