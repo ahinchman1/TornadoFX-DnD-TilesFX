@@ -6,7 +6,7 @@ import javafx.application.Application
 import javafx.stage.Stage
 import tornadofx.*
 
-class DemoCreatorApp : App(LoginScreen::class, Styles::class) {
+class GridCreatorApp : App(LoginScreen::class, Styles::class) {
     private val loginController: LoginController by inject()
 
     override fun start(stage: Stage) {
@@ -17,5 +17,5 @@ class DemoCreatorApp : App(LoginScreen::class, Styles::class) {
 }
 
 fun main(args: Array<String>) {
-    Application.launch(DemoCreatorApp::class.java, *args)
+    Application.launch(GridCreatorApp::class.java, *args)
 }
