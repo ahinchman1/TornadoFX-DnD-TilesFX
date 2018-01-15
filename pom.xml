@@ -14,6 +14,11 @@
         <tornadofx.version>1.7.13</tornadofx.version>
     </properties>
 
+    <!-- Required by JavaFX maven plugin-->
+    <organization>
+        <name>DemoCreator</name>
+    </organization>
+
     <dependencies>
         <dependency>
             <groupId>no.tornado</groupId>
@@ -83,6 +88,16 @@
                 <configuration>
                     <source>1.8</source>
                     <target>1.8</target>
+                </configuration>
+            </plugin>
+            <!-- JavaFX maven plugin to create distributions -->
+            <plugin>
+                <groupId>com.zenjava</groupId>
+                <artifactId>javafx-maven-plugin</artifactId>
+                <version>8.8.3</version>
+                <configuration>
+                    <mainClass>com.example.demo.app.MyAppKt</mainClass>
+                    <jfxMainAppJarName>DemoCreator.jar</jfxMainAppJarName>
                 </configuration>
             </plugin>
         </plugins>
