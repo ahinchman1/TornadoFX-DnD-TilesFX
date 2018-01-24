@@ -44,8 +44,8 @@ class LoginScreen : View("Please log in") {
 
                 action {
                     loginController.tryLogin(
-                            username.value,
-                            password.value,
+                            username.valueSafe,
+                            password.valueSafe,
                             remember.value
                     )
                 }
@@ -68,41 +68,27 @@ class LoginScreen : View("Please log in") {
      *
      */
     fun shakeStage() {
-        var x = 0
-        var y = 0
+        var moved = false
         val cycleCount = 10
         val move = 10
         val keyframeDuration = Duration.seconds(0.04)
 
         val stage = FX.primaryStage
 
-        val timelineX = Timeline(KeyFrame(keyframeDuration, EventHandler {
-            if (x == 0) {
+        val timeline = Timeline(KeyFrame(keyframeDuration, EventHandler {
+            if (!moved) {
                 stage.x = stage.x + move
-                x = 1
+                stage.y = stage.y + move
             } else {
                 stage.x = stage.x - move
-                x = 0
-            }
-        }))
-
-        timelineX.cycleCount = cycleCount
-        timelineX.isAutoReverse = false
-
-        val timelineY = Timeline(KeyFrame(keyframeDuration, EventHandler {
-            if (y == 0) {
-                stage.y = stage.y + move
-                y = 1
-            } else {
                 stage.y = stage.y - move
-                y = 0
             }
+            moved = moved.not()
         }))
 
-        timelineY.cycleCount = cycleCount
-        timelineY.isAutoReverse = false
+        timeline.cycleCount = cycleCount
+        timeline.isAutoReverse = false
 
-        timelineX.play()
-        timelineY.play()
+        timeline.play()
     }
 }
