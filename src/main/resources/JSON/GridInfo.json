@@ -391,10 +391,10 @@
         "title": "14",
         "colIndex": 5,
         "rowIndex": 1,
-        "colSpan": 2,
-        "rowSpan": 2,
-        "width": 210.0,
-        "height": 210.0
+        "colSpan": 1,
+        "rowSpan": 1,
+        "width": 100.0,
+        "height": 100.0
       },
       {
         "title": "15",
@@ -612,10 +612,10 @@
         "title": "8",
         "colIndex": 2,
         "rowIndex": 3,
-        "colSpan": 2,
-        "rowSpan": 2,
-        "width": 210.0,
-        "height": 210.0
+        "colSpan": 1,
+        "rowSpan": 1,
+        "width": 100.0,
+        "height": 100.0
       },
       {
         "title": "9",
