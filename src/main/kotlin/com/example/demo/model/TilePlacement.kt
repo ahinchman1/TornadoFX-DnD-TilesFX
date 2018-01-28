@@ -82,8 +82,17 @@ class GridScope: Scope() {
     val model = GridInfoModel()
 }
 
-/***** Data classes and models intended for tile and grid location and properties
- *     NOTE: revisit models for refactoring *****/
+/***** Data classes and models intended for tile and grid location, saving
+ *     tile objects needed for module rendering,
+ *     dragging, and copying in a view  *****/
+
+class SingleTileBuilder(width: Double, height: Double, tileColor: Color, title: String) {
+    var width: Double by property(width)
+    var height: Double by property(height)
+    var tileColor: Color by property(tileColor)
+    var title: String by property(title)
+}
+
 class DragTile(tile: Tile, colSpan: Int, rowSpan: Int, colIndex: Int,
                rowIndex: Int, color: Color, title: String): Serializable {
     var tile by property(tile)
@@ -108,8 +117,6 @@ class DragTile(tile: Tile, colSpan: Int, rowSpan: Int, colIndex: Int,
     fun titleProperty() = getProperty(DragTile::title)
 }
 
-/***** Data classes and models intended for tile and grid location and properties
- *     NOTE: revisit models for refactoring *****/
 class DragTileModel : ItemViewModel<DragTile>() {
     private val tile = bind { item?.tileProperty()  }
     private val colSpan = bind { item?.colSpanProperty() }
