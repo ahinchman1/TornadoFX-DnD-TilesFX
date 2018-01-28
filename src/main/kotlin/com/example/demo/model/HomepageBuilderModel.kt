@@ -7,13 +7,13 @@ import javax.json.JsonObject
 import tornadofx.*
 
 class HomepageGridBuilder: JsonModel {
-    val gridProperty = SimpleIntegerProperty()
+    private val gridProperty = SimpleIntegerProperty()
     var grid by gridProperty
 
-    val rowsProperty = SimpleIntegerProperty()
+    private val rowsProperty = SimpleIntegerProperty()
     var rows by rowsProperty
 
-    val columnsProperty = SimpleIntegerProperty()
+    private val columnsProperty = SimpleIntegerProperty()
     var columns by columnsProperty
 
     var tiles = listOf<HomepageTileBuilder>()
@@ -42,25 +42,25 @@ class HomepageGridBuilder: JsonModel {
 }
 
 class HomepageTileBuilder: JsonModel {
-    val titleProperty = SimpleStringProperty()
+    private val titleProperty = SimpleStringProperty()
     var title by titleProperty
 
-    val colIndexProperty = SimpleIntegerProperty()
+    private val colIndexProperty = SimpleIntegerProperty()
     var colIndex by colIndexProperty
 
-    val rowIndexProperty = SimpleIntegerProperty()
+    private val rowIndexProperty = SimpleIntegerProperty()
     var rowIndex by rowIndexProperty
 
-    val colSpanProperty = SimpleIntegerProperty()
+    private val colSpanProperty = SimpleIntegerProperty()
     var colSpan by colSpanProperty
 
-    val rowSpanProperty = SimpleIntegerProperty()
+    private val rowSpanProperty = SimpleIntegerProperty()
     var rowSpan by rowSpanProperty
 
-    val widthProperty = SimpleDoubleProperty()
+    private val widthProperty = SimpleDoubleProperty()
     var width by widthProperty
 
-    val heightProperty = SimpleDoubleProperty()
+    private val heightProperty = SimpleDoubleProperty()
     var height by heightProperty
 
     override fun toString(): String {

@@ -40,7 +40,7 @@
         "width": 100.0,
         "height": 100.0
       }
-      ]
+    ]
   },
   {
     "grid": 2,
@@ -743,7 +743,7 @@
       },
       {
         "title": "8",
-        "colIndex": 3,
+        "colIndex": 0,
         "rowIndex": 3,
         "colSpan": 3,
         "rowSpan": 1,

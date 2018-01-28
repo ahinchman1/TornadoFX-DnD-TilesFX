@@ -10,12 +10,11 @@ class WorkbenchController : Controller() {
     var tile = 0
 
     /**
-     * Switch views from workbench to demo gui
+     * Decide which grid to use and switch views from workbench to demo gui
      *
-     * @param [String] image
+     * @property String image
      */
     fun goToEditor(image: String) {
-        // decide which grid to use
         tile = parseImage(image)
         workbench.replaceWith(find<TileGUI>(), centerOnScreen = true, sizeToScene = true)
     }
@@ -23,7 +22,7 @@ class WorkbenchController : Controller() {
     /**
      * Determine which grid had been picked
      *
-     * @param [String] image
+     * @property String image
      */
     private fun parseImage(image: String): Int {
         val separate = image.split("/",".")
@@ -34,7 +33,7 @@ class WorkbenchController : Controller() {
     /**
      * Determine which grid had been picked
      *
-     * @param [UIComponent] className
+     * @property UIComponent className
      */
     fun returnToWorkbench(className: UIComponent) {
         (className).replaceWith(workbench, centerOnScreen = true, sizeToScene = true)
