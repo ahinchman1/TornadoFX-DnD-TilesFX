@@ -15,10 +15,9 @@ A basic drag-and-drop for a custom object without the use of Clipboard for custo
                "color": "#00AEEF"
       }
       ```
-
- ### Models and Scopes: 
-    1) TileBuilder: buils a singular tile using TilesFX
-    2) TilePlacement and GridInfo: used to create custom grids with TilesFX
-    3) GridScope: used to pass information from the clicked datagrid to generate a custom grid
+## Models and Scopes:
+ - TileBuilder: builds a single tile using TilesFX
+ - TilePlacement and GridInfo: used to create custom grids with TilesFX
+ - GridScope: used to pass information from a selected datagrid to generate a custom grid
     
 ![alttext](https://github.com/ahinchman1/TornadoFX-DnD-TilesFX/blob/master/readme.png)
