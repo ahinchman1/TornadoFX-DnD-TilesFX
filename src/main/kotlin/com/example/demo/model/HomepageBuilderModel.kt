@@ -3,6 +3,7 @@ package com.example.demo.model
 import javafx.beans.property.SimpleDoubleProperty
 import javafx.beans.property.SimpleIntegerProperty
 import javafx.beans.property.SimpleStringProperty
+import javafx.scene.paint.Color
 import javax.json.JsonObject
 import tornadofx.*
 
@@ -91,4 +92,50 @@ class HomepageTileBuilder: JsonModel {
             add("height", height)
         }
     }
+}
+
+class TileBuilderJSON: JsonModel {
+
+    private val titleProperty = SimpleStringProperty()
+    var title:String by titleProperty
+
+    private val widthProperty = SimpleDoubleProperty()
+    var width:Double by widthProperty
+
+    private val heightProperty = SimpleDoubleProperty()
+    var height:Double by heightProperty
+
+    private val colorProperty = SimpleStringProperty()
+    var color:String by colorProperty
+
+    override fun toString(): String {
+        return "Tile(module=$title, " +
+                "width=$width, height=$height, color=$color)"
+    }
+
+    override fun updateModel(json: JsonObject) {
+        with (json) {
+            title = string("title") ?: "title"
+            width = double("width") ?: 100.0
+            height = double("height") ?: 100.0
+            color = string("color") ?: "#FFFFFF"
+        }
+    }
+
+    override fun toJSON(json: JsonBuilder) {
+        with(json) {
+            add("title", title)
+            add("width", width)
+            add("height", height)
+            add("color", color)
+        }
+    }
+}
+
+class TileBuilder(title: String, width: Double, height: Double,
+                  color: Color) {
+    var title by property(title)
+    var width by property(width)
+    var height by property(height)
+    var color by property(color)
 }

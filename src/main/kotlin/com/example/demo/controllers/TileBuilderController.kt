@@ -1,42 +1,50 @@
 package com.example.demo.controllers
 
-import com.example.demo.model.SingleTileBuilder
+import com.example.demo.model.TileBuilder
+import com.example.demo.model.TileBuilderJSON
 import eu.hansolo.tilesfx.Tile
-import eu.hansolo.tilesfx.TileBuilder
 import javafx.scene.paint.Color
 import tornadofx.*
 
 class TileBuilderController : Controller() {
 
     /***** Global Variables *****/
-    /** Small Modules **/
-    private val aBlock = SingleTileBuilder(100.0, 100.0, Color.SIENNA, "a_block")
-    private val bBlock = SingleTileBuilder(100.0, 100.0, Color.CORAL, "b_block")
-    private val cBlock = SingleTileBuilder(100.0, 100.0, Color.BLANCHEDALMOND, "c_block")
-    private val dBlock = SingleTileBuilder(100.0, 100.0, Color.DARKORCHID, "d_block")
-    private val eBlock = SingleTileBuilder(100.0, 100.0, Color.TOMATO, "e_block")
-    private val fBlock = SingleTileBuilder(100.0, 100.0, Color.LIMEGREEN, "f_block")
-    private val gBlock = SingleTileBuilder(100.0, 100.0, Color.FIREBRICK, "g_block")
-    private val hBlock = SingleTileBuilder(100.0, 100.0, Color.FORESTGREEN, "h_block")
 
-    val smallTiles = listOf(
-            moduleTileBuilder(aBlock), moduleTileBuilder(bBlock),
-            moduleTileBuilder(cBlock), moduleTileBuilder(dBlock),
-            moduleTileBuilder(eBlock), moduleTileBuilder(fBlock),
-            moduleTileBuilder(gBlock), moduleTileBuilder(hBlock)
-            ).observable()
-    
+    var hashmap = HashMap<String, TileBuilder>()
+    var tileList = ArrayList<Tile>()
+    private val modules = loadJsonArray(javaClass.getResource("/JSON/TileBuilder.json")).toModel<TileBuilderJSON>()
+
+    init {
+        renderModule()
+    }
+
     /**
-     * Create a tile using pagebuilder data
+     * Create a tile using PageBuilder data
      *
-     * @property SingleTileBuilder module
+     * @property TileBuilder module
      */
-    fun moduleTileBuilder(module: SingleTileBuilder): Tile {
-        return TileBuilder.create()
-                .skinType(Tile.SkinType.TEXT)
+    private fun renderModule() {
+        modules.forEach { module ->
+            val color: Color = c(module.color)
+            val pageBuilder = TileBuilder(module.title, module.width,
+                    module.height, color)
+
+            hashmap.put(module.title, pageBuilder)
+            tileList.add(moduleTileBuilder(pageBuilder))
+        }
+    }
+
+    /**
+     * Create a tile using PageBuilder data
+     *
+     * @property TileBuilder module
+     */
+    fun moduleTileBuilder(module: TileBuilder): Tile {
+        return eu.hansolo.tilesfx.TileBuilder.create()
+                .skinType(Tile.SkinType.CUSTOM)
                 .title(module.title)
                 .maxSize(module.width, module.height)
-                .backgroundColor(module.tileColor)
+                .backgroundColor(module.color)
                 .roundedCorners(false)
                 .build()
     }

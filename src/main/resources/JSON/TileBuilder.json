@@ -1,0 +1,50 @@
+[
+  {
+    "title": "a_block",
+    "width": 100.0,
+    "height": 100.0,
+    "color": "#00AEEF"
+  },
+  {
+    "title": "b_block",
+    "width": 100.0,
+    "height": 100.0,
+    "color": "#4B226B"
+  },
+  {
+    "title": "c_block",
+    "width": 100.0,
+    "height": 100.0,
+    "color": "#CF2F44"
+  },
+  {
+    "title": "d_block",
+    "width": 100.0,
+    "height": 100.0,
+    "color": "#000000"
+  },
+  {
+    "title": "e_block",
+    "width": 100.0,
+    "height": 100.0,
+    "color": "#535654"
+  },
+  {
+    "title": "f_block",
+    "width": 100.0,
+    "height": 100.0,
+    "color": "#009900"
+  },
+  {
+    "title": "g_block",
+    "width": 100.0,
+    "height": 100.0,
+    "color": "#811251"
+  },
+  {
+    "title": "h_block",
+    "width": 100.0,
+    "height": 100.0,
+    "color": "#78CBDB"
+  }
+]

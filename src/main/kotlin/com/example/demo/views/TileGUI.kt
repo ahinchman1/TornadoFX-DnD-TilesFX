@@ -15,7 +15,7 @@ import javafx.geometry.Point2D
 import javafx.geometry.Pos
 import javafx.geometry.Side
 import javafx.scene.Node
-import javafx.scene.control.Alert
+import javafx.scene.control.Button
 import javafx.scene.input.*
 import javafx.scene.layout.*
 import javafx.scene.text.Font
@@ -33,11 +33,12 @@ class TileGUI : Fragment() {
     private lateinit var gridInfo: GridInfo
 
     // drag variables
-    private lateinit var dropTile: DragTile
+    private lateinit var dragTile: DragTile
+    private var dragAndDrop = true
     private var moduleBoxItems = mutableListOf<Node>()
     private var workArea: GridPane by singleAssign()
     private lateinit var inFlightTile: Tile
-    private lateinit var inFlightTileProperties: SingleTileBuilder
+    private lateinit var inFlightTileProperties: TileBuilder
 
     /***** View *****/
     override val root = stackpane {
@@ -70,7 +71,7 @@ class TileGUI : Fragment() {
                     maxWidth = 300.0
                     drawer(side = Side.RIGHT) {
                         item("Small Modules", expanded = true) {
-                            datagrid(tileBuilderController.smallTiles) {
+                            datagrid(tileBuilderController.tileList) {
                                 maxCellsInRow = 2
                                 cellWidth = 100.0
                                 cellHeight = 100.0
@@ -101,8 +102,6 @@ class TileGUI : Fragment() {
                         }
 
                         button("Return to Workbench") {
-                            addEventFilter(MouseEvent.MOUSE_PRESSED, ::returnToWorkBench)
-
                             hboxConstraints {
                                 marginLeftRight(10.0)
                                 marginTop = 70.0
@@ -127,18 +126,6 @@ class TileGUI : Fragment() {
     /***** Methods *****/
 
     /**
-     * Returns to workbench, but allows you to return to the values
-     * and settings cached in the grid. Asks to save should the user
-     * forget to submit a desired grid  (TO BE COMPLETED).
-     *
-     * @property MouseEvent evt
-     */
-    private fun returnToWorkBench(evt: MouseEvent) {
-        workbenchController.returnToWorkbench(this@TileGUI)
-        evt.consume()
-    }
-
-    /**
      * Grabs a tile and its properties to prepare for the animateDrag
      * and drop events.
      *
@@ -148,22 +135,28 @@ class TileGUI : Fragment() {
 
         val targetNode = evt.target as Node
         val tileTarget = targetNode.findParentOfType(Tile::class)
+        val mousePt : Point2D = root.sceneToLocal( evt.sceneX, evt.sceneY )
         moduleBoxItems
                 .filter {
-                    val mousePt : Point2D = root.sceneToLocal( evt.sceneX, evt.sceneY )
                     it.contains(mousePt)
                 }
                 .apply {
-                    if(tileTarget is Tile && tileTarget.titleProperty().value != null) {
-                        val width = tileTarget.widthProperty().value
-                        val height = tileTarget.heightProperty().value
-                        val tileColor = tileTarget.backgroundColorProperty().value
+                    // select tile from data grid
+                    if (tileTarget is Tile && !workArea.contains(mousePt)) {
                         val title = tileTarget.titleProperty().value
 
-                        inFlightTileProperties = SingleTileBuilder(width, height, tileColor, title)
+                        tileBuilderController.hashmap[title]?.let {
+                            inFlightTileProperties = it
+                        }
                         inFlightTile = tileBuilderController.moduleTileBuilder(inFlightTileProperties)
                         inFlightTile.isVisible = false
                         root.children[1].add(inFlightTile)
+                        dragAndDrop = true
+                    }
+
+                    // select dropped tile in work area
+                    if (tileTarget is Tile && workArea.contains(mousePt) && tileTarget.graphicProperty().value != null) {
+                        // initialize values in the text fields
                     }
                 }
 
@@ -202,7 +195,7 @@ class TileGUI : Fragment() {
     }
 
     /**
-     * Highlight the workarea and hide the draggingTile node
+     * Highlight the workArea and hide the draggingTile node
      *
      * @property MouseEvent evt
      */
@@ -210,11 +203,13 @@ class TileGUI : Fragment() {
         val targetNode = evt.target as Node
         val tileTarget = targetNode.findParentOfType(Tile::class)
 
-        if( workArea.hasClass(workAreaSelected ) ) {
+        if (workArea.hasClass(workAreaSelected)) {
             workArea.removeClass(workAreaSelected)
         }
-        if(tileTarget is Tile && (inFlightTileProperties.title.toIntOrNull() != null)
-                && inFlightTile.isVisible ) {
+
+        if (tileTarget is Tile &&
+                ::inFlightTileProperties.isInitialized  &&
+                inFlightTile.isVisible ) {
             inFlightTile.isVisible = false
         }
     }
@@ -231,13 +226,23 @@ class TileGUI : Fragment() {
         val targetNode = evt.target as Node
         val tileTarget = targetNode.findParentOfType(Tile::class)
 
-        if (tileTarget is Tile && workArea.contains(mousePt) &&
-                inFlightTileProperties.title.toIntOrNull() == null) {
-            if (inFlightTileProperties.tileColor != null ) {
-                val dropPickedTile: Tile = tileBuilderController.moduleTileBuilder(inFlightTileProperties)
-                pickGridTile(evt, dropPickedTile, mousePt.x, mousePt.y)
+        val buttonTarget = targetNode.findParentOfType(Button::class)
+
+        if (::inFlightTileProperties.isInitialized && dragAndDrop) {
+            if (tileTarget is Tile && workArea.contains(mousePt) &&
+                    inFlightTileProperties.title.toIntOrNull() == null) {
+                pickGridTile(mousePt.x, mousePt.y)
                 root.children[1].getChildList()!!.remove(inFlightTile)
+
+                inFlightTileProperties.width = 100.0
+                inFlightTileProperties.height = 100.0
+                dragAndDrop = false
             }
+
+        }
+
+        if (buttonTarget is Button && buttonTarget.textProperty().value == "Return to Workbench") {
+            workbenchController.returnToWorkbench(this@TileGUI)
         }
 
         evt.consume()
@@ -248,97 +253,89 @@ class TileGUI : Fragment() {
      * and render the module tile accordingly
      *
      * @property MouseEvent evt
-     * @property Tile tile
      * @property Double sceneX
      * @property Double sceneY
      */
-    private fun pickGridTile(evt : MouseEvent, tile: Tile, sceneX: Double, sceneY: Double) {
+    private fun pickGridTile(sceneX: Double, sceneY:Double) {
         val mousePoint= Point2D(sceneX, sceneY)
         val mpLocal = workArea.sceneToLocal(mousePoint)
 
-        val rowOffset: Int = ((mpLocal.x - 25)/100).roundToInt() * 10
+        val rowOffset: Int = ((mpLocal.x - 35)/100).roundToInt() * 10
         val colOffset: Int = ((mpLocal.y - 85)/100).roundToInt() * 10
-        val gridColumn: Int = ((mpLocal.x - 25 - rowOffset)/100).roundToInt()
+        val gridColumn: Int = ((mpLocal.x - 35 - rowOffset)/100).roundToInt()
         val gridRow: Int = ((mpLocal.y - 85 - colOffset)/100).roundToInt()
-        val tileSpanRow: Int = (inFlightTileProperties.height/100).roundToInt()
-        val tileSpanCol: Int = (inFlightTileProperties.width/100).roundToInt()
 
-        // helper function
-        val pickedTileInfo: Pair<Pair<Int, Int>, Tile> = getPickedGridTileInfo(gridRow, gridColumn)
-        val pickedTileSpans: Pair<Int, Int> = pickedTileInfo.first
-        val pickedGridTileRowSpan = pickedTileSpans.first
-        val pickedGridTileColSpan = pickedTileSpans.second
+        // tileExchange is the pair the tiles, one to remove from the grid and
+        // the other either the dragged tile or the resized version of the dragged tile
+        val removeTile: Tile = getPickedGridTileInfo(gridRow, gridColumn)
+        val gridTitleTile = removeTile.titleProperty().value
 
-        if (dropTile.title != null &&
-                (gridRow <= gridInfo.rows  && gridRow == dropTile.rowIndex) &&
-                (gridColumn <= gridInfo.columns && gridColumn == dropTile.colIndex) &&
-                tileSpanRow == dropTile.rowSpan &&
-                tileSpanCol == dropTile.colSpan) {
+        if (gridRow < gridInfo.rows &&
+                gridColumn < gridInfo.columns &&
+                gridTitleTile != "Hi Admin" && dragAndDrop) {
 
-            workArea.children.remove(pickedTileInfo.second)
-            workArea.add(tile, gridColumn, gridRow, tileSpanRow, tileSpanCol)
-
-            dropTile.title = null
-
-        } else {
-            evt.consume()
-            alert(
-                    type = Alert.AlertType.ERROR,
-                    header = "Can't drop tile here!",
-                    content = "Attempted to drop Tile: \n" +
-                            "    Row: " + dropTile.rowIndex + "\n" +
-                            "    Column:" + dropTile.colIndex + "\n" +
-                            "    Tile RowSpan: " + dropTile.rowSpan + "\n" +
-                            "    Tile ColSpan: " + dropTile.colSpan + "\n" +
-                            "Over Tile: \n" +
-                            "    Row: " + gridRow + "\n" +
-                            "    Column:" + gridColumn + "\n" +
-                            "     Tile RowSpan: " +  pickedGridTileRowSpan + "\n" +
-                            "     Tile ColSpan: " +  pickedGridTileColSpan + "\n" +
-                            "  X: " + mpLocal.x + "\n" +
-                            "  Y: " + mpLocal.y
-            )
+            workArea.children.remove(removeTile)
+            workArea.add(dragTile.tile, dragTile.colIndex, dragTile.rowIndex, dragTile.colSpan, dragTile.rowSpan)
         }
     }
 
     /**
      * Compare selected dragging tile with the location of the drop
-     * and render the module tile accordingly
+     * and render the module tile accordingly, returns the tile to be dropped
+     * and the tile to be removed from the grid
      *
      * @property Int gridRow
      * @property Int gridColumn
      */
-    private fun getPickedGridTileInfo(gridRow: Int, gridColumn: Int): Pair<Pair<Int, Int>, Tile> {
+    private fun getPickedGridTileInfo(gridRow: Int, gridColumn: Int): Tile {
         var colIndex = 0
         var rowIndex = 0
         var rowSpan = 0
         var colSpan = 0
-        lateinit var selectedTile: Tile
+        lateinit var removeTile: Tile
 
         val children = workArea.children
 
-        for (tile in children) {
-            rowIndex = GridPane.getRowIndex(tile)
-            colIndex = GridPane.getColumnIndex(tile)
-            colSpan = GridPane.getColumnSpan(tile)
-            rowSpan = GridPane.getRowSpan(tile)
-            selectedTile = tile as Tile
-            if (rowIndex == gridRow && colIndex == gridColumn) {
-                break
+        loop@ for (gridTile in children) {
+            rowIndex = GridPane.getRowIndex(gridTile)
+            colIndex = GridPane.getColumnIndex(gridTile)
+            colSpan = GridPane.getColumnSpan(gridTile)
+            rowSpan = GridPane.getRowSpan(gridTile)
+            removeTile = gridTile as Tile
+            dragAndDrop = false
+
+            // detect for the possibility that the selected gridRow/gridColumn might be in
+            // within a tile in w span(s) > 1
+            if (rowSpan > 1 || colSpan > 1) {
+                for (i in 0..(rowSpan-1)) {
+                    for (j in 0..(colSpan-1)) {
+                        val compareRowIndex = rowIndex + i
+                        val compareColumnIndex = colIndex + j
+                        if (gridRow == compareRowIndex && gridColumn == compareColumnIndex) {
+                            // resize tile
+                            inFlightTileProperties.width = colSpan * 100.0 + 10
+                            inFlightTileProperties.height = rowSpan * 100.0 + 10
+                            dragAndDrop = true
+                            break@loop
+                        }
+                    }
+                }
+            } else {
+                if (rowIndex == gridRow && colIndex == gridColumn) {
+                    dragAndDrop = true
+                    break@loop
+                }
             }
         }
+        val draggedTile = tileBuilderController.moduleTileBuilder(inFlightTileProperties)
+        dragTile = DragTile(draggedTile, colSpan, rowSpan, colIndex, rowIndex)
 
-        dropTile = DragTile(selectedTile,
-                colSpan, rowSpan, colIndex, rowIndex,
-                selectedTile.backgroundColorProperty().value,
-                selectedTile.titleProperty().value)
-
-        return Pair(Pair(rowSpan, colSpan), selectedTile)
+        return removeTile
     }
 
     // init
     init {
-        moduleBoxItems.addAll( tileBuilderController.smallTiles )
+        moduleBoxItems.addAll( tileBuilderController.tileList )
     }
 }
 

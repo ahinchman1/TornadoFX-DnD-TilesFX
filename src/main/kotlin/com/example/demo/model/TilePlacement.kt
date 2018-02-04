@@ -2,14 +2,11 @@ package com.example.demo.model
 
 import eu.hansolo.tilesfx.Tile
 import javafx.beans.property.Property
-import javafx.scene.paint.Color
 import tornadofx.*
-import java.io.Serializable
 
 /***** Data classes and models intended for grid rendering *****/
 
 class GridInfo(info: Pair<Pair<Int, Int>, List<TilePlacement>>) {
-    private var info by property(info)
 
     private var coordinates by property(info.first)
     fun coordinatesProperty() = getProperty(GridInfo::coordinates)
@@ -86,15 +83,8 @@ class GridScope: Scope() {
  *     tile objects needed for module rendering,
  *     dragging, and copying in a view  *****/
 
-class SingleTileBuilder(width: Double, height: Double, tileColor: Color, title: String) {
-    var width: Double by property(width)
-    var height: Double by property(height)
-    var tileColor: Color by property(tileColor)
-    var title: String by property(title)
-}
-
 class DragTile(tile: Tile, colSpan: Int, rowSpan: Int, colIndex: Int,
-               rowIndex: Int, color: Color, title: String): Serializable {
+               rowIndex: Int) {
     var tile by property(tile)
     fun tileProperty() = getProperty(DragTile::tile)
 
@@ -109,12 +99,6 @@ class DragTile(tile: Tile, colSpan: Int, rowSpan: Int, colIndex: Int,
 
     var rowIndex by property(rowIndex)
     fun rowIndexProperty() = getProperty(DragTile::rowIndex)
-
-    var color by property(color)
-    fun colorProperty() = getProperty(DragTile::color)
-
-    var title by property(title)
-    fun titleProperty() = getProperty(DragTile::title)
 }
 
 class DragTileModel : ItemViewModel<DragTile>() {
@@ -123,8 +107,6 @@ class DragTileModel : ItemViewModel<DragTile>() {
     private val rowSpan = bind { item?.rowSpanProperty() }
     private val colIndex = bind { item?.colIndexProperty() }
     private val rowIndex = bind { item?.rowIndexProperty() }
-    private val color = bind { item?.colorProperty() }
-    private val title = bind { item?.titleProperty() }
 
     override fun onCommit(commits: List<Commit>) {
         super.onCommit(commits)
@@ -135,8 +117,6 @@ class DragTileModel : ItemViewModel<DragTile>() {
         commits.findChanged(rowSpan)?.let { println("Row Span changed from ${it.first} to ${it.second}")}
         commits.findChanged(colIndex)?.let { println("Column Index changed from ${it.first} to ${it.second}")}
         commits.findChanged(rowIndex)?.let { println("Row Index changed from ${it.first} to ${it.second}")}
-        commits.findChanged(color)?.let { println("Color changed from ${it.first} to ${it.second}")}
-        commits.findChanged(title)?.let { println("Title changed from ${it.first} to ${it.second}")}
     }
 
     private fun <T> List<Commit>.findChanged(ref: Property<T>): Pair<T, T>? {
