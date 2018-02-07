@@ -134,7 +134,7 @@ class TileGUI : Fragment() {
      */
     private fun hoverBehavior(evt: MouseEvent) {
         for (child in workArea.children) {
-            if (child is Tile && child.titleProperty().value.toIntOrNull() == null) {
+            if (child is Tile && child.titleProperty().value.toIntOrNull() == null && ::inFlightTileProperties.isInitialized) {
                 child.setOnMouseEntered {
                     val title = child.titleProperty().value
 
