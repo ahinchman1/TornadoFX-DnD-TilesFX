@@ -3,48 +3,56 @@
     "title": "a_block",
     "width": 100.0,
     "height": 100.0,
-    "color": "#00AEEF"
+    "color": "#00AEEF",
+    "hoverColor": "#26baf1"
   },
   {
     "title": "b_block",
     "width": 100.0,
     "height": 100.0,
-    "color": "#4B226B"
+    "color": "#4B226B",
+    "hoverColor": "#65368B"
   },
   {
     "title": "c_block",
     "width": 100.0,
     "height": 100.0,
-    "color": "#CF2F44"
+    "color": "#CF2F44",
+    "hoverColor": "#DB4357"
   },
   {
     "title": "d_block",
     "width": 100.0,
     "height": 100.0,
-    "color": "#000000"
+    "color": "#000000",
+    "hoverColor": "#333333"
   },
   {
     "title": "e_block",
     "width": 100.0,
     "height": 100.0,
-    "color": "#535654"
+    "color": "#535654",
+    "hoverColor": "#3f4c4a"
   },
   {
     "title": "f_block",
     "width": 100.0,
     "height": 100.0,
-    "color": "#009900"
+    "color": "#009900",
+    "hoverColor": "#098209"
   },
   {
     "title": "g_block",
     "width": 100.0,
     "height": 100.0,
-    "color": "#811251"
+    "color": "#811251",
+    "hoverColor": "#AA2277"
   },
   {
-    "title": "h_block",
+    "module": "h_block",
     "width": 100.0,
     "height": 100.0,
-    "color": "#78CBDB"
+    "color": "#78CBDB",
+    "hoverColor": "#77CCBB"
   }
 ]

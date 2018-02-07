@@ -94,23 +94,40 @@ class HomepageTileBuilder: JsonModel {
     }
 }
 
-class TileBuilderJSON: JsonModel {
+class TileBuilder: JsonModel {
 
     private val titleProperty = SimpleStringProperty()
-    var title:String by titleProperty
+    var title: String by titleProperty
 
     private val widthProperty = SimpleDoubleProperty()
-    var width:Double by widthProperty
+    var width: Double by widthProperty
 
     private val heightProperty = SimpleDoubleProperty()
-    var height:Double by heightProperty
+    var height: Double by heightProperty
 
     private val colorProperty = SimpleStringProperty()
-    var color:String by colorProperty
+    var color: String by colorProperty
+
+    private val hoverColorProperty = SimpleStringProperty()
+    var hoverColor: String by hoverColorProperty
+
+    private val colIndexProperty = SimpleIntegerProperty()
+    var colIndex by colIndexProperty
+
+    private val rowIndexProperty = SimpleIntegerProperty()
+    var rowIndex by rowIndexProperty
+
+    private val colSpanProperty = SimpleIntegerProperty()
+    var colSpan by colSpanProperty
+
+    private val rowSpanProperty = SimpleIntegerProperty()
+    var rowSpan by rowSpanProperty
 
     override fun toString(): String {
         return "Tile(module=$title, " +
-                "width=$width, height=$height, color=$color)"
+                "width=$width, height=$height, color=$color," +
+                "hoverColor=$hoverColor, colIndex=$colIndex," +
+                "row=$rowIndex, colSpan=$colSpan, rowSpan=$rowSpan)"
     }
 
     override fun updateModel(json: JsonObject) {
@@ -119,6 +136,11 @@ class TileBuilderJSON: JsonModel {
             width = double("width") ?: 100.0
             height = double("height") ?: 100.0
             color = string("color") ?: "#FFFFFF"
+            hoverColor = string("hoverColor") ?: "#FFFFFF"
+            colIndex = int("colIndex") ?: 1
+            rowIndex = int("rowIndex") ?: 1
+            colSpan = int("colSpan") ?: 1
+            rowSpan = int("rowSpan") ?: 1
         }
     }
 
@@ -128,14 +150,11 @@ class TileBuilderJSON: JsonModel {
             add("width", width)
             add("height", height)
             add("color", color)
+            add("hoverColor", hoverColor)
+            add("colIndex", colIndex)
+            add("rowIndex", rowIndex)
+            add("colSpan", colSpan)
+            add("rowSpan", rowSpan)
         }
     }
-}
-
-class TileBuilder(title: String, width: Double, height: Double,
-                  color: Color) {
-    var title by property(title)
-    var width by property(width)
-    var height by property(height)
-    var color by property(color)
 }

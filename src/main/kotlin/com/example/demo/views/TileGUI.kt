@@ -34,7 +34,7 @@ class TileGUI : Fragment() {
 
     // drag variables
     private lateinit var dragTile: DragTile
-    private var dragAndDrop = true
+    private var isDragAndDrop = true
     private var moduleBoxItems = mutableListOf<Node>()
     private var workArea: GridPane by singleAssign()
     private lateinit var inFlightTile: Tile
@@ -117,6 +117,7 @@ class TileGUI : Fragment() {
             isMouseTransparent = true
         }
 
+        addEventFilter(MouseEvent.ANY, ::hoverBehavior)
         addEventFilter(MouseEvent.MOUSE_PRESSED, ::startDrag)
         addEventFilter(MouseEvent.MOUSE_DRAGGED, ::animateDrag)
         addEventFilter(MouseEvent.MOUSE_RELEASED, ::stopDrag)
@@ -124,6 +125,31 @@ class TileGUI : Fragment() {
     }
 
     /***** Methods *****/
+
+    /**
+     * Reproduce and remove tiles with hover colors as you hover over
+     * dropped tiles
+     *
+     * @property MouseEvent evt
+     */
+    private fun hoverBehavior(evt: MouseEvent) {
+        for (child in workArea.children) {
+            if (child is Tile && child.titleProperty().value.toIntOrNull() == null) {
+                child.setOnMouseEntered {
+                    val title = child.titleProperty().value
+
+                    tileBuilderController.hashmap[title]?.let {
+                        inFlightTileProperties = it
+                    }
+
+                    controller.addHoverTile(evt, root, child, inFlightTileProperties)
+                }
+                child.setOnMouseExited {
+                    controller.removeHoverTile(evt, root)
+                }
+            }
+        }
+    }
 
     /**
      * Grabs a tile and its properties to prepare for the animateDrag
@@ -151,7 +177,7 @@ class TileGUI : Fragment() {
                         inFlightTile = tileBuilderController.moduleTileBuilder(inFlightTileProperties)
                         inFlightTile.isVisible = false
                         root.children[1].add(inFlightTile)
-                        dragAndDrop = true
+                        isDragAndDrop = true
                     }
 
                     // select dropped tile in work area
@@ -228,7 +254,7 @@ class TileGUI : Fragment() {
 
         val buttonTarget = targetNode.findParentOfType(Button::class)
 
-        if (::inFlightTileProperties.isInitialized && dragAndDrop) {
+        if (::inFlightTileProperties.isInitialized && isDragAndDrop) {
             if (tileTarget is Tile && workArea.contains(mousePt) &&
                     inFlightTileProperties.title.toIntOrNull() == null) {
                 pickGridTile(mousePt.x, mousePt.y)
@@ -236,7 +262,7 @@ class TileGUI : Fragment() {
 
                 inFlightTileProperties.width = 100.0
                 inFlightTileProperties.height = 100.0
-                dragAndDrop = false
+                isDragAndDrop = false
             }
 
         }
@@ -272,7 +298,7 @@ class TileGUI : Fragment() {
 
         if (gridRow < gridInfo.rows &&
                 gridColumn < gridInfo.columns &&
-                gridTitleTile != "Hi Admin" && dragAndDrop) {
+                gridTitleTile != "Hi Admin" && isDragAndDrop) {
 
             workArea.children.remove(removeTile)
             workArea.add(dragTile.tile, dragTile.colIndex, dragTile.rowIndex, dragTile.colSpan, dragTile.rowSpan)
@@ -302,7 +328,7 @@ class TileGUI : Fragment() {
             colSpan = GridPane.getColumnSpan(gridTile)
             rowSpan = GridPane.getRowSpan(gridTile)
             removeTile = gridTile as Tile
-            dragAndDrop = false
+            isDragAndDrop = false
 
             // detect for the possibility that the selected gridRow/gridColumn might be in
             // within a tile in w span(s) > 1
@@ -313,16 +339,16 @@ class TileGUI : Fragment() {
                         val compareColumnIndex = colIndex + j
                         if (gridRow == compareRowIndex && gridColumn == compareColumnIndex) {
                             // resize tile
-                            inFlightTileProperties.width = colSpan * 100.0 + 10
-                            inFlightTileProperties.height = rowSpan * 100.0 + 10
-                            dragAndDrop = true
+                            inFlightTileProperties.width = removeTile.widthProperty().value
+                            inFlightTileProperties.height = removeTile.heightProperty().value
+                            isDragAndDrop = true
                             break@loop
                         }
                     }
                 }
             } else {
                 if (rowIndex == gridRow && colIndex == gridColumn) {
-                    dragAndDrop = true
+                    isDragAndDrop = true
                     break@loop
                 }
             }
