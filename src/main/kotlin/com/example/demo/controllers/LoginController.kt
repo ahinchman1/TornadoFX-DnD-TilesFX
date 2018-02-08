@@ -1,7 +1,7 @@
 package com.example.demo.controllers
 
-import com.example.demo.views.Workbench
 import com.example.demo.views.LoginScreen
+import com.example.demo.views.Workbench
 import javafx.application.Platform
 import tornadofx.Controller
 import tornadofx.FX
@@ -51,7 +51,7 @@ class LoginController : Controller() {
                 (loginScreen).replaceWith(workbench, null, sizeToScene = true, centerOnScreen = true)
 
             } else {
-                showLoginScreen("styles failed. Please try again.", true)
+                showLoginScreen("Incorrect credentials. Try again.", true)
             }
         }
     }
