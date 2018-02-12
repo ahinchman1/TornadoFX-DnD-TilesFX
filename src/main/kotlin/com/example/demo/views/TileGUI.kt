@@ -1,14 +1,16 @@
 package com.example.demo.views
 import com.example.demo.app.Styles
-import com.example.demo.app.Styles.Companion.highlightTile
 import com.example.demo.app.Styles.Companion.tileGUI
 import com.example.demo.app.Styles.Companion.transparentOverlay
 import com.example.demo.app.Styles.Companion.workAreaSelected
 import com.example.demo.controllers.LoginController
-import com.example.demo.controllers.TileGUIController
 import com.example.demo.controllers.TileBuilderController
+import com.example.demo.controllers.TileGUIController
 import com.example.demo.controllers.WorkbenchController
-import com.example.demo.model.*
+import com.example.demo.model.DragTile
+import com.example.demo.model.GridInfo
+import com.example.demo.model.GridScope
+import com.example.demo.model.TileBuilder
 import eu.hansolo.tilesfx.Tile
 import javafx.application.Platform
 import javafx.geometry.Point2D
@@ -16,8 +18,8 @@ import javafx.geometry.Pos
 import javafx.geometry.Side
 import javafx.scene.Node
 import javafx.scene.control.Button
-import javafx.scene.input.*
-import javafx.scene.layout.*
+import javafx.scene.input.MouseEvent
+import javafx.scene.layout.GridPane
 import javafx.scene.text.Font
 import tornadofx.*
 import kotlin.math.roundToInt
@@ -83,13 +85,14 @@ class TileGUI : Fragment() {
                                 cellFormat {
                                     graphic = cache {
                                         it
-                                    }
-                                    graphic.setOnMouseEntered {
-                                        graphic.addClass(highlightTile)
-                                    }
+                                    }.apply {
+                                        setOnMouseEntered {
+                                            addClass(Styles.highlightTile)
+                                        }
 
-                                    graphic.setOnMouseExited {
-                                        graphic.removeClass(highlightTile)
+                                        setOnMouseExited {
+                                            removeClass(Styles.highlightTile)
+                                        }
                                     }
                                 }
                             }

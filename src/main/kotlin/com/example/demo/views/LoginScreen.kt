@@ -75,7 +75,7 @@ class LoginScreen : View("Please log in") {
 
         val stage = FX.primaryStage
 
-        val timeline = Timeline(KeyFrame(keyframeDuration, EventHandler {
+        Timeline(KeyFrame(keyframeDuration, EventHandler {
             if (!moved) {
                 stage.x = stage.x + move
                 stage.y = stage.y + move
@@ -84,11 +84,10 @@ class LoginScreen : View("Please log in") {
                 stage.y = stage.y - move
             }
             moved = moved.not()
-        }))
-
-        timeline.cycleCount = cycleCount
-        timeline.isAutoReverse = false
-
-        timeline.play()
+        })).apply {
+            setCycleCount(cycleCount)
+            isAutoReverse = false
+            play()
+        }
     }
 }
