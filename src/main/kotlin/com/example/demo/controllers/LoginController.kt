@@ -20,7 +20,7 @@ class LoginController : Controller() {
     }
 
     private fun showLoginScreen(message: String, shake: Boolean = false) {
-        if (FX.primaryStage.scene.root!=loginScreen.root) {
+        if (FX.primaryStage.scene.root != loginScreen.root) {
             FX.primaryStage.scene.root = loginScreen.root
             FX.primaryStage.sizeToScene()
             FX.primaryStage.centerOnScreen()
@@ -48,8 +48,7 @@ class LoginController : Controller() {
                     }
                 }
 
-                (loginScreen).replaceWith(workbench, null, sizeToScene = true, centerOnScreen = true)
-
+                loginScreen.replaceWith(workbench, null, sizeToScene = true, centerOnScreen = true)
             } else {
                 showLoginScreen("Incorrect credentials. Try again.", true)
             }
@@ -62,7 +61,6 @@ class LoginController : Controller() {
             remove(PASSWORD)
             save()
         }
-
         showLoginScreen("Log in as another user")
     }
 
@@ -70,5 +68,4 @@ class LoginController : Controller() {
         val USERNAME = "username"
         val PASSWORD = "password"
     }
-
 }

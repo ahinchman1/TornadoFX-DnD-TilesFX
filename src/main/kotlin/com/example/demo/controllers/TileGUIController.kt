@@ -1,14 +1,16 @@
 package com.example.demo.controllers
 
 import com.example.demo.model.HomepageGridBuilder
-import tornadofx.*
-
 import com.example.demo.model.TilePlacement
 import eu.hansolo.tilesfx.Tile
 import eu.hansolo.tilesfx.TileBuilder
 import javafx.collections.FXCollections
 import javafx.scene.input.MouseEvent
 import javafx.scene.layout.StackPane
+import tornadofx.Controller
+import tornadofx.add
+import tornadofx.getChildList
+import tornadofx.toModel
 
 class TileGUIController : Controller() {
 
@@ -27,11 +29,10 @@ class TileGUIController : Controller() {
 
         json.forEach {
             if (pickTile == it.grid) {
-                val gridTiles = FXCollections.observableArrayList<TilePlacement>()
-                it.tiles.forEach {
-                    gridTiles.add(TilePlacement(gridTileBuilder(it.title, it.width, it.height),
-                            it.colIndex, it.rowIndex, it.colSpan, it.rowSpan))
-                }
+                val gridTiles = it.tiles.map {
+                    TilePlacement(gridTileBuilder(it.title, it.width, it.height),
+                            it.colIndex, it.rowIndex, it.colSpan, it.rowSpan)
+                }.toCollection(FXCollections.observableArrayList<TilePlacement>())
                 gridInfo = Pair(Pair(it.rows, it.columns), gridTiles)
             }
         }
@@ -92,11 +93,8 @@ class TileGUIController : Controller() {
      */
     fun removeHoverTile(evt: MouseEvent, workArea: StackPane) {
         if (::hoverTileProperties.isInitialized) {
-
             workArea.children[1].getChildList()!!.remove(hoverTile)
         }
         evt.consume()
     }
-
-
 }

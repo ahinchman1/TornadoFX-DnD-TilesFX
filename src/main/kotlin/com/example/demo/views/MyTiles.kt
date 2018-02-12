@@ -4,9 +4,11 @@ import com.example.demo.model.GridScope
 import javafx.geometry.HPos
 import javafx.geometry.Pos
 import javafx.geometry.VPos
-import javafx.scene.layout.*
-import tornadofx.*
 import javafx.scene.layout.ColumnConstraints
+import javafx.scene.layout.Priority
+import javafx.scene.layout.RowConstraints
+import tornadofx.View
+import tornadofx.gridpane
 
 class MyTiles : View() {
     /***** Global Variables *****/
@@ -18,38 +20,36 @@ class MyTiles : View() {
     override val root = gridpane {
 
         alignment = Pos.CENTER
-        val colConstraints = columnConstraints
-        colConstraints.clear()
-        val columns = gridInfo.columns
-        for (i in 0 until columns) {
-            val c = ColumnConstraints()
-            c.halignment = HPos.CENTER
-            c.hgrow = Priority.NEVER
-            c.minWidth = 100.0
-            c.maxWidth = 100.0
-            colConstraints.add(c)
-        }
-
-        val rowConstraints = rowConstraints
-        rowConstraints.clear()
-        val rows = gridInfo.rows
-        for (i in 0 until rows) {
-            val r = RowConstraints()
-            r.valignment = VPos.CENTER
-            r.vgrow = Priority.NEVER
-            r.minHeight = 100.0
-            r.maxHeight = 100.0
-            rowConstraints.add(r)
-        }
-
         hgap = 5.0
         vgap = 5.0
 
+        columnConstraints.clear()
+        rowConstraints.clear()
+
+        for (i in 0 until gridInfo.columns) {
+            val c = ColumnConstraints().apply {
+                halignment = HPos.CENTER
+                hgrow = Priority.NEVER
+                minWidth = 100.0
+                maxWidth = 100.0
+            }
+            columnConstraints.add(c)
+        }
+
+        for (i in 0 until gridInfo.rows) {
+            val r = RowConstraints().apply {
+                valignment = VPos.CENTER
+                vgrow = Priority.NEVER
+                minHeight = 100.0
+                maxHeight = 100.0
+            }
+            rowConstraints.add(r)
+        }
     }
 
     init {
-        for (i in gridInfo.moduleTiles) {
-            root.add(i.tile, i.colIndex, i.rowIndex, i.colSpan, i.rowSpan)
+        gridInfo.moduleTiles.forEach {
+            root.add(it.tile, it.colIndex, it.rowIndex, it.colSpan, it.rowSpan)
         }
     }
 }

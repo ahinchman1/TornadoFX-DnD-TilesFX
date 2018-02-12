@@ -3,9 +3,9 @@ package com.example.demo.views
 import com.example.demo.app.Styles.Companion.workbenchScreen
 import com.example.demo.controllers.LoginController
 import com.example.demo.controllers.WorkbenchController
-import tornadofx.*
 import javafx.application.Platform
 import javafx.scene.text.Font
+import tornadofx.*
 
 
 class Workbench : View() {
@@ -45,12 +45,12 @@ class Workbench : View() {
 
         center {
             datagrid(paginator.items) {
-                maxCellsInRow=2
+                maxCellsInRow = 2
 
-                cellWidth=180.0
-                cellHeight=180.0
-                paddingLeft=30.0
-                paddingTop=40.0
+                cellWidth = 180.0
+                cellHeight = 180.0
+                paddingLeft = 30.0
+                paddingTop = 40.0
 
                 cellFormat {
                     graphic = cache {
@@ -71,9 +71,8 @@ class Workbench : View() {
         bottom {
             stackpane {
                 add(paginator)
-                paddingBottom=25.0
+                paddingBottom = 25.0
             }
         }
-
     }
 }
