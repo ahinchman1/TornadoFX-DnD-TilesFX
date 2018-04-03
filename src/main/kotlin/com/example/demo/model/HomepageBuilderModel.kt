@@ -3,7 +3,6 @@ package com.example.demo.model
 import javafx.beans.property.SimpleDoubleProperty
 import javafx.beans.property.SimpleIntegerProperty
 import javafx.beans.property.SimpleStringProperty
-import javafx.scene.paint.Color
 import javax.json.JsonObject
 import tornadofx.*
 
@@ -99,6 +98,9 @@ class TileBuilder: JsonModel {
     private val titleProperty = SimpleStringProperty()
     var title: String by titleProperty
 
+    val tilePositionProperty = SimpleIntegerProperty()
+    var tilePosition: Int by tilePositionProperty
+
     private val widthProperty = SimpleDoubleProperty()
     var width: Double by widthProperty
 
@@ -112,16 +114,19 @@ class TileBuilder: JsonModel {
     var hoverColor: String by hoverColorProperty
 
     private val colIndexProperty = SimpleIntegerProperty()
-    var colIndex by colIndexProperty
+    var colIndex: Int by colIndexProperty
 
     private val rowIndexProperty = SimpleIntegerProperty()
-    var rowIndex by rowIndexProperty
+    var rowIndex: Int by rowIndexProperty
 
     private val colSpanProperty = SimpleIntegerProperty()
-    var colSpan by colSpanProperty
+    var colSpan: Int by colSpanProperty
 
     private val rowSpanProperty = SimpleIntegerProperty()
-    var rowSpan by rowSpanProperty
+    var rowSpan: Int by rowSpanProperty
+
+    private val imageProperty = SimpleStringProperty()
+    var image: String by imageProperty
 
     override fun toString(): String {
         return "Tile(module=$title, " +
@@ -133,6 +138,7 @@ class TileBuilder: JsonModel {
     override fun updateModel(json: JsonObject) {
         with (json) {
             title = string("title") ?: "title"
+            tilePosition = int("modulePosition") ?: 1
             width = double("width") ?: 100.0
             height = double("height") ?: 100.0
             color = string("color") ?: "#FFFFFF"
@@ -141,12 +147,14 @@ class TileBuilder: JsonModel {
             rowIndex = int("rowIndex") ?: 1
             colSpan = int("colSpan") ?: 1
             rowSpan = int("rowSpan") ?: 1
+            image = string("image") ?: ""
         }
     }
 
     override fun toJSON(json: JsonBuilder) {
         with(json) {
             add("title", title)
+            add("modulePosition", tilePosition)
             add("width", width)
             add("height", height)
             add("color", color)
@@ -155,6 +163,7 @@ class TileBuilder: JsonModel {
             add("rowIndex", rowIndex)
             add("colSpan", colSpan)
             add("rowSpan", rowSpan)
+            add("image", image)
         }
     }
 }

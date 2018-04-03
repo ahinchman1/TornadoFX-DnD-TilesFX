@@ -53,7 +53,9 @@ class Styles : Stylesheet() {
         }
 
         highlightTile {
-            opacity = 0.4
+            and (hover) {
+                opacity = 0.4
+            }
         }
 
         inflight {
