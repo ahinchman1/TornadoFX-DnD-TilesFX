@@ -62,9 +62,7 @@ class Workbench : View() {
                         }
                     }
                 }
-                onUserSelect(2) {
-                    workbenchController.goToEditor(it)
-                }
+                onUserSelect(2) { workbenchController.goToEditor(it) }
             }
         }
 

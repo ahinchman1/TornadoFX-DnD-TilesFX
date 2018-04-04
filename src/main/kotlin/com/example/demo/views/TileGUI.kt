@@ -7,6 +7,7 @@ import com.example.demo.controllers.TileBuilderController
 import com.example.demo.controllers.TileGUIController
 import com.example.demo.controllers.WorkbenchController
 import com.example.demo.model.GridInfo
+import com.example.demo.model.GridInfoModel
 import com.example.demo.model.GridScope
 import javafx.application.Platform
 import javafx.geometry.Pos
@@ -22,19 +23,13 @@ class TileGUI : View() {
     /***** Global Variables *****/
     private val loginController: LoginController by inject()
     private val tileBuilderController: TileBuilderController by inject()
-    val workbenchController: WorkbenchController by inject()
     private val controller: TileGUIController by inject()
-
-    lateinit var gridInfo: GridInfo
 
     // drag variables
     var moduleBoxItems = mutableListOf<Node>()
-    var workArea: GridPane by singleAssign()
 
     /***** View *****/
     override val root = stackpane {
-        gridInfo = GridInfo(controller.useTileGrid(workbenchController.tile))
-        workArea = passGridInfo(gridInfo)
         setPrefSize(1000.0, 650.0)
 
         borderpane {
@@ -45,17 +40,13 @@ class TileGUI : View() {
                 }
                 menubar {
                     menu("File") {
-                        item("Logout").action {
-                            loginController.logout()
-                        }
-                        item("Quit").action {
-                            Platform.exit()
-                        }
+                        item("Logout").action(loginController::logout)
+                        item("Quit").action(Platform::exit)
                     }
                 }
             }
 
-            center = workArea.addClass(Styles.grid)
+            center(MyTiles::class)
 
             right {
                 vbox {
@@ -72,9 +63,7 @@ class TileGUI : View() {
                                 minWidth = 300.0
 
                                 cellFormat {
-                                    graphic = it.apply {
-                                        addClass(Styles.highlightTile)
-                                    }
+                                    graphic = it.apply { addClass(Styles.highlightTile) }
                                 }
                             }
                         }
@@ -89,19 +78,14 @@ class TileGUI : View() {
 
                                 cellFormat {
                                     graphic = it
-                                    style {
-                                        backgroundColor += c("#222222")
-                                    }
+                                    style { backgroundColor += c("#222222") }
                                 }
                             }
                         }
                     }
 
                     hbox {
-                        hboxConstraints {
-                            alignment = Pos.BASELINE_RIGHT
-                        }
-
+                        hboxConstraints { alignment = Pos.BASELINE_RIGHT }
                         button("Return to Workbench") {
                             hboxConstraints {
                                 marginLeftRight(10.0)
@@ -147,15 +131,4 @@ class TileGUI : View() {
     init {
         moduleBoxItems.addAll( tileBuilderController.tileList )
     }
-}
-
-/**
- * Render workarea by passing chosen grid information.
- *
- * @property GridInfo gridInfo
- */
-private fun passGridInfo(gridInfo: GridInfo): GridPane {
-    val gridScope = GridScope()
-    gridScope.model.item = gridInfo
-    return find<MyTiles>(gridScope).root
 }

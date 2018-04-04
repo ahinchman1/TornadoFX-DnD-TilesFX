@@ -1,10 +1,9 @@
 package com.example.demo.model
 
+import eu.hansolo.tilesfx.Tile
+import eu.hansolo.tilesfx.TileBuilder
 import javafx.beans.property.Property
-import tornadofx.Commit
-import tornadofx.ItemViewModel
-import tornadofx.getProperty
-import tornadofx.property
+import tornadofx.*
 
 /***** Data classes and models intended for grid rendering *****/
 
@@ -32,4 +31,32 @@ class GridInfoModel : ItemViewModel<GridInfo>() {
         val commit = find { it.property == ref && it.changed}
         return commit?.let { (it.newValue as T) to (it.oldValue as T) }
     }
+
+    fun useTileGrid(grids: List<HomepageGridBuilder>, grid: Int) {
+        grids.asSequence().forEach {
+            if (grid == it.grid) {
+                val gridTiles = it.tiles.map(::createTilePlacement)
+                item = GridInfo(Pair(Pair(it.rows, it.columns), gridTiles))
+            }
+        }
+    }
+
+    private fun createTilePlacement(hpb: HomepageTileBuilder): TilePlacement {
+        return TilePlacement(gridTileBuilder(hpb.title, hpb.width, hpb.height),
+                hpb.colIndex, hpb.rowIndex, hpb.colSpan, hpb.rowSpan)
+    }
+
+    /**
+     * Grid Tile Builder, simplified tile
+     *
+     * @property String title
+     * @property Double width
+     */
+    private fun gridTileBuilder(title: String, width: Double = 100.0, height: Double = 100.0) : Tile
+            = TileBuilder.create()
+            .skinType(Tile.SkinType.TEXT)
+            .title(title)
+            .maxSize(width, height)
+            .roundedCorners(false)
+            .build()
 }

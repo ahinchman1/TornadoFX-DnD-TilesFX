@@ -1,8 +1,10 @@
 package com.example.demo.controllers
 
 import com.example.demo.model.DragTile
+import com.example.demo.model.GridInfoModel
 import com.example.demo.model.HomepageGridBuilder
 import com.example.demo.model.TilePlacement
+import com.example.demo.views.MyTiles
 import com.example.demo.views.TileGUI
 import eu.hansolo.tilesfx.Tile
 import eu.hansolo.tilesfx.TileBuilder
@@ -18,12 +20,13 @@ import tornadofx.*
 
 class TileGUIController : Controller() {
 
-    private val json = resources.jsonArray("/JSON/GridInfo.json").toModel<HomepageGridBuilder>()
-    private lateinit var gridInfo: Pair<Pair<Int, Int>, List<TilePlacement>>
     private lateinit var hoverTile: Tile
     private lateinit var hoverTileProperties: com.example.demo.model.TileBuilder
     private val controller: TileBuilderController by inject()
+    private val workbenchController: WorkbenchController by inject()
     private val view: TileGUI by inject()
+    private val myTiles: MyTiles by inject()
+    private val gridInfoModel: GridInfoModel by inject()
 
     // drag variables
     private lateinit var dragTile: DragTile
@@ -33,41 +36,6 @@ class TileGUIController : Controller() {
     private lateinit var inFlightTileProperties: com.example.demo.model.TileBuilder
     private lateinit var originalTileProperties: com.example.demo.model.TileBuilder
 
-    /**
-     * User pickTile info to render MyTiles
-     *
-     * @property String image
-     */
-    fun useTileGrid(pickTile: Int): Pair< Pair<Int, Int>, List<TilePlacement>> {
-
-        json.forEach {
-            if (pickTile == it.grid) {
-                val gridTiles = it.tiles.map {
-                    TilePlacement(gridTileBuilder(it.title, it.width, it.height),
-                            it.colIndex, it.rowIndex, it.colSpan, it.rowSpan)
-                }.toCollection(FXCollections.observableArrayList<TilePlacement>())
-                gridInfo = Pair(Pair(it.rows, it.columns), gridTiles)
-            }
-        }
-
-        return gridInfo
-    }
-
-    /**
-     * Grid Tile Builder, simplified tile
-     *
-     * @property String title
-     * @property Double width
-     */
-    private fun gridTileBuilder(title: String, width: Double = 100.0,
-                    height: Double = 100.0) : Tile {
-        return TileBuilder.create()
-                .skinType(Tile.SkinType.TEXT)
-                .title(title)
-                .maxSize(width, height)
-                .roundedCorners(false)
-                .build()
-    }
 
     /**
      * Grid Tile Builder, simplified tile
@@ -118,7 +86,7 @@ class TileGUIController : Controller() {
      * @property MouseEvent evt
      */
     fun hoverBehavior(evt: MouseEvent) {
-        for (child in view.workArea.children) {
+        for (child in myTiles.root.children) {
             if (child is Tile && child.titleProperty().value.toIntOrNull() == null && ::inFlightTileProperties.isInitialized) {
                 child.setOnMouseEntered {
                     val title = child.titleProperty().value
@@ -157,7 +125,7 @@ class TileGUIController : Controller() {
                 }
                 .apply {
                     // select tile from data grid
-                    if (tileTarget is Tile && !view.workArea.contains(mousePt)) {
+                    if (tileTarget is Tile && !myTiles.root.contains(mousePt)) {
                         val title = tileTarget.titleProperty().value
                         val color = tileTarget.backgroundColorProperty().value
                         var titleColor = Color.WHITE
@@ -240,14 +208,14 @@ class TileGUIController : Controller() {
      */
     fun drop(evt : MouseEvent, returnView: UIComponent) {
 
-        val mousePt = view.workArea.sceneToLocal( evt.sceneX, evt.sceneY )
+        val mousePt = myTiles.root.sceneToLocal( evt.sceneX, evt.sceneY )
         val targetNode = evt.target as Node
         val tileTarget = targetNode.findParentOfType(Tile::class)
 
         val buttonTarget = targetNode.findParentOfType(Button::class)
 
         if (::inFlightTileProperties.isInitialized && isDragAndDrop) {
-            if (tileTarget is Tile && view.workArea.contains(mousePt) &&
+            if (tileTarget is Tile && myTiles.root.contains(mousePt) &&
                     inFlightTileProperties.title.toIntOrNull() == null) {
                 pickGridTile(mousePt.x, mousePt.y, evt)
                 view.root.children[1].getChildList()!!.remove(inFlightTile)
@@ -259,7 +227,7 @@ class TileGUIController : Controller() {
         }
 
         if (buttonTarget is Button && buttonTarget.textProperty().value == "Return to Workbench") {
-            view.workbenchController.returnToWorkbench(returnView)
+            workbenchController.returnToWorkbench(returnView)
             evt.consume()
         }
 
@@ -275,7 +243,7 @@ class TileGUIController : Controller() {
      */
     private fun pickGridTile(sceneX: Double, sceneY:Double, evt: MouseEvent) {
         val mousePoint= Point2D(sceneX, sceneY)
-        val mpLocal = view.workArea.sceneToLocal(mousePoint)
+        val mpLocal = myTiles.root.sceneToLocal(mousePoint)
 
         val rowOffset: Int = ((mpLocal.x - 35)/100).toInt() * 10
         val colOffset: Int = ((mpLocal.y - 85)/100).toInt() * 10
@@ -287,12 +255,12 @@ class TileGUIController : Controller() {
         val removeTile: Tile = getPickedGridTileInfo(gridRow, gridColumn, evt)
         val gridTitleTile = removeTile.titleProperty().value
 
-        if (gridRow < view.gridInfo.rows &&
-                gridColumn < view.gridInfo.columns &&
+        if (gridRow < gridInfoModel.item.rows &&
+                gridColumn < gridInfoModel.item.columns &&
                 gridTitleTile != "Hi Admin" && isDragAndDrop) {
 
-            view.workArea.children.remove(removeTile)
-            view.workArea.add(dragTile.tile, dragTile.colIndex, dragTile.rowIndex, dragTile.colSpan, dragTile.rowSpan)
+            myTiles.root.children.remove(removeTile)
+            myTiles.root.add(dragTile.tile, dragTile.colIndex, dragTile.rowIndex, dragTile.colSpan, dragTile.rowSpan)
             isImageTile = false
         }
 
@@ -313,7 +281,7 @@ class TileGUIController : Controller() {
         var colSpan = 0
         lateinit var removeTile: Tile
 
-        val children = view.workArea.children
+        val children = myTiles.root.children
 
         loop@ for (gridTile in children) {
             if (gridTile is Tile) {

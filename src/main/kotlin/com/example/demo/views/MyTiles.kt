@@ -1,5 +1,6 @@
 package com.example.demo.views
 
+import com.example.demo.model.GridInfoModel
 import com.example.demo.model.GridScope
 import javafx.geometry.HPos
 import javafx.geometry.Pos
@@ -12,9 +13,7 @@ import tornadofx.gridpane
 
 class MyTiles : View() {
     /***** Global Variables *****/
-    override val scope = super.scope as GridScope
-    private val model = scope.model
-    private val gridInfo = model.item
+    private val model: GridInfoModel by inject()
 
     /***** View *****/
     override val root = gridpane {
@@ -26,7 +25,7 @@ class MyTiles : View() {
         columnConstraints.clear()
         rowConstraints.clear()
 
-        for (i in 0 until gridInfo.columns) {
+        for (i in 0 until model.item.columns) {
             val c = ColumnConstraints().apply {
                 halignment = HPos.CENTER
                 hgrow = Priority.NEVER
@@ -36,7 +35,7 @@ class MyTiles : View() {
             columnConstraints.add(c)
         }
 
-        for (i in 0 until gridInfo.rows) {
+        for (i in 0 until model.item.rows) {
             val r = RowConstraints().apply {
                 valignment = VPos.CENTER
                 vgrow = Priority.NEVER
@@ -48,7 +47,7 @@ class MyTiles : View() {
     }
 
     init {
-        gridInfo.moduleTiles.forEach {
+        model.item.moduleTiles.forEach {
             root.add(it.tile, it.colIndex, it.rowIndex, it.colSpan, it.rowSpan)
         }
     }
