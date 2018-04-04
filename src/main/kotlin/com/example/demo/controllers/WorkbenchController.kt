@@ -22,7 +22,6 @@ class WorkbenchController : Controller() {
         gridInfo.useTileGrid(grids, parseImage(image))
         val scope = Scope()
         scope.set(gridInfo)
-        DefaultScope.set(gridInfo)
         workbench.replaceWith(find<TileGUI>(scope), centerOnScreen = true, sizeToScene = true)
     }
 
