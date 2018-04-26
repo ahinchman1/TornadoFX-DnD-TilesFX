@@ -5,16 +5,12 @@ import com.example.demo.app.Styles.Companion.transparentOverlay
 import com.example.demo.controllers.LoginController
 import com.example.demo.controllers.TileBuilderController
 import com.example.demo.controllers.TileGUIController
-import com.example.demo.controllers.WorkbenchController
-import com.example.demo.model.GridInfo
-import com.example.demo.model.GridInfoModel
-import com.example.demo.model.GridScope
+import com.example.demo.model.TileBuilder
 import javafx.application.Platform
 import javafx.geometry.Pos
 import javafx.geometry.Side
 import javafx.scene.Node
 import javafx.scene.input.MouseEvent
-import javafx.scene.layout.GridPane
 import javafx.scene.text.Font
 import tornadofx.*
 
@@ -24,6 +20,7 @@ class TileGUI : View() {
     private val loginController: LoginController by inject()
     private val tileBuilderController: TileBuilderController by inject()
     private val controller: TileGUIController by inject()
+    var module = TileBuilder()
 
     // drag variables
     var moduleBoxItems = mutableListOf<Node>()
@@ -84,6 +81,22 @@ class TileGUI : View() {
                         }
                     }
 
+                    form {
+                        paddingLeft = 20.0
+                        paddingTop = 20.0
+                        hbox(20) {
+                            fieldset("Select a tile to customize.") {
+                                hbox(20) {
+                                    vbox {
+                                        field("Title") { textfield().bind(module.titleProperty) }
+                                        field("Color") { textfield().bind(module.colorProperty) }
+                                        field("HoverColor") { textfield().bind(module.hoverColorProperty) }
+                                    }
+                                }
+                            }
+                        }
+                    }
+
                     hbox {
                         hboxConstraints { alignment = Pos.BASELINE_RIGHT }
                         button("Return to Workbench") {
@@ -107,6 +120,7 @@ class TileGUI : View() {
         addEventFilter(MouseEvent.MOUSE_DRAGGED, ::animateDrag)
         addEventFilter(MouseEvent.MOUSE_RELEASED, ::stopDrag)
         addEventFilter(MouseEvent.MOUSE_RELEASED, ::drop)
+        addEventFilter(MouseEvent.MOUSE_CLICKED, ::selectTile)
     }
 
     /***** Methods *****/
@@ -125,6 +139,9 @@ class TileGUI : View() {
     }
     private fun drop(evt: MouseEvent) {
         controller.drop(evt, this@TileGUI)
+    }
+    private fun selectTile(evt: MouseEvent) {
+        controller.selectTile(evt, module)
     }
 
     // init

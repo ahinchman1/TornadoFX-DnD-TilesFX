@@ -95,37 +95,37 @@ class HomepageTileBuilder: JsonModel {
 
 class TileBuilder: JsonModel {
 
-    private val titleProperty = SimpleStringProperty()
+    val titleProperty = SimpleStringProperty()
     var title: String by titleProperty
 
     val tilePositionProperty = SimpleIntegerProperty()
     var tilePosition: Int by tilePositionProperty
 
-    private val widthProperty = SimpleDoubleProperty()
+    val widthProperty = SimpleDoubleProperty()
     var width: Double by widthProperty
 
-    private val heightProperty = SimpleDoubleProperty()
+    val heightProperty = SimpleDoubleProperty()
     var height: Double by heightProperty
 
-    private val colorProperty = SimpleStringProperty()
+    val colorProperty = SimpleStringProperty()
     var color: String by colorProperty
 
-    private val hoverColorProperty = SimpleStringProperty()
+    val hoverColorProperty = SimpleStringProperty()
     var hoverColor: String by hoverColorProperty
 
-    private val colIndexProperty = SimpleIntegerProperty()
+    val colIndexProperty = SimpleIntegerProperty()
     var colIndex: Int by colIndexProperty
 
-    private val rowIndexProperty = SimpleIntegerProperty()
+    val rowIndexProperty = SimpleIntegerProperty()
     var rowIndex: Int by rowIndexProperty
 
-    private val colSpanProperty = SimpleIntegerProperty()
+    val colSpanProperty = SimpleIntegerProperty()
     var colSpan: Int by colSpanProperty
 
-    private val rowSpanProperty = SimpleIntegerProperty()
+    val rowSpanProperty = SimpleIntegerProperty()
     var rowSpan: Int by rowSpanProperty
 
-    private val imageProperty = SimpleStringProperty()
+    val imageProperty = SimpleStringProperty()
     var image: String by imageProperty
 
     override fun toString(): String {

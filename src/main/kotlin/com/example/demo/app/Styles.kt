@@ -1,6 +1,8 @@
 package com.example.demo.app
 
+import javafx.scene.effect.BlurType
 import javafx.scene.effect.DropShadow
+import javafx.scene.effect.InnerShadow
 import javafx.scene.paint.Color
 import tornadofx.*
 
@@ -16,6 +18,7 @@ class Styles : Stylesheet() {
         val workAreaSelected by cssclass()
         val inflight by cssclass()
         val transparentOverlay by cssclass()
+        val selectedTile by cssclass()
     }
 
     // apply styling to classes
@@ -69,6 +72,12 @@ class Styles : Stylesheet() {
 
         transparentOverlay {
             backgroundColor += c(0, 100, 100, 0.05)
+        }
+
+        selectedTile  {
+            cell {
+                effect = InnerShadow(BlurType.GAUSSIAN, Color.GREENYELLOW, 7.0, 1.0, 1.0, 1.0)
+            }
         }
     }
 }

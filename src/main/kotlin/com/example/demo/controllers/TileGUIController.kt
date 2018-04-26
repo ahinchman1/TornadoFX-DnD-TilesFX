@@ -1,14 +1,12 @@
 package com.example.demo.controllers
 
+import com.example.demo.app.Styles
 import com.example.demo.model.DragTile
 import com.example.demo.model.GridInfoModel
-import com.example.demo.model.HomepageGridBuilder
-import com.example.demo.model.TilePlacement
 import com.example.demo.views.MyTiles
 import com.example.demo.views.TileGUI
 import eu.hansolo.tilesfx.Tile
 import eu.hansolo.tilesfx.TileBuilder
-import javafx.collections.FXCollections
 import javafx.geometry.Point2D
 import javafx.scene.Node
 import javafx.scene.control.Button
@@ -336,6 +334,34 @@ class TileGUIController : Controller() {
         dragTile = DragTile(draggedTile, colSpan, rowSpan, colIndex, rowIndex)
 
         return removeTile
+    }
+
+    fun selectTile(evt: MouseEvent, module: com.example.demo.model.TileBuilder) {
+        val targetNode = evt.target as Node
+        val tileTarget = targetNode.findParentOfType(Tile::class)
+        val mousePt : Point2D = view.root.sceneToLocal( evt.sceneX, evt.sceneY )
+
+        if (myTiles.root.contains(mousePt) && tileTarget!!.graphicProperty().value != null &&
+                !tileTarget.hasClass(Styles.selectedTile) &&
+                tileTarget.titleProperty().value.toIntOrNull() == null) {
+
+            myTiles.root.children.forEach {
+                if (it.hasClass(Styles.selectedTile)) {
+                    it.removeClass(Styles.selectedTile)
+                }
+                if (it == tileTarget) {
+                    it.addClass(Styles.selectedTile)
+                }
+            }
+
+            val title: String = tileTarget.titleProperty().value
+
+            controller.createGridTilesHashMap[title]?.let {
+                module.titleProperty.set(it.title)
+                module.colorProperty.set(it.hoverColor)
+                module.hoverColorProperty.set(it.hoverColor)
+            }
+        }
     }
 
     private fun setProperties() {
