@@ -1,5 +1,6 @@
 package com.example.demo.views
 
+import com.example.demo.app.Styles
 import com.example.demo.model.GridInfoModel
 import com.example.demo.model.GridScope
 import javafx.geometry.HPos
@@ -8,8 +9,7 @@ import javafx.geometry.VPos
 import javafx.scene.layout.ColumnConstraints
 import javafx.scene.layout.Priority
 import javafx.scene.layout.RowConstraints
-import tornadofx.View
-import tornadofx.gridpane
+import tornadofx.*
 
 class MyTiles : View() {
     /***** Global Variables *****/
@@ -17,7 +17,7 @@ class MyTiles : View() {
 
     /***** View *****/
     override val root = gridpane {
-
+        addClass(Styles.grid)
         alignment = Pos.CENTER
         hgap = 5.0
         vgap = 5.0
